@@ -1,0 +1,47 @@
+{
+  "form-fake-select-menu": {
+    "select-elem-modifier": false,
+    "label-text": "Fake select menu base",
+    "default-option": "Choose something",
+    "option": [
+      {
+        "id": 1,
+        "text": "Option 1",
+        "option-link": false
+      },
+      {
+        "id": 2,
+        "text": "Option 2",
+        "option-link": false
+      },
+      {
+        "id": 3,
+        "text": "Option 3",
+        "option-link": false
+      },
+      {
+        "id": 4,
+        "text": "Option 4",
+        "option-link": false
+      },
+      {
+        "id": 5,
+        "text": "Option 5",
+        "option-link": false
+      },
+      {
+        "id": 6,
+        "text": "Option 6",
+        "option-link": false
+      },
+      {
+        "id": 7,
+        "text": "Option 7",
+        "option-link": false
+      }
+
+    ],
+    "helper-field": false
+  }
+
+}

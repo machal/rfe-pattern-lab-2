@@ -1,0 +1,16 @@
+{{#form-fake-select-menu}}
+    <div class="form-fake-select {{styleModifier}}">
+        <div class="field-container">
+            {{#label-text}}{{> atoms-label-elem-start }}{{label-text}}{{> atoms-label-elem-end }}{{/label-text}}
+            <input type="checkbox" id="toggle" class="form-fake-select__toggle{{#fake-select-toggle-modifier}} {{fake-select-toggle-modifier}}{{/fake-select-toggle-modifier}}"> <label for="toggle">{{default-option}}<span class="ico ico-chevron-down"></span><span class="ico ico-chevron-up"></span></label>
+            {{> atoms-fake-select-elem-start }}
+                {{#option}}
+                {{> atoms-fake-select-menu-option-start }}<label for="patternlab-c{{id}}">{{#option-link}}<a href="{{option-link}}">{{/option-link}}{{text}}{{#option-link}}</a>{{/option-link}}</label>{{> atoms-fake-select-menu-option-end }}
+            {{/option}}
+            {{> atoms-fake-select-elem-end }}
+            {{#helper-field}}
+                <a class="form-fake-select__helper-link {{modifier}}" href="{{url}}" title="{{title}}">{{text}}</a>
+            {{/helper-field}}
+        </div>
+    </div>
+{{/form-fake-select-menu}}

@@ -1,0 +1,13 @@
+{
+  "form-select-menu": {
+    "select-elem-modifier": false,
+    "label-text": "Select menu base",
+    "option-text-1": "Option 1",
+    "option-text-2": "Option 2",
+    "option-text-3": "Option 3",
+    "option-text-4": "Option 4",
+    "option-text-5": "Option 5",
+    "option-text-6": "Option 6",
+    "option-text-7": "Option 7"
+  } 
+}
