@@ -1,0 +1,14 @@
+﻿{
+  "its-rtl": false,
+  "header-template-1": false,
+  "entity": "RFE",
+  "site": "en-US-TEST",
+
+  "image-enhanced": true,
+  "navigation-fallback-page": "patterns/04-navigations-_01-navigation/04-navigations-_01-navigation.html",
+
+   
+
+
+  "btn_text": "my button"
+}

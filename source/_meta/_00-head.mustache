@@ -1,0 +1,97 @@
+﻿<!DOCTYPE HTML>
+<html lang="{{ page-languageCode }}" dir="{{^its-rtl}}ltr{{/its-rtl}}{{#its-rtl}}rtl{{/its-rtl}}" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    <meta http-equiv="Content-Language" content="{{ page-languageCode }}" />
+
+    <!--*** Basic optimization for mobile devices ***-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="HandheldFriendly" content="True" />                                                                                     <!--* Make statusbar black *-->
+    <!--*** For IE - disables compatibility mode. Forses IE to use the latest rendering mode. ***-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--*** All CSS should be linked below ***-->
+
+
+    <link rel="stylesheet" href="../../css/{{entity}}/{{site}}/{{entity}}-{{site}}.css?{{ cacheBuster }}" media="all" />
+    {{#CMS-editorial-bar-enabled}}
+    <link rel="stylesheet" href="../../css/static/editorial-bar.css">
+    {{/CMS-editorial-bar-enabled}}
+
+    {{#css-customization}}
+    <style>
+        {{{css-customization}}}
+    </style>
+    {{/css-customization}}
+
+    <script>
+        var rfe_devlopment_enviroment = true;
+        var appBaseUrl = "/";
+        var navigationFallbackPage = "{{ navigation-fallback-page }}";
+
+        //a genneral 'js' flag
+        document.documentElement.className = "js";
+    </script>
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="../../css/{{entity}}/{{#design-specific}}{{site}}/{{/design-specific}}img/webApp/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../css/{{entity}}/{{#design-specific}}{{site}}/{{/design-specific}}img/webApp/ico-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../css/{{entity}}/{{#design-specific}}{{site}}/{{/design-specific}}img/webApp/ico-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../css/{{entity}}/{{#design-specific}}{{site}}/{{/design-specific}}img/webApp/ico-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="../../css/{{entity}}/{{#design-specific}}{{site}}/{{/design-specific}}img/webApp/ico-57x57.png">
+    <!--Chrome Android-->
+    <link rel="icon" sizes="192x192" href="../../css/{{entity}}/{{#design-specific}}{{site}}/{{/design-specific}}img/webApp/ico-192x192.png">
+    <link rel="icon" sizes="128x128" href="../../css/{{entity}}/{{#design-specific}}{{site}}/{{/design-specific}}img/webApp/ico-128x128.png">
+
+
+    <script src="../../js/jquery.js"></script>
+
+    <!-- script src="../../js/json3.min.js"></script -->
+    <script src="../../js/dollardom.min.js"></script>
+    <script src="../../js/loader/loader-utils.js"></script>
+    <script src="../../js/loader/loader-module.js"></script>
+    <script src="../../js/loader/loader-ajax.js"></script>
+    <script src="../../js/loader/loader-debug.js"></script>
+    <script src="../../js/loader/loader-detect.js"></script>
+    <script src="../../js/loader/loader-exe.js"></script>
+    <script src="../../js/loader/loader-wraps.js"></script>
+
+
+    <script src="../../js/app-code.js"></script>
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    {{{ patternLabHead }}}
+    <!-- End Pattern Lab -->
+</head>
+<body class="{{ bodyClass }} {{content-type}} nav-no-loaded {{#site-date-time-enabled}}date-time-enabled {{/site-date-time-enabled}} {{#top-area-hlighted}}top-area-hlighted{{/top-area-hlighted}} {{#google-translate-enabled}}has-google-translate{{/google-translate-enabled}} {{#CMS-editorial-bar-enabled}}has-editorial-bar{{/CMS-editorial-bar-enabled}}">
+
+    {{#CMS-editorial-bar-enabled}}
+    {{> molecules-CMS-editorial-bar }}
+    {{/CMS-editorial-bar-enabled}}
+
+    {{#google-translate-enabled}}
+    <div class="container google-translate-container">
+        {{> molecules-google-translate }}
+    </div>
+    {{/google-translate-enabled}}
+
+    <!--*** Accessibility links - For ScreenReaders only ***-->
+    {{^page-no-accessibility-links}}
+    <section>
+        <div class="sr-only">
+            <h2>Accessibility links</h2>
+            <ul>
+                <li><a href="#content" data-disable-smooth-scroll="1">Skip to main content</a></li>
+                <li><a href="#navigation" data-disable-smooth-scroll="1">Skip to main Navigation</a></li>
+                <!--<li><a href="#search-panel" data-disable-smooth-scroll="1">Skip to Search</a></li>-->
+            </ul>
+        </div>
+    </section>
+    {{/page-no-accessibility-links}}
+
+    <!-- Close Tags are in: meta/foot  -->
+    <div>
+        <div id="page">
+
+

@@ -1,0 +1,78 @@
+      <p class="buttons">
+        <input type="submit" id="{{buttonID}}" title="{{ btn_text }}" value="{{ btn_text }}" class="btn {{styleModifier}}" />
+      </p>
+
+{{#buttonAnimation}}
+<script>
+    // buttom animation for PatternLab ONLY !!!!!!!!!!!
+    // this script is placed inside of: "molecules/30-widgets/03-button.mustache"
+(function () {
+    "use strict";
+
+    var systemMessage = $dom.get(".sys-msg");
+        for (var x = 0; x < systemMessage.length; x++) {
+            var systemMessageItem = systemMessage[x];
+            $dom.addClass(systemMessageItem, 'msg-anim-hidden');
+        }
+    //$dom.addClass($dom.get(".sys-msg")[0], 'msg-animated-hidden');
+    //$dom.addClass($dom.get(".text-error"), 'hidden');
+    
+    var allButtons = $dom.get("p.buttons .btn");
+
+    for (var x = 0; x < allButtons.length; x++) { // add action to all triggers
+        var item = allButtons[x];
+
+        item.addEventListener("click", function (e) {
+            e.preventDefault();
+            //console.log('tets');
+            var button = $dom.get("#{{buttonID}}")[0];
+            
+            if ($dom.hasClass(button, 'btn-anim-loading')) {
+                $dom.addClass(button, 'btn-anim-hidden');
+                for (var x = 0; x < systemMessage.length; x++) {
+                        var systemMessageItem = systemMessage[x];
+                        $dom.removeClass(systemMessageItem,'msg-anim-hidden');
+                }
+            }
+            else {
+                $dom.addClass(button, 'btn-anim-loading');
+                setTimeout(function(){ 
+                    for (var x = 0; x < systemMessage.length; x++) {
+                        var systemMessageItem = systemMessage[x];
+                        $dom.removeClass(systemMessageItem,'msg-anim-hidden');
+                    }
+                    var button = $dom.get("#{{buttonID}}")[0];
+                    //console.log("test2");
+                    //$dom.addClass(button, 'btn-animated-hidden');
+                    $dom.removeClass(button,'btn-anim-loading');
+                    var textError = $dom.get(".text-error");
+                        for (var x = 0; x < textError.length; x++) {
+                            var errorItem = textError[x];
+                            $dom.removeClass(errorItem,'hidden');
+
+                        }
+                    var validationRequired = document.querySelectorAll('[data-val-required="true"]');
+                            console.log(validationRequired);
+                        for (var x = 0; x < validationRequired.length; x++) {
+                            var validationItem = validationRequired[x]
+                            validationItem.parentNode.classList.add("has-error")
+                                            }
+                                            
+//               function highlightField() {
+//                  var allDataRequired = document.querySelectorAll('[data-required="true"]');
+//                  for (var i = 0; i < allDataRequired.length; i++) {
+//                  console.log(allDataRequired[i])
+//                        allDataRequired[i].parentNode.classList.add("has-error")
+//                    }
+//                }
+
+
+                }, 2000);
+                //console.log("test");
+            }
+        }, false);
+
+    }
+})();           
+</script>    
+{{/buttonAnimation}}
