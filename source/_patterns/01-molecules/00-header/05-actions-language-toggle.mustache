@@ -1,0 +1,11 @@
+{{#language-toggle-enabled}}
+<ul class="action action-editions">
+    {{#language-toggle}}
+    <li {{#is-highlighted}} class="hlight" {{/is-highlighted}}>
+        <a href="{{link}}">
+            <span class="name {{#replaced-by-image}}replace-by-img {{replaced-by-image}}{{/replaced-by-image}}" title="{{name-long}}">{{name}}</span>
+        </a>
+    </li>
+    {{/language-toggle}}
+</ul>
+{{/language-toggle-enabled}}

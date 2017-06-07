@@ -1,0 +1,13 @@
+{{^is-logged-in}} <!-- is NOT logged in -->
+<li class="form-group">
+    <label for="comment-author">{{texts.comments_your_name}}</label>
+    <input type="text" id="comment-author" name="name" class="form-control" placeholder="{{ texts.comments_your_name }}" title="{{ texts.comments_your_name }}" />
+</li>
+{{/is-logged-in}}
+
+{{#is-logged-in}} <!-- is logged in -->
+<div class="user-logged-in">
+    <p class="text">{{text-logged-in-as-user}}</p>
+    <p class="user">{{user-name}}</p>
+</div>
+{{/is-logged-in}}

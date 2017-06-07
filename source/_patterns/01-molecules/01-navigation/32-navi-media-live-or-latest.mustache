@@ -1,0 +1,11 @@
+<div class="tab-content Live{{navi-type}}{{tab-id}}">
+    <a href="{{link}}#{{navi-type}}{{tab-id}} {{multi-tab-class}}" class="tube-name">{{tube-name}}</a>
+    <h3 class="section-head">{{header.hightlight}}</h3>
+    <!-- for mobile -->
+    <div class="">
+        {{#has-specific-items }}
+        {{> molecules-_media-block-holder-specific(size:3, class:"", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:true, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+        {{/has-specific-items }}
+    </div>
+    <!-- /for mobile -->        
+</div>

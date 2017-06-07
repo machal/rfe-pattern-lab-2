@@ -1,0 +1,24 @@
+<div class="comments-reply-form">
+    <img src="/images/fpo_avatar_white.png" class="avatar rounded" />
+
+    <form action="/comments/post" class="create-form" id="" method="post">
+                <ul class="form-item-list">
+            {{> molecules-form-group-user-name}}<!-- name (input form) OR user (logged in as...) -->
+
+
+            <li class="form-group">
+                <label for="comment-msg">{{texts.comments_your_reason}}<span class="required">{{texts.comments_required_field}}</span></label>
+                <textarea id="comment-msg" name="meesage" class="form-control" placeholder="{{ texts.comments_your_reason }}" title="{{ texts.comments_your_reason }}" data-required="true"></textarea>
+            </li>
+            {{> molecules-captcha }}
+        </ul>
+
+
+
+        <p class="buttons">
+            <input type="submit" title="{{ btn_text.report_comment }}" value="{{ btn_text.report_comment }}" onclick="document.getElementById('comment-message').value = ''" class="btn btn-danger" />
+            <input type="reset" title="{{ btn_text.reset_comment }}" value="{{ btn_text.reset_comment }}" class="btn btn-reset" />
+        </p>
+
+    </form>
+</div>

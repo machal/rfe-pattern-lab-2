@@ -1,0 +1,84 @@
+<ul class="fc">
+    {{#itemsSpecific}}
+    <li>
+        <div>
+            <div class="fc-hdr">
+                <a class="title" href="{{link}}">
+                    <h4>
+                        {{title}}
+                    </h4>
+                </a>
+                <div class="not-apply-to-sticky">
+                    {{> molecules-content-sharing }}
+                </div>
+            </div>
+
+            {{> molecules-factcheck-body }}
+
+
+
+            <!--footer / might not be needed-->
+            <!--<div class="factcheck-footer">
+                {{!> molecules-social-networks:share}}
+                <div class="category"><a href="category-link">{{category}}</a> </div>
+            </div>-->
+        </div>
+    </li>
+    {{/itemsSpecific}}
+</ul>
+
+
+
+
+<!--             <div class="fc-body">
+                <div class="head">
+                    <div class="statement-head">
+                        {{#statement}}
+                        <div class="statement-author">
+                            <div class="img-wrap">
+                                <div class="thumb listThumb">
+                                    <img alt="{{statement-author}}" class="avatar rounded" src="{{ statement-img.src }}">
+                                </div>
+                            </div>
+                            <div>
+
+                                <h4 class="author">{{statement-author}}</h4>
+                                <p class="desc">{{statement-description}}</p>
+                            </div>
+                        </div>
+                        {{/statement}}
+                    </div>
+                    {{#verdict}}
+                    <div class="verdict-head">
+                        <div class="title {{verdict-color}}">
+                            <i class="ico ico-{{icon}}"></i>
+                            {{title}}
+                        </div>
+                        <div class="intro">
+                            {{intro}}
+                        </div>
+                    </div>
+                    {{/verdict}}
+                </div>
+                {{#statement}}
+                <div class="statement">
+                    <div class="statement-content">
+                        {{> molecules-content }}
+                    </div>
+                    <div class="statement-source">
+                        {{source}}
+                    </div>
+                </div>
+                {{/statement}}
+
+                {{#verdict}}
+                <div class="verdict">
+                    <div class="verdict-content">
+                        {{> molecules-content }}
+                    </div>
+                    <div class="btn read-more">
+                        {{read-more}}
+                    </div>
+                </div>
+                {{/verdict}}
+            </div> -->

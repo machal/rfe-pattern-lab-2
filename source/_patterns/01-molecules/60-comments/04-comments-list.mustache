@@ -1,0 +1,58 @@
+{{#show_comments}}
+<div class="comments-list">
+    <h3 class="section-head">
+        {{ texts.comments_head }}
+    </h3>
+    <div class="row">
+        <div class="col-xs-12">
+            <!--change-kk-->
+            {{^no-comments}}
+            <ul class="comments-form">
+                {{#comments}}
+                <li>
+                    {{> molecules-comment  }}
+                    <ul>
+                        {{#subcomments }}
+                        <li>
+                            {{> molecules-comment  }}
+                            <ul>
+                                {{#subcomments }}
+                                <li>
+                                    {{> molecules-comment  }}
+                                    <ul>
+                                        {{#subcomments }}
+                                        <li>
+                                            {{> molecules-comment  }}
+                                        </li>
+                                        {{/subcomments }}
+                                    </ul>
+                                </li>
+                                {{/subcomments }}
+                            </ul>
+                        </li>
+                        {{/subcomments }}
+                    </ul>
+                </li>
+                {{/comments}}
+            </ul>
+            {{/no-comments}}
+
+
+
+            {{#no-comments}} <!-- no-comment -->
+            <p class="no-comments-msg">
+                There are no comments in this forum. Be first and add one
+            </p>
+            {{/no-comments}}
+
+
+        </div>
+    </div>
+
+    {{^no-comments}}
+    {{> atoms-button-load-more}}
+    {{/no-comments}}
+
+</div>
+
+{{/show_comments}}

@@ -1,0 +1,21 @@
+<div class="content-body">
+    <div class="row">        
+        <div class="col-xs-12">           
+            {{#affiliates-main-page}}           
+                {{#specific-items}}                    
+                {{> molecules-item-affiliates }}
+                {{/specific-items}}
+            {{/affiliates-main-page}}
+            {{#affiliates-detail}}
+                {{#specific-items}}
+                {{> molecules-item-affiliates-detail-city }}
+                {{/specific-items}}
+            {{/affiliates-detail}}
+            {{#affiliates-all}}
+                {{#specific-items}}
+                {{> molecules-item-affiliates-all }}
+                {{/specific-items}}
+            {{/affiliates-all}}                                                      
+        </div>
+    </div><!-- /.row -->
+</div>

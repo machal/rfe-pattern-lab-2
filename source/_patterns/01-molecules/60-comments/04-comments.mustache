@@ -1,0 +1,17 @@
+<!-- Comments... -->
+<div id="comments">
+    <div class="row">
+        <div class="col-xs-12">
+            {{#comments-on-article-enabled}}
+            <!-- Pangea Comments -->
+            {{> molecules-comments-pangea  }}
+            {{/comments-on-article-enabled}}
+
+            {{#comments-facebook-on-article-enabled}}
+            <!-- Facebook Comments -->
+            {{> molecules-comments-facebook  }}
+            {{/comments-facebook-on-article-enabled}}
+
+        </div>
+    </div><!-- /.row -->
+</div><!-- /.container-->

@@ -1,0 +1,34 @@
+{{#items-satelite-broadcast}}               
+    <div class="waves__item">
+        <div class="row">
+            <div class="waves__time-area col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <i class="ico ico-{{itemIcon}}"></i><time>{{time}}</time>
+            </div>
+            <div class="waves__desc-area col-xs-12 col-sm-8 col-md-3 col-lg-2">                
+                <p>{{desc-line-1}}</p>                                        
+            </div>
+            <div class="waves__freq-area col-xs-12 col-sm-8 col-sm-offset-4 col-md-6 col-md-offset-0 col-lg-8">
+                {{#specs-line-1}}
+                <div class="waves__freq-group">
+                    <span>{{spec1}}</span>
+                    <span>{{spec2}}</span>                    
+                </div>
+                {{/specs-line-1}}               
+            </div>
+            <div class="waves__time-area col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <!-- this div is empty, just to keep the grid -->
+            </div>
+            <div class="waves__desc-area col-xs-12 col-sm-8 col-md-3 col-lg-2">                
+                <p>{{desc-line-2}}</p>
+            </div>
+            <div class="waves__freq-area col-xs-12 col-sm-8 col-sm-offset-4 col-md-6 col-md-offset-0 col-lg-8">
+                {{#specs-line-2}}
+                <div class="waves__freq-group">
+                    <span>{{spec1}}</span>                    
+                    <span>{{spec2}}</span>
+                </div>
+                {{/specs-line-2}}              
+            </div>
+        </div>              
+    </div><!-- /.row -->
+{{#items-satelite-broadcast}}

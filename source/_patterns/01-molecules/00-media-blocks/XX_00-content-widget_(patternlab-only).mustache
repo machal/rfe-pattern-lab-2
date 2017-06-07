@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="row">
+        <!-- TOP Story -->
+        {{#widget-headers.big-image-plus-thumnails}}
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 pull-left">
+            <div class="media-block-wrap">
+                <div class="row">
+                    {{> molecules-_media-block-holder-header}}
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                        {{> molecules-_media-block-holder(size:2, item-count:one, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 follow-up-list">
+                        {{> molecules-_media-block-holder(size:4, item-count:four,  class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                    </div>
+                    {{> molecules-_media-block-holder-footer}}
+                </div>
+            </div>
+        </div>
+        {{/widget-headers.big-image-plus-thumnails}}
+
+        <!-- list -->
+        {{#widget-headers.list}}
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-left">
+            <div class="media-block-wrap">
+                <div class="row">
+                    {{> molecules-_media-block-holder-header}}
+                    {{> molecules-_media-block-holder(size:4, item-count:six,  class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:true, showDateRelative:true, showCounter:false,horizontal:true) }}
+                    {{> molecules-_media-block-holder-footer}}
+                </div>
+            </div>
+        </div>
+        {{/widget-headers.list}}
+
+        <!-- ---------------------------------------- -->
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+            <!-- Thumbnails -->
+            {{#widget-headers.thumbnails}}
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-left">
+                <div class="media-block-wrap">
+                    <div class="row">
+                        {{> molecules-_media-block-holder-header}}
+                        {{> molecules-_media-block-holder(size:4, item-count:five,  class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:true, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                        {{> molecules-_media-block-holder-footer}}
+                    </div>
+                </div>
+            </div>
+            {{/widget-headers.thumbnails}}
+
+
+            <!-- 2 Thumnails + list -->
+            {{#widget-headers.two-thumbnails-plus-list}}
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="media-block-wrap">
+                    <div class="row">
+                        {{> molecules-_media-block-holder-header}}
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            {{> molecules-_media-block-holder( size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:true, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            {{> molecules-_media-block-holder( size:4, item-count:five, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+                        {{> molecules-_media-block-holder-footer}}
+                    </div>
+                </div>
+            </div>
+            {{/widget-headers.two-thumbnails-plus-list}}
+
+        </div>
+    </div>
+</div>

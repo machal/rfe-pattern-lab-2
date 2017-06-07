@@ -1,0 +1,16 @@
+<div class="content-body">
+    <div class="sats row">
+        {{#specific-items}}
+        {{> molecules-item-satelite }}
+    </div><!-- /.row -->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="waves bottom-offset">
+                <!--<h2 class="section-head">{{section-title}}</h2>-->
+                {{> molecules-tabs:nav-tabs--level-2 }}
+                {{> molecules-item-satelite-broadcast }}
+                {{/specific-items}}
+            </div>
+         </div>
+     </div>
+</div>

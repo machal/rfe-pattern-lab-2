@@ -1,0 +1,30 @@
+<div class="media-block content-redirect {{media-type}}">
+    
+    {{#link}}
+    <!--has link-->
+    <a href="{{link}}" class="img-wrap" title="{{ redirection-text }}">
+    {{/link}}
+    
+    {{^link}}
+    <!--doesnt have link-->
+    <span class="img-wrap">
+    {{/link}}
+    
+        <div class="thumb listThumb">
+            <img src="{{img}}?{{ cacheBuster }}" alt="" />
+            <div class="wrap"> 
+                <div class="inner"> 
+                    <div class="redirect-msg"> 
+                        {{{ redirection-text }}} 
+                    </div>
+                </div>
+            </div>
+            <i class="ico ico-{{ media-icon }}"></i>
+        </div>
+    {{^link}}<!--doesnt have link--></span>{{/link}}
+    {{#link}}<!--has link--></a>{{/link}}
+
+    {{#text}}
+    <p class="caption">{{text}}</p>
+    {{/text}}
+</div>

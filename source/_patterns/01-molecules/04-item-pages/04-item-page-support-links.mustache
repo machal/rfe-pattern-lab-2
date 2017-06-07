@@ -1,0 +1,25 @@
+<div class="links link-function">
+    <!--link-support-->
+
+    {{#item-page-print-link-enabled}}
+    <!-- print button -->
+    <p class="link-print visible-md visible-lg">
+        <button class="btn btn-link btn-print" onclick="window.print();return false" title="{{texts.print_alt}}">
+            <i class="ico ico-print"></i>{{ texts.print_link }}
+        </button>
+    </p>
+    {{/item-page-print-link-enabled}}
+
+
+
+
+    {{#item-page-link-to-comments-enabled}}
+    <!-- comments link -->
+    <p class="link-comments">
+        <a href="#comments">
+            <i class="ico ico-comment"></i>{{ texts.see_comments }} <!--<i class="ico ico-chevron-down"></i>-->
+        </a>
+    </p>
+    {{/item-page-link-to-comments-enabled}}
+
+</div>

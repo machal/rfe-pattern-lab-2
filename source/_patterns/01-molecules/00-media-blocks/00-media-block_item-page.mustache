@@ -1,0 +1,19 @@
+<div class="media-block {{styleModifier}}">
+    {{#url}}
+        <a href="{{url}}">
+        {{/url}}
+        <div class="img-wrap">
+            <img src="{{img}}" alt="{{imgAltText}}" class="enhanced" />
+            {{#media-icon}}
+            <i class="ico ico-{{ media-icon }}"></i>
+            {{/media-icon}}
+        </div>
+        {{#url}}
+    </a>{{/url}}
+
+    {{#text}}
+    <span class="caption">{{{text}}}</span>
+    {{/text}}
+</div>
+
+

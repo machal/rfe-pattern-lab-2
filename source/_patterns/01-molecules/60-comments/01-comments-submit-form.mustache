@@ -1,0 +1,77 @@
+<div class="comments-submit-form">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="comments-form">
+                {{> molecules-login-crosslinks}}
+                <img src="/images/fpo_avatar_white.png" class="avatar rounded" />
+
+                <form action="/comments/post" class="create-form" id="" method="post">
+                    <ul class="form-item-list">
+                        {{> molecules-form-group-user-name}}<!-- name (input form) OR user (logged in as...) -->
+
+                        <li class="form-group">
+                            <label for="comment-msg">{{texts.comments_your_comment}}<span class="required">{{texts.comments_required_field}}</span></label>
+                            <textarea id="comment-msg" name="meesage" class="form-control" placeholder="{{ texts.comments_your_comment }}" title="{{ texts.comments_your_comment }}" data-required="true"></textarea>
+                        </li>
+                        {{> molecules-captcha }}
+
+                    </ul>
+
+                    <!-- system message -->
+                    {{> molecules-system-message}}
+
+                    <!-- submit button -->
+                    {{!> atoms-button }}
+                    <p class="buttons">
+                        <input type="submit" id="comment-submit-btn" title="{{ btn_text.submit_comment }}" value="{{ btn_text.submit_comment }}" onclick="document.getElementById('comment-msg').value = ''" class="btn btn-animated" />
+                    </p>
+
+                    {{#texts.comments_form_note}}
+                    <p class="notes">
+                        {{{texts.comments_form_note}}}
+                    </p>
+                    {{/texts.comments_form_note}}
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+
+    // for PatternLab ONLY !!!!!!!!!!!
+
+    (function () {
+
+        // hide all messages
+        var allMessages = $dom.get(".sys-msg");
+        for (var x = 0; x < allMessages.length; x++) { // add action to all triggers
+            var message = allMessages[x];
+            $dom.addClass(message, 'msg-anim-hidden');
+        }
+        var button = $dom.get("#comment-submit-btn")[0];
+
+        button.addEventListener("click", function (e) {
+            //e.preventDefault();
+            $dom.addClass(this, 'btn-anim-loading');
+            setTimeout(function () {
+                var button = $dom.get("#comment-submit-btn")[0];
+                $dom.removeClass(button, 'btn-anim-loading');
+                // show messages
+                var allMessages = $dom.get(".sys-msg");
+
+                for (var x = 0; x < allMessages.length; x++) { // add action to all triggers
+                    var message = allMessages[x];
+                    $dom.removeClass(message, 'msg-anim-hidden');
+                }
+            }, 3000);
+
+        }, false);
+
+    })();
+</script>

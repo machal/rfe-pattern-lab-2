@@ -1,0 +1,26 @@
+<!-- audio player -->
+<div class="player-and-links {{media-type}} {{class}}">
+    <div class="html5Player html5MediaPlayer {{#has-HTML5-player-video}} html5MediaPlayerVideo{{/has-HTML5-player-video}}{{#has-HTML5-player-audio}} html5MediaPlayerAudio {{/has-HTML5-player-audio}} html5PlayerCanPlay html5MediaPlayerRendered" data-id="27690655" data-title="{{title}}">
+        <div class="embedded-audio">
+            <h5 class="audio-title">
+                <a href="{{link}}">
+                    <i class="ico ico-audio-rounded"></i>
+                    <span class="item-title">{{{text}}}{{#duration}}<span class="duration">({{duration}})</span>{{/duration}}</span>
+                </a>
+
+            </h5>
+        </div>
+
+        <!-- HTML5 player -->
+        {{#has-HTML5-player-audio}}
+        {{> molecules-HTML5-player-audio }}
+        {{/has-HTML5-player-audio}}
+
+    </div>
+    <!--download link-->
+    {{#hasDownloadLink}}
+    {{> molecules-media-download }}
+    {{/hasDownloadLink}}
+
+</div>
+

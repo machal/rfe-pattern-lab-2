@@ -1,0 +1,63 @@
+{{#itemsSpecific}}
+<div class="col-xs-12 col-md-6 col-lg-6 bottom-offset">       
+    <h2 class="section-head">{{title}}</h2>
+    <div class="row">
+        <div class="sats__item-coverage col-xs-12 col-md-12 col-lg-12">
+            {{#coverage}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/coverage}}
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            {{#orb-location}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/orb-location}}
+            {{#polarization}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/polarization}}
+            {{#frequency}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/frequency}}
+            {{#l-band-freq}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/l-band-freq}}
+            {{#fec}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/fec}}
+            {{#new-symbol-rate}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/new-symbol-rate}}
+            {{#symbol-rate}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/symbol-rate}}
+            {{#video-pcr-pid}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/video-pcr-pid}}
+            {{#hb9-28}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/hb9-28}}            
+            {{#network-id}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/network-id}}
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            {{#data-rate}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/data-rate}}
+            {{#encoding}}
+            <p><strong>{{item-name}}:</strong> {{item-value}}</p>
+            {{/encoding}}
+            <p>{{additional-info-1}}</p>
+            <p>{{additional-info-2}}</p>
+            <p>{{additional-info-3}}</p>
+            <p>{{additional-info-4}}</p>
+            <p>{{additional-info-5}}</p>
+            <p>{{additional-info-6}}</p>
+        </div>
+    </div>    
+</div> 
+{{/itemsSpecific}}
+<div class="time col-xs-12 col-sm-12 col-md-12 col-lg-12 bottom-offset">
+    <p class="time__elem time__elem--info">{{time-info}}</p>
+</div>
+
+

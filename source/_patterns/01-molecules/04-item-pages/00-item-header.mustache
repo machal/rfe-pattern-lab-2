@@ -1,0 +1,102 @@
+<div class="hdr-container row">
+    {{#category}}
+    <!-- item category (zone) -->
+    <div class="col-category col-xs-12 col-md-2 pull-left">
+        {{> molecules-category }}
+    </div>
+    {{/category}}
+    <!-- item title (H1) -->
+    <div class="col-title col-xs-12 col-md-10 pull-right">
+        {{> atoms-title }}
+    </div>
+    <!-- item publishing information (date, author...) -->
+    <div class="col-publishing-details col-xs-12 col-sm-12 col-md-2 pull-left">
+        {{> molecules-publishing-details }}
+    </div>
+    <!-- intro -->
+    {{#introTop}}
+    <div class="col-title col-xs-12 col-md-10 pull-right content-offset">
+        {{> molecules-intro}}
+    </div>
+    {{/introTop}}
+
+
+    <!-- article content -->
+    {{#body-content}}
+    <div class="col-title col-xs-12 col-md-10 pull-right content-offset">
+        <div id="article-content">
+            {{#singleLine}}
+            <div class="show-single-line closed">
+                {{> molecules-content}}
+                <div class="trigger"><span class="text">Show more</span><i class="ico ico-chevron-down"></i></div>
+            </div>
+            {{/singleLine}}
+            {{^singleLine}}
+            {{> molecules-content}}
+            {{/singleLine}}
+        </div>
+    </div>
+    {{/body-content}}
+
+    <!-- separator -->
+    {{^separator-hidden}}
+    <div class="col-md-12 separator">
+        <hr class="title-line" />
+    </div>
+    {{/separator-hidden}}
+
+    <!-- main graphic: image/video -->
+    <div class="col-multimedia col-xs-12 col-md-10  pull-right">
+        {{#mainImage}}
+            <div class="cover-media">
+                {{#isImage}}
+                <!-- image / photoblog on photoblog page-->
+                {{> molecules-media-block_item-page }}<!--:media-block--main-img-->
+                {{!> molecules-media-placeholder-image }}
+                {{/isImage}}
+            </div>
+
+            {{#isMediaPlayer}}
+            <!-- player or link to media file = video, audio, live stream -->
+            {{> molecules-media-placeholder-player }}
+            {{/isMediaPlayer}}
+
+
+            {{#isMediaWithLink}}
+            <!-- link to media content = photogallery -->
+            {{> molecules-media-placeholder-link }}
+            {{/isMediaWithLink}}
+
+
+            {{#isInfographic}}
+            <!-- infographic -->
+            {{> molecules-media-placeholder-infographic }}
+            {{/isInfographic}}
+
+
+            {{#isContentRedirection}}
+            <!-- unsupported content = infographics -->
+            {{> molecules-content-redirection }}
+            {{/isContentRedirection}}
+
+        {{/mainImage}}
+
+        {{#quiz-content}}
+        {{> molecules-quiz}}
+        {{/quiz-content}}
+
+        <!-- Photoblog -  load more button -->
+        {{#isPhotoblog}}
+        {{> atoms-button-load-more}}
+        {{/isPhotoblog}}
+    </div>
+    <!-- sharing tools -->
+    {{#mainImage}} <!-- if it doesn't have main image, the Sharing should be part of "body content"-->
+    {{^sharing-hidden-at-the-top}}
+    <div class="col-xs-12 col-md-2 pull-left article-share">
+        {{> molecules-content-sharing }}
+        {{> molecules-item-page-support-links }}
+    </div>
+    {{/sharing-hidden-at-the-top}}
+    {{/mainImage}}
+</div>

@@ -1,0 +1,94 @@
+<div class="content-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-8 col-lg-8 pull-left">
+                <div class="content-offset">
+                    <!-- tab menu -->
+                    {{> molecules-tabs:nav-tabs--has-content }}
+
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <!-- RSS -->
+                        {{#specific-tabs-rss}}
+                        <div class="tab-pane" id="rss">
+                            <p class="desc" >{{{description}}}</p>
+                            <div class="media-block-wrap">
+                                <div class="row">
+                                    {{> molecules-_media-block-holder-specific(size:2, item-count:nine, class:"col-xs-12 col-sm-6 col-md-4 col-lg-4", showIntro:true, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false, horizontal:true) }}
+                                </div>
+                            </div>
+                        </div>
+                        {{/specific-tabs-rss}}
+
+                        <!-- Podcast -->
+                        {{#specific-tabs-podcast}}
+                        <div class="tab-pane" id="podcast">
+                            <p class="desc" >{{{description}}}</p>
+                            <div class="media-block-wrap">
+                                <div class="row">
+                                    {{> molecules-_media-block-holder-specific(size:2, item-count:nine, class:"col-xs-12 col-sm-6 col-md-4 col-lg-4", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false, horizontal:false) }}
+                                </div>
+                            </div>
+                        </div>
+                        {{/specific-tabs-podcast}}
+                    </div>      
+
+                </div>
+            </div>
+
+            {{#right-region-enabled}}
+            <div class="col-xs-12 col-lg-4">
+                {{> molecules-multimedia-context-menu }}
+            </div>
+            {{/right-region-enabled}}            
+        </div>
+        
+    </div>
+</div>
+
+
+<script>
+
+    var tabs = document.querySelectorAll(".nav-tabs__item");
+    var allTabContenbts = [];
+
+    for (var i = 0; i < tabs.length; i++) {
+        var tab = tabs[i];
+
+        var a = tab.getElementsByTagName('a')[0];
+
+        allTabContenbts.push(a.getAttribute("data-target-tab"));
+
+        if (!tab.classList.contains("nav-tabs__item--active")) {
+            document.getElementById(a.getAttribute("data-target-tab")).setAttribute("style", "display:none");
+        }
+
+        (function(tab, a) {
+            tab.onclick = function(e) {
+
+                var _tabs = document.querySelectorAll(".nav-tabs__item");
+                for (var j = 0; j < _tabs.length; j++) {
+                    var _tab = _tabs[j];
+                    _tab.classList.remove("nav-tabs__item--active")
+                }
+
+                for (var j = 0; j < allTabContenbts.length; j++) {
+                    document.getElementById(allTabContenbts[j]).setAttribute("style", "display:none");
+                }
+
+                tab.classList.add("nav-tabs__item--active")
+
+                document.getElementById(a.getAttribute("data-target-tab")).setAttribute("style", "display:block");
+                return false; //cancel the navigation
+            }
+        })(tab, a)
+
+    }
+</script>
+
+
+
+
+
+

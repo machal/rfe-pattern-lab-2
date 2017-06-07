@@ -1,0 +1,20 @@
+<div class="media-pholder media-link {{media-type}} {{class}}">
+<!--        {{#hasLink}}{{/hasLink}}-->
+        <a href="{{link}}" title="{{link-title}}">
+        <div class="thumb listThumb">
+                <img src="{{img}}" alt="{{imgAltText}}" />
+            <i class="ico ico-{{ media-icon }}"></i>
+            </div>
+        </a>
+<!--        {{#hasLink}}{{/hasLink}}-->
+    {{#isPhotoblog}} 
+    <div>
+        <span class="img-number">{{imgCount}}</span>
+        {{/isPhotoblog}}
+        {{#text}}
+        <p class="caption">{{{text}}}</p>
+        {{/text}}
+        {{#isPhotoblog}}
+    </div>
+    {{/isPhotoblog}}
+</div>

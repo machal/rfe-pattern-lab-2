@@ -1,0 +1,61 @@
+<!-- Author's Profile -->
+<div class="media-block-wrap author">
+    <div class="small-thums-list row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="media-block horizontal width-img">
+
+                <div class="img-wrap">
+                    <div class="thumb listThumb">
+                        <img alt="16x9 Image" class="avatar rounded" src="{{img}}" /></div>          
+                </div>
+
+                <div>
+                    <!-- headline with link - author hilghlight -->
+                    {{^author-page}}
+                    <h4>
+                        <a href="{{link}}">{{name}}</a>
+                    </h4>
+                    {{/author-page}}
+                    
+                    <!-- headline <h1> - author page -->
+                    {{#author-page}}
+                        <h1>{{name}}</h1>
+                    {{/author-page}}
+                    
+                    <!-- main content -->
+                    {{> molecules-content}}
+
+                    
+
+                    
+                    <!-- follow -->
+                    <div class="follows">
+                        <!-- email -->
+                        {{#email}}
+                        <p class="email"><a href="mailto:{{email}}">{{email}}</a></p>
+                        {{/email}}
+                        
+                        {{#link-author-facebook}}
+                        <a class="btn btn-facebook" href="{{link-author-facebook}}">
+                            <i class="ico ico-facebook"></i>
+                            {{follow-facebook}}
+                        </a>
+                        {{/link-author-facebook}}
+                        {{#link-author-twitter}}
+                        <a class="btn btn-twitter" href="{{link-author-twitter}}">
+                            <i class="ico ico-twitter"></i>
+                            {{follow-twitter}}
+                        </a>
+                        {{/link-author-twitter}}
+                        {{#link-author-rss}}
+                        <a class="btn btn-rss" href="{{link-author-rss}}">
+                            <i class="ico ico-rss"></i>
+                            {{follow-rss}}
+                        </a>
+                        {{/link-author-rss}}
+                    </div>     
+                </div>     
+            </div>                      
+        </div>
+    </div>
+</div>

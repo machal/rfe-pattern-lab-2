@@ -1,0 +1,15 @@
+{{#item-checkbox}}
+<li class="form-group {{formGroupClass}} {{styleModifier}}">
+    <input class="form-control" type="checkbox" name="%pleaseAddName%"  data-val="true" data-val-regex="" data-val-regex-pattern="" data-val-required="{{#isRequired}}true{{/isRequired}}" id="{{ID}}" value="">
+    <label for="{{ID}}">{{{label}}} {{#isRequired}}<span class="required">{{text-required}}</span>{{/isRequired}}</label>
+    
+    {{#hasDescription}}
+        <p>{{intro}}</p>
+    {{/hasDescription}}
+    
+    {{#isRequired}}
+    <!--if validation required, display error message-->
+    <span class="help-block text-error">{{text-error-message}}</span>
+    {{/isRequired}}
+</li>
+{{/item-checkbox}}

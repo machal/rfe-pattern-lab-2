@@ -1,0 +1,88 @@
+<ul class="{{styleModifier}}">
+
+    {{#itemsSpecific}}
+    <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="media-block horizontal width-img{{#isLive}} live{{/isLive}} size-3{{^isBroadcast}} broadcast-not{{/isBroadcast}}" {{#isLive}} id="live-now" {{/isLive}}>
+
+            <!--if already broadcast-->
+            {{#isBroadcast}}
+            <a href="{{link}}">
+                {{/isBroadcast}}
+
+                <!--if not yet broadcast-->{{^isBroadcast}}
+                <div>
+                    {{/isBroadcast}}
+
+                    <div class="time-stamp">
+                        {{> atoms-time }}
+                        {{#isRepeat}}<span class="repeat">Repeat</span>{{/isRepeat}}
+                    </div>
+
+                    <div class="img-wrap">
+                        {{> molecules-thumbnail_list-thumbnail_16x9 }}
+                        {{#isBroadcast}}
+                        {{#itemIcon}}
+                        <i class="ico ico-{{ itemIcon }}"></i>
+                        {{/itemIcon}}
+                        {{/isBroadcast}}
+                    </div>
+
+                    <div class="content">
+                        <h4>
+                            {{#isLive}}<span class="badge badge-live">{{Live}}</span>{{/isLive}}
+                            {{#isBroadcast}}{{#itemIcon}}<i class="ico ico-{{ itemIcon }}"></i>{{/itemIcon}}{{/isBroadcast}}{{title}}
+                        </h4>
+                        {{#intro}}
+                        <p>
+                            {{intro}}
+                        </p>
+                        {{/intro}}
+                    </div>
+                    <!--if not yet broadcast-->{{^isBroadcast}}
+                </div>{{/isBroadcast}}
+
+                <!--if already broadcast-->
+                {{#isBroadcast}}
+            </a>
+            {{/isBroadcast}}
+            {{#showAuthor}}
+            <!--author-->
+            {{> molecules-author-link:content }}
+            {{/showAuthor}}          
+            <!-- Icons and Links for schedule  -->
+            {{#hasActionLinks}}
+            {{> molecules-schedule-action-links}}
+            {{/hasActionLinks}}
+            <!-- Crosslink to zone archive  -->
+            {{#Crosslink}}
+            <div class="content crosslink-schedule"> <span class="label label-crosslink">{{crosslink-label}}</span> <a href="#">{{crosslink-schedule}}</a></div>
+            {{/Crosslink}}
+            <!-- Icons and Links for schedule  -->      
+            {{#hasFeature}}
+            <!--feature-->
+            <ul class="feature">
+                {{#feature}}
+                <li>
+                    <a href="{{link}}">
+                        <div class="time-stamp">
+                            {{> atoms-time }}
+                        </div>
+                        <div class="content">
+                            <h4>
+                                {{#isLive}}<span class="badge badge-live">{{Live}}</span>{{/isLive}}{{title}}
+                                <!--{{^showImg}}{{#itemIcon}}<i class="ico ico-{{ itemIcon }}"></i>{{/itemIcon}}{{/showImg}}-->
+                            </h4>
+                        </div>
+                    </a>
+                    {{#hasActionLinks}}
+                    {{> molecules-schedule-action-links}}
+                    {{/hasActionLinks}}
+                </li>
+                {{/feature}}
+            </ul>
+            {{/hasFeature}}
+            <!--/feature-->
+        </div>
+    </li>
+    {{/itemsSpecific}}
+</ul>

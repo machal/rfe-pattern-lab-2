@@ -1,0 +1,35 @@
+<li class="{{#has-subitems }}collapsible {{/has-subitems }}item {{styleModifier}} {{specialClass}}" id="menu-item-{{item-id}}">
+
+    {{^has-subitems }}
+    <!-- if has-subitems == false, display link only-->
+    <a href="{{link}}" class="handler">
+        {{#hasIcon}}
+        <!-- if has special icon (service menu = user, language toggle) -->
+        <i class="ico ico-{{iconType}}"></i>{{/hasIcon}}
+        <span class="label">{{item-label}}</span>
+    </a>
+    {{/has-subitems }}
+
+    {{#has-subitems }}
+    <!-- if has-subitems == true, display no link but icons-->
+    <span class="handler">
+        {{#hasIcon}}
+        <!-- if has special icon (service menu = user, language toggle) -->
+        <i class="ico ico-{{iconType}}"></i>{{/hasIcon}}
+        <span class="label">{{item-label}}</span>
+        {{> atoms-ico:chevron-up }}{{> atoms-ico:chevron-down }}{{> atoms-ico:plus }}{{> atoms-ico:minus }}
+
+    </span>
+    <div class="inner">
+        <ul class="subitems">
+            {{#subitems }}
+            <li class="subitem {{specialClassSubitem}}">
+                <a href="{{link}}" class="handler">
+                    {{subitem-label}}
+                </a>
+            </li>
+            {{/subitems }}
+        </ul>
+    </div>
+    {{/has-subitems }}
+</li>

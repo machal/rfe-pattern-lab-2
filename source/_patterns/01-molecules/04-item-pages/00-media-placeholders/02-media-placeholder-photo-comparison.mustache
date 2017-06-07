@@ -1,0 +1,31 @@
+<div class="media-pholder {{media-type}} {{class}}">
+    <!--immage comparison wrapper-->
+        <div class="wrapper">
+          <div class="first">
+            <div class="thumb">
+            <h4 class="label">{{label1}}</h4>
+              <img src="{{img1}}" alt="{{imgAltText1}}" />
+            </div>
+          </div>
+          <div class="second">
+            <span class="handler">
+                <i class="ico ico-chevron-backward"></i>
+                <i class="ico ico-chevron-forward"></i>
+            </span>
+            <div class="thumb">
+            <h4 class="label">{{label2}}</h4>
+              <img src="{{img2}}" alt="{{imgAltText2}}" />
+            </div>
+          </div>
+        </div>
+    
+  
+    <div class="desc">    
+           <span class="img-number">{{imgCount}}</span>    
+
+        {{#text}}
+            <p class="caption">{{{text}}}</p>
+        {{/text}}
+    </div>    
+
+</div>

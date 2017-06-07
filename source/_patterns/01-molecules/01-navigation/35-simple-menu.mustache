@@ -1,0 +1,39 @@
+{{#simple-menu}}
+{{#item}}
+
+<div class="simple-menu {{class}}" {{#item-id}} id="menu-item-{{item-id}}" {{/item-id}}>
+
+    {{^has-subitems}}
+    <!-- if has-subitems == false, display link only-->
+    <a class="handler" href="{{link}}">
+        {{#hasIcon}} <!-- if has special icon  -->
+        <i class="ico ico-{{iconType}}"></i>{{/hasIcon}}
+        <span class="label">{{item-label}}</span>
+    </a>
+    {{/has-subitems}}
+    
+    {{#has-subitems}}
+    <!-- if has-subitems == true, display no link but icons-->
+    <div class="handler">
+        {{#hasIcon}}<!-- if has special icon  -->
+        <i class="ico ico-{{iconType}}"></i>{{/hasIcon}}
+        {{#item-label}}<span class="label">{{item-label}}</span>{{/item-label}}
+        {{#show-chevron}}<i class="ico ico-chevron-up"></i><i class="ico ico-chevron-down"></i>{{/show-chevron}}
+    </div>
+    <div class="inner">
+        <ul class="subitems">
+    {{#subitems}}
+            <li class="subitem">
+                <a href="{{link}}" class="handler">
+                    {{subitem-label}}
+                </a>
+            </li>
+    {{/subitems}}
+        </ul>
+    </div>
+    {{/has-subitems}}
+</div>
+
+{{/item}}
+{{/simple-menu}}
+

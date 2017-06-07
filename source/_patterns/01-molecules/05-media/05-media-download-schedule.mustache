@@ -1,0 +1,24 @@
+﻿<div class="actions">
+    {{^multiple-bitrate-download}}
+    <!-- (kk) needs to be re-done !! -->
+    <div class="caption media-download">
+        <a href="{{media-url}}?download=1" title="Direct link" class="alternateDownloadLink">
+            <span class="download"><span class="ico ico-download"></span>{{download-link}}</span>
+            <span class="file-size">({{file-size}})</span>
+        </a>
+    </div>
+    {{/multiple-bitrate-download}}
+
+
+    <!--simple menu item-->
+    {{#multiple-bitrate-download}}
+    <div class="media-download">
+        {{#simple-menu}}
+        {{#item}}
+        {{> molecules-simple-menu}}
+        {{/item}}
+        {{/simple-menu}}
+    </div>
+    {{/multiple-bitrate-download}}
+
+</div>

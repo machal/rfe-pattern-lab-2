@@ -1,0 +1,43 @@
+{{#questions}}
+<span class="section-head question-number">{{question-number}}</span>
+<!--    <div class="content-primary col-xs-12 col-sm-6"></div>-->
+
+<h4 class="question show-results" id="question_01">
+    {{question}}
+</h4>
+
+{{#mainImage}}
+{{> molecules-media-placeholder-master }}
+{{/mainImage}}
+
+<div class="wsw">
+    <ul class="answers">
+        {{#answer}}
+        <li class="answer {{selected}}">
+            <label for="answer_{{ID}}">
+                <input id="answer_{{ID}}" name="quiz_ID_XXXX" type="radio" value="" disabled="disabled" {{#selected}} checked="checked" {{/selected}}>
+                <span class="result {{status}}">
+                    <i class="ico ico-close"></i>
+                    <i class="ico ico-check"></i>
+                </span>
+                <span class="answer-text">{{item}}</span>
+            </label>
+        </li>
+        {{/answer}}
+    </ul>
+</div>
+
+{{#correct-answer-explanation}}
+    <p class="explanation">
+        {{correct-answer-explanation}}
+    </p >
+{{/correct-answer-explanation}}
+<!--    <div class="content-secondary col-xs-12 col-sm-6"></div>-->
+<div class="wrapper-buttons">
+    <p class="buttons">
+        <input type="submit" title="{{buttons.submit}}" value="{{buttons.submit}}" class="btn btn-disabled js-btn-quiz-submit" disabled="disabled" style="patternlab-only:true; opacity: 1; visibility: visible;">
+        <input type="submit" title="{{buttons.next}}" value="{{buttons.next}}" class="btn patternlab-switch js-btn-quiz-next" data-hide="step-3" data-display="step-4" style="patternlab-only:true; opacity: 1; visibility: visible;">
+    </p>
+
+</div>
+{{/questions}}  

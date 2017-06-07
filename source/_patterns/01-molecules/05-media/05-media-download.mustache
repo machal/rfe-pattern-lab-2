@@ -1,0 +1,28 @@
+﻿<div class="actions">
+    {{^multiple-bitrate-download}}
+    <!-- (kk) needs to be re-done !! -->
+    <div class="caption media-download">
+        <a href="{{media-url}}?download=1" title="Direct link" class="alternateDownloadLink">
+            <span class="download"><span class="ico ico-download"></span>{{download-link}}</span>
+            <span class="file-size">({{file-size}})</span>
+        </a>
+    </div>
+    {{/multiple-bitrate-download}}
+
+
+    <!--simple menu item-->
+    {{#multiple-bitrate-download}}
+    <div class="media-download">
+        {{> molecules-simple-menu}}
+
+    </div>
+    {{/multiple-bitrate-download}}
+
+    {{#showpop-out-player-button}}
+    <button class="btn btn-link btn-popout-player" style="display:none" data-popup-url="{{targetULR}}" title="{{lable}}">
+        <i class="ico ico-arrow-top-right"></i>
+        <span class="text">{{lable}}</span>
+    </button>
+    <!--data-popup-url="http://img.cz.prg.cmestatic.com/media/images/original/May2013/1502129.jpg?d41d"-->
+    {{/showpop-out-player-button}}
+</div>

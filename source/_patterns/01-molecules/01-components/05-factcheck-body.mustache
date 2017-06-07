@@ -1,0 +1,72 @@
+<div class="fc-body">
+    {{#statement}}
+    <div class="statement">
+        <!--<span class="label">{{statement-label}}</span>-->
+        <div class="statement-head {{verdict-color}}">
+            <div class="statement-author">
+                <div class="img-wrap">
+                    <div class="thumb listThumb">
+                        <img alt="{{statement-author}}" class="avatar rounded" src="{{ statement-img.src }}">
+                    </div>
+                </div>
+                <div>
+                    <!-- headline with link - author hilghlight -->
+                    <h4 class="author">{{statement-author}}</h4>
+                    <p class="desc">{{statement-description}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="statement-content">
+            {{> molecules-content }}
+        </div>
+        <div class="statement-source">
+            {{#source-link}} <!--if source has link-->
+                <a href="{{source-link}}" target="_blank">
+            {{/source-link}} 
+
+                {{source}}
+
+            {{#source-link}}</a>{{/source-link}}
+
+        </div>
+    </div>
+    {{/statement}}
+
+    {{#verdict}}
+    <div class="verdict">
+        <!--<span class="label">{{verdict-label}}</span>-->
+        <div class="verdict-head">
+
+            {{#link}} <!--if link - widget level-->
+            <a class="title {{verdict-color}}" href="{{link}}">
+                <i class="ico ico-{{icon}} rounded"></i>
+                <span>{{title}}</span>
+                <div class="intro">
+                    {{intro}}
+                </div>
+            </a>
+            {{/link}}
+
+            {{^link}} <!--if not link - article level-->
+            <div class="title {{verdict-color}}">
+                <i class="ico ico-{{icon}} rounded"></i>
+                <span>{{title}}</span>
+                <div class="intro">
+                    {{intro}}
+                </div>
+            </div>
+            {{/link}}
+
+
+
+
+        </div>
+        <div class="verdict-content">
+            {{> molecules-content }}
+        </div>
+        <a class="read-more" href="{{link}}">
+            {{read-more}}
+        </a>
+    </div>
+    {{/verdict}}
+</div>

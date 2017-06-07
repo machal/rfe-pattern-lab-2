@@ -1,0 +1,67 @@
+﻿<div class="hdr-nav-frag">
+    <div class="container">
+
+        <!-- logo -->
+        {{> molecules-logo-template-voa}}
+
+        <ul class="compact-actions">
+            <!--for mobile view-->
+            <li class="action action-languages">
+                <a href="{{navigation.sites-by-language-link}}">{{> atoms-ico:languages }}</a>
+            </li>
+            <li class="action action-srch">
+                <a href="{{link-search-result}}">{{> atoms-ico:search }}
+              <i class="arrow-open">
+              </i>
+                </a>
+            </li>
+            <li class="action action-menu">
+                <a href="#navigation">{{> atoms-ico:menu }}
+              <i class="arrow-open">
+                  <i></i>
+              </i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- actions -  desktop view -->
+        <div class="actions">
+
+            <!--sites-by-region-->
+            {{#sites-by-language}}
+            <div class="action action-entity-sites">
+                <a href="{{#sites-by-language-link}}{{sites-by-language-link}}{{/sites-by-language-link}}{{^sites-by-language-link}}#entity-sites{{/sites-by-language-link}}" class="" data-smoothscroll="disabled" title="{{sites-by-language}}">{{> atoms-ico:languages }} <span class="name">{{sites-by-language}}</span>
+                    <i class="arrow-open"><i></i></i>
+                </a>
+            </div>
+            {{/sites-by-language}}
+
+            <!--language toggle-->
+            {{> molecules-actions-language-toggle}}
+
+            <!-- login -->
+            {{#login-enabled}}
+            <div class="action action-login">
+            </div>
+            {{/login-enabled}}
+
+            <!-- socials -->
+            {{#social-networks-header}}
+            <div class="action socials ">
+                {{> molecules-social-networks:follow colored}}
+            </div>
+            {{/social-networks-header}}
+
+            <!-- search bar -->
+            <div class="action pnl-srch-top">
+                <form method="get" action="{{link-search-result}}">
+                    {{> molecules-search-element }}
+                </form>
+            </div>
+
+        </div>
+        <!-- /actions -  desktop view -->
+    </div>
+</div>
+
+

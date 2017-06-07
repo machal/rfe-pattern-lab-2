@@ -1,0 +1,259 @@
+<style>
+    .patternlab-header {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+
+    .patternlab-section-layout {
+        background: #666;
+        color: white;
+    }
+
+    .patternlab-wg-area {
+        background: #eee;
+    }
+
+    .container {
+        padding-bottom: 32px;
+    }
+</style>
+
+<!--------------------------------------------------->
+<h1> Two Thumbnails + List</h1>
+
+<body class="pg-section pg-home lay-4col">
+
+    <!-- section - 4 columns ----------------------------------->
+    <h2 class="patternlab-header patternlab-section-lay ">
+        section = 4 columns
+    </h2>
+
+    <div class="container">
+        <div class="row">
+
+            <!-- area size - 2 columns -->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  wg-area-2c">
+                <h3 class="patternlab-header patternlab-wg-area">
+                    widget area = 2 columns
+                </h3>
+
+                <div class="media-block-wrap">
+
+                    {{> molecules-_media-block-holder-header}}
+                    <div class="row">
+                        <!-- big image-->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            {{> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+                        <!-- thumbnails -->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 follow-up-list">
+                            {{> molecules-_media-block-holder:row(size:4, item-count:three,  class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                        </div>
+                        {{> molecules-_media-block-holder-footer}}
+                    </div>
+                </div>
+
+            </div><!-- /area size -->
+            <!-- area size - 1 columns -->
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 wg-area-1c">
+                <h3 class="patternlab-header patternlab-wg-area">
+                    widget area = 1 columns
+                </h3>
+
+                <div class="media-block-wrap">
+
+                    {{> molecules-_media-block-holder-header}}
+                    <div class="row">
+                        <!-- big image-->
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            {{> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+                        <!-- thumbnails -->
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 follow-up-list">
+                            {{> molecules-_media-block-holder:row(size:4, item-count:four,  class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                        </div>
+                        {{> molecules-_media-block-holder-footer}}
+                    </div>
+                </div>
+
+            </div><!-- /area size -->
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 wg-area-1c">
+                <h3 class="patternlab-header patternlab-wg-area">
+                    widget area = 1 columns
+                </h3>
+
+                <div class="media-block-wrap">
+
+                    {{> molecules-_media-block-holder-header}}
+
+                </div>
+
+            </div><!-- /area size -->
+        </div><!-- /row -->
+
+        <div class="row">
+            <!-- area size - 4 columns -->
+            <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 class="patternlab-header patternlab-widget-area">
+                    widget area = 4 columns - v1
+                </h3>
+
+                <div class="media-block-wrap">
+
+                    {{!> molecules-_media-block-holder-header}}
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            {{!> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 follow-up-list">
+                            {{!> molecules-_media-block-holder:row(size:4, item-count:six,  class:"col-xs-12 col-sm-12 col-md-4 col-lg-4", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                        </div>
+                        {{!> molecules-_media-block-holder-footer}}
+                    </div>
+                </div>
+
+            </div>-->
+            <!-- /area size -->
+        </div><!-- /row -->
+
+        <div class="row">
+            <!-- area size - 4 columns -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wg-area-4c">
+                <h3 class="patternlab-header patternlab-wg-area">
+                    er
+                    wid
+                    get area = 4 columns - v2
+                </h3>
+
+                <div class="media-block-wrap">
+
+                    {{> molecules-_media-block-holder-header}}
+                    <div class="row">
+                        <!-- big image-->
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            {{> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+                        <!-- thumbnails -->
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 follow-up-list">
+                            {{> molecules-_media-block-holder:row(size:4, item-count:ten,  class:"col-xs-12 col-sm-6 col-md-6 col-lg-6", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                        </div>
+                        {{> molecules-_media-block-holder-footer}}
+                    </div>
+                </div>
+
+            </div><!-- /area size -->
+        </div><!-- /row -->
+
+        <div class="row">
+            <!-- area size - 4 columns -->
+            <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 class="patternlab-header patternlab-wg-area">
+                    widget area = 4 columns - v3
+                </h3>
+
+                <div class="media-block-wrap">
+
+                    {{!> molecules-_media-block-holder-header}}
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            {{!> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-6 col-md-6 col-lg-16", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 follow-up-list">
+                            {{!> molecules-_media-block-holder:row(size:4, item-count:eight,  class:"col-xs-12 col-sm-6 col-md-6 col-lg-6", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                        </div>
+                        {{!> molecules-_media-block-holder-footer}}
+                    </div>
+                </div>
+
+            </div>-->
+            <!-- /area size -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</body>
+
+<!-- section - 3 columns ----------------------------------->
+<h2 class="patternlab-header patternlab-section-layout">
+    section = 3 columns
+</h2>
+
+<div class="container">
+    <div class="row">
+        <!-- area size - 2 columns -->
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <h3 class="patternlab-header patternlab-wg-area">
+                widget area = 2 columns
+            </h3>
+
+            <div class="media-block-wrap">
+
+                {{> molecules-_media-block-holder-header}}
+                <div class="row">
+                    <!-- big image-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        {{> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                    <!-- thumbnails -->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 follow-up-list">
+                        {{> molecules-_media-block-holder:row(size:4, item-count:four,  class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                    </div>
+                    {{> molecules-_media-block-holder-footer}}
+                </div>
+            </div>
+
+        </div><!-- /area size -->
+        <!-- area size - 1 columns -->
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h3 class="patternlab-header patternlab-wg-area">
+                widget area = 1 columns
+            </h3>
+
+            <div class="media-block-wrap">
+
+                {{> molecules-_media-block-holder-header}}
+                <div class="row">
+                    <!-- big image-->
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                        {{> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                    <!-- thumbnails -->
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 follow-up-list">
+                        {{> molecules-_media-block-holder:row(size:4, item-count:four,  class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                    </div>
+                    {{> molecules-_media-block-holder-footer}}
+                </div>
+            </div>
+
+        </div> <!-- /area size -->
+
+    </div><!-- /row -->
+    <div class="row">
+
+        <!-- area size - 3 columns -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3 class="patternlab-header patternlab-wg-area">
+                widget area = 3 columns
+            </h3>
+
+            <div class="media-block-wrap">
+
+                {{> molecules-_media-block-holder-header}}
+                <div class="row">
+                    <!-- big image-->
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        {{> molecules-_media-block-holder:row(size:3, item-count:two, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                    <!-- thumbnails -->
+                    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 follow-up-list">
+                        {{> molecules-_media-block-holder:row(size:4, item-count:six,  class:"col-xs-12 col-sm-12 col-md-6 col-lg-6", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:true, showCounter:false,horizontal:true) }}
+                    </div>
+                    {{> molecules-_media-block-holder-footer}}
+                </div>
+            </div>
+
+        </div><!-- /area size -->
+    </div><!-- /row -->
+</div><!-- /container -->

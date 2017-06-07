@@ -1,0 +1,15 @@
+<div class="main-img">
+    {{#mainImage}}
+    {{> molecules-media-placeholder-master }}
+    {{/mainImage}}
+</div>
+{{#display-title-in-embeddedq-quiz}}
+<h3 class="title">{{title}}</h3>
+{{/display-title-in-embeddedq-quiz}}
+<!--    <div class="col-xs-12 col-sm-6">    </div > -->
+<div class="start-quiz">
+    <p class="buttons">
+        <a class="btn link-showMore js-btn-quiz-start patternlab-switch" href="#" title="{{buttons.start}}" value="{{buttons.start}}" data-hide="step-1" data-display="step-2" style="patternlab-only:true; opacity: 1; visibility: visible;">Start Quiz</a>
+    </p>
+</div>
+<a class="msg-related" href="{{related-link}}"> {{related-message}} </a>

@@ -1,0 +1,41 @@
+{{#program_header_img_url}}
+<style>
+    .pg-prog .prog-hdr {
+        background-color: {{ program_background_color }};
+    }
+    .pg-prog .prog-hdr h1 {
+        color:{{program_text_color}}
+    }
+
+    @media (min-width: {{sizes.screen-sm-min}}) {
+        .pg-prog .prog-hdr {
+            background: {{ program_background_color }} url('{{ program_header_img_url }}') center top repeat-x;
+        }
+    }
+</style>
+{{/program_header_img_url}}
+<div class="prog-hdr">
+    <div class="container">
+        <h1 class="pg-title" >{{ program_title }}</h1>
+    </div>
+    <div class="prog-menu">
+        <div class="container">
+            <div class="nav-tabs nav-tabs--level-1 nav-tabs--full">
+                <div class="nav-tabs__inner">
+                    <ul class="nav nav-tabs__list" role="tablist" id="prog-tabs">                       
+                        <li  class="nav-tabs__item nav-tabs__item--full{{#tab-episodes-active}} nav-tabs__item--active{{/tab-episodes-active}}">
+                            <a href="{{link-program-item-menu-episodes}}" data-target-tab="episodes">{{ program_menu.episodes }}</a>
+                        </li>
+                        <li class="nav-tabs__item nav-tabs__item--full{{#tab-articles-active}} nav-tabs__item--active{{/tab-articles-active}}">
+                            <a href="{{link-program-item-menu-articles}}" data-target-tab="articles">{{ program_menu.articles }}</a>
+                        </li>
+                        <li class="nav-tabs__item nav-tabs__item--full{{#tab-about-active}} nav-tabs__item--active{{/tab-about-active}}">
+                            <a href="{{link-program-item-menu-about}}" data-target-tab="about">{{ program_menu.about }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+

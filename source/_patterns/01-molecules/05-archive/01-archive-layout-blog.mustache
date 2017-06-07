@@ -1,0 +1,76 @@
+<div class="arch-lay-blg article-list">
+    {{#archiveBlogItems}}      
+        <!--item-->
+    <article>
+        <div class="article-list-item">
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <a href="{{link}}" class="title">
+                        <h2>{{ title}}</h2>
+                    </a>
+                    {{> molecules-publishing-details }}
+                </div>
+                <div class="col-xs-12 ">
+                    {{#mainImage}}
+                    {{> molecules-media-placeholder-master }}
+                    {{/mainImage}}
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 pull-left">
+                    <div class="article-share">
+                        {{> molecules-content-sharing }}  
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                    {{> molecules-intro}}
+            {{> molecules-content}}
+                </div>
+            </div>
+        </div>
+    </article>
+    {{/archiveBlogItems}}
+
+</div>
+
+
+
+
+<!-- 
+    
+
+     -->
+
+
+<!--<div class="article-list-item">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-10 pull-right">
+
+            <a href="{{link}}" class="title">
+                <h1>{{ title}}</h1>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-lg-2">
+            {{!> molecules-publishing-details }}
+        </div>
+        <div class="col-md-12 separator">
+            <hr class="title-line">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-lg-10 pull-right">
+            {{#mainImage}}
+            {{!> molecules-media-placeholder-master }}
+            {{/mainImage}}
+        </div>
+
+
+        <div class="col-xs-12 col-sm-12 col-lg-2">
+            <div class="article-share">
+                {{!> molecules-content-sharing }}  
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-lg-10 pull-right">
+            {{!> molecules-intro}}
+            {{!> molecules-content}}
+        </div>
+    </div>
+</div>-->

@@ -1,0 +1,30 @@
+<div class="media-pholder media-player {{media-type}} {{class}}">
+    {{#hasLink}}<a href="{{link}}">{{/hasLink}}
+        <div class="thumb listThumb">
+            <img src="{{img}}" alt="{{imgAltText}}"/>
+            <!--{{#isLive}}<span class="badge badge-live">{{live-text}}</span>{{/isLive}}-->
+            <i class="ico ico-action ico-{{ media-icon }}"></i>
+            {{#duration}}<span class="duration"><i class="ico ico-play"></i>{{duration}}</span>{{/duration}}
+        </div>
+        <!-- HTML5 player -->
+        {{#has-HTML5-player-audio}}
+            {{> molecules-HTML5-player-audio }}
+        {{/has-HTML5-player-audio}}
+        
+        {{#has-HTML5-player-video}}
+            {{> molecules-HTML5-player-video }}
+        {{/has-HTML5-player-video}}
+        
+    {{#hasLink}}</a>{{/hasLink}}
+    
+    <!--download link-->
+    {{#hasDownloadLink}}
+    {{> molecules-media-download }}
+    {{/hasDownloadLink}}
+    
+    <!--caption-->
+    {{#text}}
+    <p class="caption">{{{text}}}</p>
+    {{/text}}
+</div>
+

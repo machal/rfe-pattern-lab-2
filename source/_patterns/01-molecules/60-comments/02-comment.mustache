@@ -1,0 +1,47 @@
+<div class="comment">
+    <div class="comment-hdr">
+
+        <img src="/images/fpo_avatar_white.png" width="50" class="avatar rounded" />
+
+        <span class="user">{{author}}{{#author_location}} <span class="location">({{author_location}})</span>{{/author_location}}</span>
+        {{#is_moderator}} <div class="moderator label">{{texts.comments_moderator}}</div>{{/is_moderator}}
+        <div class="date">{{texts.pub-date-text}} 14:27</div>
+    </div>  
+    <div class="comment-content">
+        {{#text}}
+        <p>
+            {{text}}
+        </p>
+        {{/text}}
+
+        {{#paragraph}} <!--multiple paragraphs-->
+        <p>
+            {{text}}
+        </p>
+        {{/paragraph}}
+    </div>
+    <div class="comment-foot">
+        <div class="comment-rating">
+            <!--
+            <a href="{{link-try-again}}" class="">+2</a>
+            <a href="{{link-try-again}}" class="">-0</a>
+            -->
+        </div>
+        <div class="comment-controls">
+            {{#comments-open}}
+            <a href="{{link-try-again}}" class="" title="{{texts.reply}}">{{> atoms-ico:reply }}</a>
+            <a href="{{link-comments-report}}" class="" title="{{texts.report}}">{{> atoms-ico:report }}</a>
+            <!--<a href="{{link-try-again}}" class="" title="{{texts.share}}">{{> atoms-ico:share }}</a>-->
+            {{/comments-open}}
+        </div>
+    </div>
+
+</div>
+
+{{#has_reply_form}}
+{{> molecules-comments-reply-form  }}
+{{/has_reply_form}}
+
+{{#has_report_form}}
+{{> molecules-comments-report-form  }}
+{{/has_report_form}}

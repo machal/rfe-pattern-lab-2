@@ -1,0 +1,52 @@
+{{#form}}
+
+<form>
+    <ul>
+        {{> molecules-form-input }}
+
+        {{#captchaRequired}}<!-- if captcha required -->
+        {{> molecules-captcha }}
+        {{/captchaRequired}}
+
+        {{#rulesCheckboxRequired}}<!-- if checkbox required -->
+        {{> molecules-form-checkbox }}
+        {{/rulesCheckboxRequired}}<!-- if captcha required -->
+    </ul>
+
+    <!-- system message -->
+    <!-- Patternlab comment: this message should appear after user clicks on "subscribe" button   -->
+    {{#system-messages-Subscription}}
+    {{> molecules-system-message}}
+    {{/system-messages-Subscription}}
+
+    {{#system-messages}}
+    {{> molecules-system-message}}
+    {{/system-messages}}
+    <!--<div>
+        <span class="help-block text-error general-input-error">{{texts.err_general_input_message}}</span>
+    </div>-->
+    {{#textTerms}}
+    <!-- class maybe - rules p -->
+    <div class="text {{class}}">
+        <p>
+            {{text}}
+            <a href="{{link}}" title="{{linkText}}"> {{linkText}}</a>
+        </p>
+    </div>
+    {{/textTerms}}
+
+    {{#progress-bar}}
+    <div class="upload-bar">
+        <span class="label">{{label}}</span>
+        <span class="upload-percentage">{{result-percentage}}%</span>
+        <span class="upload-bg">
+            <span class="upload-progress" style="width:{{result-percentage}}%"></span>
+        </span>
+    </div>
+    {{/progress-bar}}
+
+    {{> atoms-button:btn-anim }}
+
+
+</form>
+{{/form}}

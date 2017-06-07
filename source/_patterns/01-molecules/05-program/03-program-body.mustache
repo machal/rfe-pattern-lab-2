@@ -1,0 +1,78 @@
+
+<div class="content-body">
+    <div class="container">
+
+        {{> molecules-calendar-component }}
+        <!-- Tab panes -->
+        <div class="tab-content">
+
+            <!-- Home (NOT USED FOR NOW) -->
+            <!--<div class="tab-pane" id="home">
+              <h3 class="section-head">Home tab</h3>
+              <p>Oups, there is nothing... Sorry, we are working on it :-)</p>
+            </div>-->
+
+            <!-- Episodes -->
+            <div class="tab-pane" id="episodes">
+                {{> molecules-program-body-episodes}}
+            </div>
+
+            <!-- Articles -->
+            <div class="tab-pane" id="articles">
+                {{> molecules-program-body-articles}}
+            </div>
+
+            <!-- About -->
+            <div class="tab-pane" id="about">
+                {{> molecules-program-body-about}}
+            </div>
+
+            <!-- Gallery (NOT USED FOR NOW) -->
+            <!--<div class="tab-pane" id="gallery">
+              <h3 class="section-head">Gallery tab</h3>
+              <p>Oups, there is nothing... Sorry, we are working on it :-)</p>
+            </div>-->
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+
+    var tabs = document.querySelectorAll(".nav-tabs__item");
+    var allTabContenbts = [];
+
+    for (var i = 0; i < tabs.length; i++) {
+        var tab = tabs[i];
+
+        var a = tab.getElementsByTagName('a')[0];
+
+        allTabContenbts.push(a.getAttribute("data-target-tab"));
+
+        if (!tab.classList.contains("nav-tabs__item--active")) {
+            document.getElementById(a.getAttribute("data-target-tab")).setAttribute("style", "display:none");
+        }
+
+        (function(tab, a) {
+            tab.onclick = function (e) {
+
+                var _tabs = document.querySelectorAll(".nav-tabs__item");
+                for (var j = 0; j < _tabs.length; j++) {
+                    var _tab = _tabs[j];
+                    _tab.classList.remove("nav-tabs__item--active")
+                }
+
+                for (var j = 0; j < allTabContenbts.length; j++) {
+                    document.getElementById(allTabContenbts[j]).setAttribute("style", "display:none");
+                }
+
+                tab.classList.add("nav-tabs__item--active");
+
+                document.getElementById(a.getAttribute("data-target-tab")).setAttribute("style", "display:block");
+                return false; //cancel the navigation
+            }
+        }) (tab, a)
+
+    }
+</script>

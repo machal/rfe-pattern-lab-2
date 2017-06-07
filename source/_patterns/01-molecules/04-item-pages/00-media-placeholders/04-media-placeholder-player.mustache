@@ -1,0 +1,40 @@
+<div class="player-and-links {{media-type}} {{class}}">
+    <div class="html5Player html5MediaPlayer {{#has-HTML5-player-video}} html5MediaPlayerVideo{{/has-HTML5-player-video}}{{#has-HTML5-player-audio}} html5MediaPlayerAudio {{/has-HTML5-player-audio}} html5PlayerCanPlay html5MediaPlayerRendered" data-id="27690655" data-title="{{title}}">
+        <!--{{#hasLink}}
+        <a href="{{link}}">
+            {{/hasLink}}-->
+            <div class="html5PlayerImage" style="display: block; ">
+                <img src="{{img}}" alt="{{imgAltText}}" />
+                <!--{{#isLive}}<span class="badge badge-live">{{live-text}}</span>{{/isLive}}-->
+                <!--
+                    // commented after Player refactoring
+
+                    <i class="ico ico-action ico-{{ media-icon }}"></i>
+                    {{#duration}}<span class="duration"><i class="ico ico-play"></i>{{duration}}</span>{{/duration}}
+                -->
+            </div>
+            <!-- HTML5 player -->
+            {{#has-HTML5-player-audio}}
+            {{> molecules-HTML5-player-audio }}
+            {{/has-HTML5-player-audio}}
+
+            {{#has-HTML5-player-video}}
+            {{> molecules-HTML5-player-video }}
+            {{/has-HTML5-player-video}}
+
+            <!--{{#hasLink}}
+        </a>
+        {{/hasLink}}-->
+    </div>
+    <!--download link-->
+    {{#hasDownloadLink}}
+    {{> molecules-media-download }}
+    {{/hasDownloadLink}}
+
+    <!--caption-->
+    {{#text}}
+    <p class="caption">{{{text}}}</p>
+    {{/text}}
+
+</div>
+

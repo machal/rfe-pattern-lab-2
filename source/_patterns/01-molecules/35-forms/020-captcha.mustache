@@ -1,0 +1,30 @@
+<!--<span class="captcha" style="display: block; border: 1px solid #ccc; background: lightyellow; width: 100%; padding: 8px; font-size: 14px;">
+    This is Captcha placeholder
+    <br />(Patternlab only)
+</span>-->
+<li class="form-group {{formGroupClass}} {{#captcha-hasError}}has-error{{/captcha-hasError}} captcha {{styleModifier}}">
+    <div class="title">{{texts.captcha-label}}<span class="required">{{texts.input-value-required}}</span></div>
+    <div class="simple-captcha-pholder">
+        <!--<h5 class="title">Security question</h5>-->
+        <!--js-version-->
+        <!--<label for="captcha-#12345">{{texts.captcha-label}}<span class="required">{{texts.input-value-required}}</span></label>-->
+
+        {{#captcha-js-verion}}
+        <img src="/images/captcha.png" alt="Captcha">
+        <input class="form-control" type="text" name="simple-captcha-response" data-empty-message="Please fill-in the captcha operation result." data-format-message="Result of the operation must be a positive number.">
+        <input type="hidden" name="simple-captcha-identifier" value="S10WU4MJP05R2Y14RP1G43R6K">
+        {{/captcha-js-verion}}
+
+        <!-- /js-version-->
+        <!--no-js version-->
+        <noscript>
+            <iframe src="/patterns/06-7.12-_00-captcha-NOJS/06-7.12-_00-captcha-NOJS.html" class="simple-captcha-iframe"></iframe>
+            <input class="form-control" type="text" name="simple-captcha-token">
+    </noscript>
+    <!-- /no-js version-->
+
+    <!--if validation required, display error message-->
+    <span class="help-block text-error {{^captcha-hasError}}hidden{{/captcha-hasError}}">{{texts.err_missing_captcha}}</span>
+
+</div>
+</li>

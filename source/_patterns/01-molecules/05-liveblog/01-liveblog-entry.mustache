@@ -1,0 +1,25 @@
+<div class="entry{{#featured}} entry-featured {{/featured}}{{class}}">
+
+    <!-- Pangea entry -->
+    <div class="entry-head ">
+        {{#featured}}
+        <span class="featured-label">{{featured}}</span>
+        {{/featured}}
+        {{#hasTimestamp}}
+        <div class="time-stamp content-floated">
+            {{#time}}<span class="time" title="{{timeZone}}">{{time}}</span>{{/time}}
+            {{#date}}<span class="date" title="{{timeZone}}">{{date}}</span>{{/date}}
+        </div>
+        {{/hasTimestamp}}
+        {{#author}}
+        <div class="author">
+            {{#authorImage}}<img class="avatar rounded" src="{{authorImage}}" title="{{author}}">{{/authorImage}}
+            <span class="name">{{author}}</span>
+        </div>
+        {{/author}}
+    </div>
+
+    <!-- CKEditor -->
+    {{> molecules-content}}
+
+</div>

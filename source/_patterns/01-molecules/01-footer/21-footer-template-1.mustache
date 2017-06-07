@@ -1,0 +1,26 @@
+{{> molecules-back-to-top-navigation }}
+
+{{!> molecules-navigation }}
+
+<footer role="contentinfo" >
+    <div id="foot" class="foot">       
+        <div class="container">
+            
+            <div class="foot-nav" id="foot-nav">
+              {{> molecules-footer-navigation }}
+            </div>                      
+                
+            <div class="foot__item foot__item--copyrights">
+                <p class="copyright">{{texts.copyright}}</p>
+                <p class="time-zone">{{texts.time-zone}}</p>
+            </div>
+
+            {{#texts.links}}
+            <div class="foot__item foot__item--links">
+                <p><a href="{{url1}}">{{text1}}</a> <span class="delimiter">{{delimiter}}</span> <a href="{{url2}}">{{text2}}</a></p>
+            </div>
+            {{/texts.links}}            
+            
+        </div><!-- /.container -->
+    </div><!-- /#footer -->
+</footer>

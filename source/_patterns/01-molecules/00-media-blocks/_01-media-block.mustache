@@ -1,0 +1,80 @@
+<div class="media-block{{#horizontal}} horizontal{{/horizontal}}{{#showCategory}} with-category{{/showCategory}}{{#showDate}} with-date{{/showDate}}{{#showTime}} with-time{{/showTime}}{{#showImg}} width-img{{/showImg}}{{#isLive}} live{{/isLive}} size-{{size}} {{specialClass}}" {{#isLive}} id="live-now" {{/isLive}} {{styleModifier}}>
+    {{#showImg}}
+    <a href="{{link}}" class="img-wrap">
+        {{> molecules-thumbnail_list-thumbnail_16x9 }}
+
+        {{#itemIcon}}
+        <i class="ico ico-{{ itemIcon }}"></i>
+        {{/itemIcon}}
+
+        {{#factCheckVerdictBadgeDisplay}}
+        {{#factCheckVerdictBadge}}
+        <span class="badge badge-fc {{title-background-color}}">
+            <i class="ico ico-{{icon}}"></i>
+            {{title}}
+        </span>
+        {{/factCheckVerdictBadge}}
+        {{/factCheckVerdictBadgeDisplay}}
+
+    </a>
+    {{/showImg}}
+
+    {{#isMediaPlayer}}
+    {{> molecules-media-placeholder-master }}
+    {{/isMediaPlayer}}
+
+    <div class="content">
+        {{#showDate}}
+        <span class="date" title="{{timeZone}}">{{date}}</span>
+        {{/showDate}}
+
+        {{#showDateRelative}}
+        <span class="date-relative">{{dateRelative}}</span>
+        {{/showDateRelative}}
+
+        {{#showCategory}}
+        <a href="{{category-link}}" class="category">{{category}}</a>
+        {{/showCategory}}
+
+
+        {{#showTime}}
+        <span class="time" title="{{timeZone}}">{{time}}</span>
+        {{/showTime}}
+
+        {{#showCounter}}
+        <span class="number">{{number}}</span>
+        {{/showCounter}}
+
+        <a href="{{link}}">
+            {{#showTitle}}
+            <h4>
+                {{#isUpdated}}<span class="badge badge-updated">{{Updated}}</span>{{/isUpdated}}{{#isLive}}<span class="badge badge-live">{{Live}}</span>{{/isLive}}{{^showImg}}{{#itemIcon}}<i class="ico ico-{{ itemIcon }}"></i>{{/itemIcon}}{{/showImg}}{{title}}
+            </h4>
+            {{/showTitle}}
+            {{#showIntro}}
+            <p>
+                {{intro}}
+            </p>
+            {{/showIntro}}
+        </a>
+
+
+        {{#hasExtraLink}}
+        <!-- extra link like Subscribe or Podcast -->
+        <a class="link-service" href="{{link}}">
+            <i class="ico ico-{{butttonType}}"></i>{{label}}
+        </a>
+        {{/hasExtraLink}}
+
+        {{#hasButton}}
+        <!-- extra Button like Subscribe or Podcast -->
+        <a class="btn btn-{{butttonType}}" href="{{link}}">
+            <i class="ico ico-{{butttonType}}"></i>{{label}}
+        </a>
+        {{/hasButton}}
+
+    </div>
+
+
+</div>
+

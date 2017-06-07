@@ -1,0 +1,33 @@
+<div class="comments-reply-form">
+
+    {{> molecules-login-crosslinks}}
+    <img src="/images/fpo_avatar_white.png" class="avatar rounded" />
+
+    <form action="/comments/post" class="create-form" id="" method="post">
+              <ul class="form-item-list">
+            {{> molecules-form-group-user-name}}<!-- name (input form) OR user (logged in as...) -->
+
+            <li class="form-group has-error">
+                <label for="comment-msg">{{texts.comments_your_reply}}<span class="required">{{texts.comments_required_field}}</span></label>
+                <textarea id="comment-msg" name="meesage" class="form-control" placeholder="{{ texts.comments_your_reply }}" title="{{ texts.comments_your_reply }}" data-required="true"></textarea>
+                <span class="help-block text-error">{{texts.err_missing_comment}}</span>
+            </li>
+            <!--has-error-->
+            {{> molecules-captcha }}
+            <!--<span class="help-block text-error captcha-error">{{texts.err_missing_captcha}}</span>-->
+
+        </ul>
+
+        <span class="help-block text-error general-input-error">{{texts.err_general_input_message}}</span>
+        <p class="buttons">
+            <input type="submit" title="{{ btn_text.reply_comment }}" value="{{ btn_text.reply_comment }}" onclick="document.getElementById('comment-msg').value = ''" class="btn" /> <!-- btn-disabled -->
+            <input type="reset" title="{{ btn_text.reset_comment }}" value="{{ btn_text.reset_comment }}" class="btn btn-reset" />
+        </p>
+        {{#texts.comments_form_note}}
+        <p class="notes">
+            {{{texts.comments_form_note}}}
+        </p>
+        {{/texts.comments_form_note}}
+
+    </form>
+</div>

@@ -1,0 +1,41 @@
+<div class="affiliates affiliates--detail bottom-offset">
+
+    {{> atoms-fake-select-menu-base:form-fake-select--affiliates-detail}}   
+    
+    <h2 class="pg-title">{{title-main}}</h2>
+
+    {{#itemsSpecific}}
+        
+        {{#title-group}}<h2 class="section-head">{{title-group}}</h2>{{/title-group}}
+        <div class="affiliates__heading">
+            <h2>{{title}}</h2>
+            {{#freqs}}
+            <div class="freq-group {{modifiers}}">
+                <span title="frequency">{{value}}</span>
+                <span title="{{title}}">{{type}}</span>
+            </div>
+        </div>
+        {{/freqs}}
+        <div class="affiliates__item-group">
+            {{#daySchedule}}
+            <div class="affiliates__item">
+                <div class="affiliates__dayname">
+                    {{dayname}}
+                </div>
+                {{#shows}}
+                <div class="affiliates__show">
+                    <div class="affiliates__show-time">
+                        <span class="time"><time class="time__elem time__elem--affiliates">{{time}}</time></span>
+                    </div>
+                    <div class="affiliates__show-title">
+                        <p>{{title}}</p>
+                    </div>
+                </div>
+                {{/shows}}
+            </div>
+            {{/daySchedule}}
+        </div>
+
+    {{/itemsSpecific}}        
+       
+</div>

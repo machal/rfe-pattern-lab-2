@@ -1,0 +1,27 @@
+{{#texts.share}}
+    <div class="share-label">{{texts.share}}</div>
+{{/texts.share}}
+<div class="content-share">
+    {{> molecules-generic-sharing }}
+</div>
+
+{{#title}}
+    <div class="sticky-share-container" style="display: none;">
+        <div class="container">
+            <a href="{{link-home}}" id="logo-sticky-share">
+            </a>
+            <div class="pg-title">
+                {{ title }}
+            </div>
+            <div class="sticked-nav-actions">
+                {{#texts.share}}
+                    <div class="share-label">{{texts.share}}</div>
+                {{/texts.share}}
+                <div class="sticky-share">
+                    {{> molecules-generic-sharing }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/title}}
+

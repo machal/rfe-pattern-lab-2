@@ -1,0 +1,18 @@
+<!-- Author link (used on item pages, media-block) -->
+<div class="{{styleModifier}} authors">
+    {{#authors}}
+    <span class="label">{{label}}</span>
+    <ul>
+        {{#item }}
+        <li class="author">
+            {{#link}}
+            <a href="{{link}}" title="{{name}}">{{name}}</a>
+            {{/link}}
+            {{^link}}
+                {{name}}
+            {{/link}}
+        </li>
+        {{/item }}
+    </ul>
+    {{/authors}}
+</div>

@@ -1,0 +1,23 @@
+<div class="comments">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3 class="section-head">
+                {{ texts.comments_head }}
+            </h3>
+            <div class="comments-facebook">
+                <div id="fb-root"></div>
+                <script>
+                    (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.5&appId=758523907563637";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5" width="100%"></div>
+            </div>
+        </div> <!--grid-->
+
+    </div> <!--/row-->
+</div>

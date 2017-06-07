@@ -1,0 +1,37 @@
+<div class="hdr-container">
+    <div class="container">
+        <div class="row">
+            <!-- article category (zone) -->
+            <div class="col-category col-xs-12 col-md-2 pull-left">
+                {{> molecules-category }}
+            </div>
+            <!-- article title (H1) -->
+            <div class="col-title col-xs-12 col-md-10 pull-right">
+                {{> atoms-title }}
+            </div>
+            <!-- article publishing information (date, author...) -->
+            <div class="col-publishing-details col-xs-12 col-sm-12 col-md-2 col-lg-2 pull-left">
+                {{> molecules-publishing-details }}
+            </div>
+            <div class="col-md-12 separator">
+                <hr class="title-line"/>
+            </div>
+
+            {{#mainImage}}
+            <!-- main graphic: image/video -->
+            <div class="col-multimedia col-xs-12 col-md-10 pull-right">
+                {{> molecules-media-holder }}
+            </div>
+            <!-- sharing tools -->
+            <div class="col-xs-12 col-md-2 pull-left article-share">
+                {{> molecules-content-sharing }}
+                <p class="link-comments">
+                    <a href="#comments">
+                        {{ texts.see_comments }} <i class="ico ico-chevron-down"></i>
+                    </a>
+                </p>
+            </div>
+            {{/mainImage}}
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div><!-- /.hdr-container -->

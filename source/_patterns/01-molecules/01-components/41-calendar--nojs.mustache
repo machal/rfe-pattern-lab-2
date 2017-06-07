@@ -1,0 +1,41 @@
+<!--calendar NOJS version-->
+<div class="cal-nojs">
+    {{#calendar-nojs}}
+    <div class="cal-nojs-group cal-nojs-group--year">
+        {{#year}}
+        {{#link}} <!--if has link-->
+        <a href="#{{link}}" class="cal-nojs-group__item cal-nojs-group__item--active">{{year}}</a>
+        {{/link}}
+
+        {{^link}} <!--if has NO link-->
+        <span class="cal-nojs-group__item {{#hlight}}cal-nojs-group__item--hlight{{/hlight}}">{{year}}</span>
+        {{/link}}
+        {{/year}}
+    </div>
+
+    <div class="cal-nojs-group cal-nojs-group--month">
+        {{#month}}
+        {{#link}} <!--if has link-->
+        <a href="#{{link}}" class="cal-nojs-group__item cal-nojs-group__item--active">{{month}}</a>
+        {{/link}}
+
+        {{^link}} <!--if has NO link-->
+        <span class="cal-nojs-group__item {{#hlight}}cal-nojs-group__item--hlight{{/hlight}}">{{month}}</span>
+        {{/link}}
+        {{/month}}
+    </div>
+
+    <!--<div class="cal-nojs-group cal-nojs-group--day">
+        {{#day}}
+        {{#link}}
+        <a href="#{{link}}" class="cal-nojs-group__item cal-nojs-group__item--active {{#isToday}} today{{/isToday}}">{{day}}</a>
+        {{/link}}
+
+        {{^link}}
+        <span class="cal-nojs-group__item {{#hlight}}cal-nojs-group__item--hlight{{/hlight}}">{{day}}</span>
+        {{/link}}
+        {{/day}}
+    </div>-->
+
+    {{/calendar-nojs}}
+</div>

@@ -1,0 +1,88 @@
+{{#contact-us-form}}
+<div class="media-block-wrap contact-us">
+    <div class="contact-us">
+        <h3 class="section-head">{{section-head}}</h3>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <form action="#" method="post" class="form">
+                    <ul class="form-item-list">
+                        <li class="form-group">
+                            <!-- has-error -->
+                            <label for="SenderEmail">{{sender-email}} <span class="required">{{texts.comments_required_field}}</span></label>
+                            <input class="form-control" id="SenderEmail" name="SenderEmail" title="{{sender-email}}" type="text" value="" data-required="true">
+                            <span class="help-block text-error">{{texts.err_missing_email}}</span>
+                        </li>
+                        {{#receiver-email}}
+                        {{#multiple}}
+                        <li class="form-group">
+                            <label for="SelectedReceiverEmail">{{label}}</label>
+                            <select id="SelectedReceiverEmail" name="SelectedReceiverEmail">
+                                {{#emails}}
+                                <option value="{{email}}">{{name}}</option>
+                                {{/emails}}
+                            </select>
+                        </li>
+                        {{/multiple}}
+                        {{/receiver-email}}
+                        <li class="form-group">
+                            <label for="contactSubject">{{subject}} <span class="required">{{texts.comments_required_field}}</span></label>
+                            <input class="form-control" id="contactSubject" name="Subject" type="text" value="" data-required="true">
+                            <span class="help-block text-error">{{texts.err_missing_subject}}</span>
+                        </li>
+                        <li class="form-group">
+                            <label for="contactBody">{{body}} <span class="required">{{texts.comments_required_field}}</span></label>
+                            <textarea class="form-control" id="contactBody" name="contactBody" rows="3" cols="20" data-required="true"></textarea>
+                            <span class="help-block text-error">{{texts.err_missing_comment}}</span>
+                        </li>
+                        <!--has-error-->
+                        {{> molecules-captcha }}
+                        <!--<span class="help-block text-error captcha-error">{{texts.err_missing_captcha}}</span>-->
+                    </ul>
+
+
+                    <div>
+                        <span class="help-block text-error general-input-error">{{texts.err_general_input_message}}</span>
+                    </div>
+                    <p class="buttons">
+                        <input type="submit" id="buttonContactUsID01" class="btn" value="{{submit}}" title="{{submit}}">
+                    </p>
+
+                    <!-- Patternlab Only -->
+                    <script>
+                    //patternlab only !!!
+                    function hideErrorMessages() {
+                        var allTextError = document.getElementsByClassName('text-error');
+                        for (var i = 0; i < allTextError.length; i++) {
+                            allTextError[i].setAttribute("style", "display:none;");
+                        }
+                    }
+                    hideErrorMessages();
+
+                    function showErrorMessages() {
+                        var allTextError = document.getElementsByClassName('text-error');
+                        for (var i = 0; i < allTextError.length; i++) {
+                            allTextError[i].setAttribute("style", "dislpay:block;");
+                        }
+                    }
+
+                    buttonContactUsID01.onclick = function (e) {
+                        showErrorMessages();
+
+                        var allElements = document.querySelectorAll('[data-required="true"]');
+                        for (var i = 0; i < allElements.length; i++) {
+                            console.log(allElements[i])
+                            allElements[i].parentNode.classList.add("has-error")
+                        }
+                        e.preventDefault();
+
+                        var generalInputError = document.getElementsByClassName("general-input-error")
+                        generalInputError[0].parentNode.classList.add("has-error");
+                    }
+                    </script>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{{/contact-us-form}}

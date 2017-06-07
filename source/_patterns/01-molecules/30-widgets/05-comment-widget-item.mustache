@@ -1,0 +1,27 @@
+<div class="comment">
+    <div class="comment-hdr">
+
+        <img src="/images/fpo_avatar_white.png" alt="{{author}}" width="50" class="avatar rounded" />
+        <div class="date">{{texts.pub-date-text}} 14:27</div>
+        <span class="user">{{author}}</span>
+    </div>  
+    <div class="comment-content">
+        <a href="{{comment-link}}">
+            {{#text}}
+            <p>
+                {{text}}
+            </p>
+            {{/text}}
+
+            {{#paragraph}} <!--multiple paragraphs-->
+            <p>
+                {{text}}
+            </p>
+            {{/paragraph}}
+        </a>
+    </div>
+    <div class="comment-foot">
+     <i class="ico ico-reply" title="Reply to"></i><a href="{{article-link}}" title="{{article-title}}">{{article-title}}</a>
+    </div>
+
+</div>

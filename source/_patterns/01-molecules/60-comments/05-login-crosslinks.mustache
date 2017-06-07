@@ -1,0 +1,13 @@
+{{#comments-login-required}}
+{{^is-logged-in}}<!-- is NOT logged in -->
+<div class="cross-links">
+{{#crossLinks}}
+    <!-- links to login or registration -->
+    <p class="text cross-link-{{class}}">
+        {{title}}
+        <a href="{{link}}" title="{{linkText}}">{{linkText}}</a>
+    </p>
+{{/crossLinks}}
+</div>
+{{/is-logged-in}}
+{{/comments-login-required}}

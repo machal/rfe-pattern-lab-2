@@ -1,0 +1,27 @@
+{{#system-message}}
+<div id="{{ID}}" class="sys-msg {{type}}">
+<button href="#close" id="{{buttonID}}" class="btn">
+    <i class="ico ico-close"></i>
+</button>
+    
+    {{text}}
+    
+</div>
+    <!-- Patternlab only -->
+    {{#buttonID}}
+    <script>
+        {{buttonID}}.onclick = function(e) {
+                    e.preventDefault();
+                    console.log("yes");
+                    document.getElementById("{{ID}}").classList.add("msg-anim-hidden");
+                    };
+//          setTimeout(function() {
+//          document.getElementById('{{ID}}').className += " hide";
+//      }, 5000);
+    </script>
+    {{/buttonID}}
+    
+    {{^script-diabled}}
+    {{/script-diabled}}
+    <!-- /Patternlab only -->
+{{/system-message}}

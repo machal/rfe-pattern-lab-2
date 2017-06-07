@@ -1,0 +1,61 @@
+<div class="content-body schedule">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <!--<div class="nav-tabs"> 
+                <div class="nav-tabs__inner"> -->                
+                    {{> molecules-tabs:nav-tabs--has-content}}
+                    {{!> molecules-tabs:nav-tabs--level-2 }}
+                <!-- </div> -->
+            <!-- </div> -->
+
+            <!-- schedule navigation -->
+            {{#schedule-navigation}}
+            <div class="schedule-nav">
+                <!--<div class="heading-links">
+                    <h2 class="date">{{day-selected}}</h2>
+                </div>
+
+                {{!> molecules-calendar }}-->
+                {{> molecules-calendar-component }}
+
+
+                <ul class="day-nav">
+                    {{#itemsSpecific}}
+                    <li>{{^highlight}}
+                        <a class="day {{offset}} " href="?={{date}}" title="">
+                            <span class="day-name">{{day}}</span>
+                            <span class="date-short">{{date}}</span>
+                        </a>{{/highlight}}
+                        {{#highlight}}
+                        <span class="day {{offset}} highlight" title="">
+                            <span class="day-name">{{day}}</span>
+                            <span class="date-short">{{date}}</span>
+                        </span>
+                        {{/highlight}}
+                    </li>
+                    {{/itemsSpecific}}
+
+                </ul>
+            </div>
+            {{/schedule-navigation}}
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-md-offset-1">
+            <!-- main content -->
+            <div class="media-block-wrap">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left">
+                        <div class="">
+                            {{#specific-items-schedule}}
+                                <div class="row">
+                                    {{> molecules-_media-block-schedule}}
+                                </div>
+                            {{/specific-items-schedule}}
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.row -->
+            </div>
+        </div>
+    </div>
+</div>

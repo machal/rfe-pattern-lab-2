@@ -1,0 +1,45 @@
+{{#item-input}}
+
+<!--normal input field--> 
+{{^isTextArea}} 
+<li class="form-group {{formGroupClass}}">
+    <label for="{{ID}}">{{label}} {{#isRequired}}<span class="required">{{text-required}}</span>{{/isRequired}}</label>
+    <input class="form-control" data-val="true" data-val-regex="" data-val-regex-pattern="" data-val-required="{{#isRequired}}true{{/isRequired}}" id="{{ID}}" name="" type="{{input-type}}" value="">
+
+    {{#isRequired}}
+    <!--if validation required, display error message-->
+    <span class="help-block text-error {{#errorIsHidden}}hidden{{/errorIsHidden}}">{{text-error-message}}</span>
+    {{/isRequired}}
+
+    {{#textLink}}
+    <p class="text {{class}}">
+        <a href="{{link}}" title="{{linkText}}"> {{linkText}}</a>
+    </p>
+    {{/textLink}}
+</li>
+{{/isTextArea}}
+
+
+<!--text area input field-->
+{{#isTextArea}}
+<li class="form-group {{formGroupClass}}">
+    <label for="{{ID}}">{{label}} {{#isRequired}}<span class="required">{{text-required}}</span>{{/isRequired}}</label>
+    <textarea id="{{ID}}" name="" rows="" cols="" class="form-control" data-val-required="{{#isRequired}}true{{/isRequired}}" type="{{input-type}}"></textarea>
+
+
+    {{#isRequired}}
+    <!--if validation required, display error message-->
+    <span class="help-block text-error {{#errorIsHidden}}hidden{{/errorIsHidden}}">{{text-error-message}}</span>
+    {{/isRequired}}
+
+    {{#textLink}}
+    <p class="text {{class}}">
+        <a href="{{link}}" title="{{linkText}}"> {{linkText}}</a>
+    </p>
+    {{/textLink}}
+
+</li>
+{{/isTextArea}}
+
+
+{{/item-input}}

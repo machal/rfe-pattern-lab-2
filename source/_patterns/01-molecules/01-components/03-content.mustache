@@ -1,0 +1,215 @@
+﻿<div class="wsw {{#special-class}} {{special-class}} {{/special-class}}">
+
+    <!-- first paragraph with location-->
+    {{#firstParagraph}}
+    <div class="content-map">
+        <div class="article-location-map-box">
+            <a href="http://maps.google.com/maps?daddr={{location}}" onclick="openGoogleMap(\'{{location}}\');return false;"><img width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center={{location}}&zoom=7&size=740x200" alt="{{location}}" class="img-responsive" /></a>
+        </div>
+        <strong class="article-location" data-location="{{location}}">
+            <i class="ico ico-map-pin"></i>
+            <span class="text">{{location}} - </span>
+        </strong>
+        {{firstParagraph}}
+    </div>
+    {{/firstParagraph}}
+
+    {{#contentItems }}
+    {{#isDateline }}
+    <!-- dateline -->
+    <span class="dateline">{{{text}}} —&nbsp;</span>
+    {{/isDateline }}
+    {{/contentItems }}
+
+    <!-- article body - from WYSIWYG -->
+    {{#contentItems }}
+
+    {{#isParagraph }}
+    <p>{{{text}}}</p>
+    {{/isParagraph }}
+
+    {{#isH1 }}
+    <h1>{{{text}}}</h1>
+    {{/isH1 }}
+
+    {{#isH2 }}
+    <h2>{{{text}}}</h2>
+    {{/isH2 }}
+
+    {{#isH3 }}
+    <h3>{{{text}}}</h3>
+    {{/isH3 }}
+
+    {{#isH4 }}
+    <h4>{{{text}}}</h4>
+    {{/isH4 }}
+
+    {{#isH5 }}
+    <h5>{{{text}}}</h5>
+    {{/isH5 }}
+
+    {{#isH6 }}
+    <h6>{{{text}}}</h6>
+    {{/isH6 }}
+
+    {{#isBold }}
+    <p><b>{{{text}}}</b></p>
+    {{/isBold }}
+
+    {{#isItalic }}
+    <p><i>{{{text}}}</i></p>
+    {{/isItalic }}
+
+    {{#isUnderlined }}
+    <p><u>{{{text}}}</u></p>
+    {{/isUnderlined }}
+
+    {{#isStrikethrough }}
+    <p><s>{{{text}}}</s></p>
+    {{/isStrikethrough }}
+
+    {{#isUL }}
+    <ul>
+        {{#listContent}}
+        <li>{{{text}}}</li>
+        {{/listContent}}
+    </ul>
+    {{/isUL }}
+
+    {{#isOL }}
+    <ol>
+        {{#listContent}}
+        <li>{{{text}}}</li>
+        {{/listContent}}
+    </ol>
+    {{/isOL }}
+
+    {{#isAlignLeft }}
+    <p style="text-align:left">
+        {{{text}}}
+    </p>
+    {{/isAlignLeft }}
+
+    {{#isAlignRight }}
+    <p style="text-align:right">
+        {{{text}}}
+    </p>
+    {{/isAlignRight }}
+
+    {{#isBlockquote }}
+    <div class="content-floated">
+
+        <blockquote>
+            <div class="box_with_quote">
+                <div class="box_with_innerQuote">
+                    {{{text}}}
+                </div>
+                <div class="quote_footer">
+                    {{#hasLink}} <a class="quote_footer_link underline" href="{{link}}">
+                        {{/hasLink}}
+                        {{text-footer}}
+                        {{#hasLink}}
+                    </a>{{/hasLink}}
+                </div>
+            </div>
+        </blockquote>
+
+    </div>
+
+    {{/isBlockquote }}
+
+    {{#isBlockquote-withoutQuote }}
+    <div class="content-floated">
+
+        <blockquote>
+            <div class="box_without_quote">
+                <div class="box_without_innerQuote">
+                    {{{text}}}
+                </div>
+                <div class="quote_footer">
+                    {{#hasLink}} <a class="quote_footer_link underline" href="{{link}}">
+                        {{/hasLink}}
+                        {{text-footer}}
+                        {{#hasLink}}
+                    </a>{{/hasLink}}
+                </div>
+            </div>
+        </blockquote>
+    </div>
+
+    {{/isBlockquote-withoutQuote }}
+
+    {{#isBackgrounder }}
+    <div class="backgrounder content-floated">
+        {{> molecules-backgrounder}}
+    </div>
+    {{/isBackgrounder }}
+
+
+
+
+
+    {{#isContentEmbed }}
+    <div class="wsw__embed{{#isContentEmbed--small}} wsw__embed--small{{/isContentEmbed--small}}"><!--{{#media-type}} wsw__embed--{{media-type}}{{/media-type}}-->
+
+        {{#isImage}}
+        <!-- image / photoblog on photoblog page-->
+        {{> molecules-media-block_item-page }} <!--:media-block--wsw-->
+        {{!> molecules-media-placeholder-image }}
+        {{/isImage}}
+
+
+        {{#isMediaPlayer}}
+        <!-- player or link to media file = video, audio, live stream -->
+        {{> molecules-media-placeholder-player }}
+        {{/isMediaPlayer}}
+
+
+        {{#isWysiwygAudio }}
+        <!-- player  =  WYSIWYG audio -->
+        {{> molecules-media-placeholder-player-audio-wysiwyg }}
+        {{/isWysiwygAudio }}
+
+
+        {{#isMediaWithLink}}
+        <!-- link to media content = photogallery -->
+        {{> molecules-media-placeholder-link }}
+        {{/isMediaWithLink}}
+
+
+        {{#isPhotoComparison}}
+        <!-- photo-Comparison -->
+        {{> molecules-media-placeholder-photo-comparison }}
+        {{/isPhotoComparison}}
+
+
+        {{#isInfographic}}
+        <!-- infographic -->
+        {{> molecules-media-placeholder-infographic }}
+        {{/isInfographic}}
+
+
+        {{#isContentRedirection}}
+        <!-- unsupported content = infographics -->
+        {{> molecules-content-redirection }}
+        {{/isContentRedirection}}
+    </div>
+    {{/isContentEmbed }}
+
+
+    {{#isTable}}
+    {{> atoms-table}}
+    {{/isTable}}
+
+    <!-- twitter -->
+    {{#twitterEmbed}}
+    {{{content}}}
+    {{/twitterEmbed}}
+
+
+    {{/contentItems }}
+
+
+
+
+</div>

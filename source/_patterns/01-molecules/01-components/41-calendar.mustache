@@ -1,0 +1,26 @@
+{{#calendar}}
+
+<div class="cal-wrap clearfix">
+
+    <a class="cal-view-toggle" tabindex="1">
+        <i class="ico ico-calendar"></i>
+        <span class="label">Calendar</span>
+        <i class="ico ico-chevron-up"></i>
+        <i class="ico ico-chevron-down"></i>
+    </a>
+    <!--NO JS button-->
+    <input class="cal-nojs-handler--input" type="radio" id="show" name="group">
+    <input class="cal-nojs-handler--input" type="radio" id="hide" name="group" checked>
+    <label class="cal-nojs-handler--lbl label cal-hide" for="hide" data-title-trans="Calendar"><i class="ico ico-calendar"></i></label>
+    <label class="cal-nojs-handler--lbl label cal-show" for="show" data-title-trans="Calendar"><i class="ico ico-calendar"></i></label>
+    <!--end NO JS button-->
+
+    <a class="cal-link label" href="#">{{link-calendar-text}}</a>
+
+
+    <div id="cal" class="cal">
+        {{> molecules-calendar--nojs }}
+        {{> molecules-calendar--js }}
+    </div>
+</div>
+{{/calendar}}

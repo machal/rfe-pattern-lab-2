@@ -1,0 +1,34 @@
+{{#questions}}
+<span class="section-head question-number">{{question-number}}</span>
+
+<h4 class="question" id="question_01">
+    {{question}}
+</h4>
+
+{{#mainImage}}
+{{> molecules-media-placeholder-master }}
+{{/mainImage}}
+
+
+<form>
+    <div class="wsw">
+        <ul class="answers select">
+            {{#answer}}
+            <li class="answer">
+                <label for="answer_{{ID}}">
+                    <input id="answer_{{ID}}" name="quiz_ID_XXXX" type="radio" value="">
+                    <span class="answer-text">{{item}}</span>
+                </label>
+            </li>
+            {{/answer}}
+        </ul>
+    </div>
+    
+    <div class="wrapper-buttons">
+        <p class="buttons">
+            <input type="submit" title="{{buttons.submit}}" value="{{buttons.submit}}" class="btn js-btn-quiz-submit patternlab-switch" data-hide="step-2" data-display="step-3" style="patternlab-only:true; opacity: 1; visibility: visible;">
+            <input type="submit" title="{{buttons.next}}" value="{{buttons.next}}" class="btn js-btn-quiz-next btn-disabled" disabled="disabled" style="patternlab-only:true; opacity: 1; visibility: visible;">
+        </p>
+    </div>
+</form>
+{{/questions}}    

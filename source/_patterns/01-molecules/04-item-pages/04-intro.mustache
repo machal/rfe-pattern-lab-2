@@ -1,0 +1,16 @@
+{{#intro}}
+
+<div class="intro">
+    {{#singleLineIntro}}
+    <!--display intro with single-line functionality (hiding) -->
+    <div class="show-single-line closed">
+        {{/singleLineIntro}}
+
+        <p>{{{intro}}}</p>
+
+        {{#singleLineIntro}}
+        <div class="trigger"><span class="text">Show more</span><i class="ico ico-chevron-down"></i></div>
+    </div>
+    {{/singleLineIntro}}
+</div>
+{{/intro}}

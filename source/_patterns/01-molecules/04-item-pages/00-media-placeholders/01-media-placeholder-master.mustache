@@ -1,0 +1,38 @@
+<!-- media placeholder - master --> 
+{{#isImage}}
+<!-- image / photoblog on photoblog page--> 
+{{> molecules-media-placeholder-image }}
+{{/isImage}}
+
+ 
+{{#isMediaPlayer}}
+<!-- player or link to media file = video, audio, live stream -->   
+{{> molecules-media-placeholder-player }}
+{{/isMediaPlayer}}
+
+
+{{#isMediaWithLink}}
+<!-- link to media content = photogallery -->    
+{{> molecules-media-placeholder-link }}
+{{/isMediaWithLink}}
+
+
+{{#isPhotoComparison}}
+<!-- photo-Comparison -->    
+{{> molecules-media-placeholder-photo-comparison }}
+{{/isPhotoComparison}}
+
+
+{{#isInfographic}}
+<!-- infographic -->    
+{{> molecules-media-placeholder-infographic }}
+{{/isInfographic}}
+
+
+{{#isContentRedirection}}
+<!-- unsupported content = infographics -->    
+{{> molecules-content-redirection }}
+{{/isContentRedirection}}
+
+
+

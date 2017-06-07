@@ -1,0 +1,84 @@
+<div class="category-menu media-block-wrap">
+    <h3 class="section-head">{{widget-headline}}</h3>
+    <ul>
+        {{#category-items}}  
+        <li class="category" id="{{item-id}}">
+            <span href="#{{item-id}}" class="category-link" data-smoothScroll="disabled">
+                <i class="ico ico-chevron-down pull-right"></i>
+                <strong>{{item-label}}</strong>
+            </span>
+            <div class="row">
+                <div class="items col-xs-12 collapsed">
+                    <div class="row">
+                    <!-- container for items col-xs-12 (loaded by Ajax) -->
+                    {{> molecules-_media-block-holder(size:4, item-count:three, class:"col-xs-6 col-sm-4 col-md-4 col-lg-4", showIntro:false, showTitle:true, showImg:true, showCategory:true, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
+                    </div>
+                    {{> molecules-_media-block-holder-footer}}
+                </div>
+            </div>
+        </li>
+        {{/category-items}}  
+    </ul>
+    {{!> molecules-_media-block-holder-footer}}
+</div>
+<script>   
+    (function () {
+
+        "use strict";
+
+        var allCategoryItems = $dom.get(".category-menu ul li .items");        
+        var allCategoryTriggers = $dom.get(".category-menu ul li .category-link");
+        
+        for (var i = 0; i < allCategoryItems.length; i++) { // hide items by default
+            $dom.addClass(allCategoryItems[i], 'collapsed');
+        }
+
+        for (var x = 0; x < allCategoryTriggers.length; x++) { // add action to all triggers
+            var trigger = allCategoryTriggers[x];            
+
+            trigger.addEventListener("click", function (e) {
+                e.preventDefault();
+
+                var category = $dom.ancestor(this);
+                var categoryItems = $dom.descendants(category, ".items")[0];
+
+                if ($dom.hasClass(this, "opened")) {
+                    $dom.addClass(categoryItems, "collapsed");
+                    $dom.removeClass(this, "opened");
+                }
+                else {
+                    $dom.removeClass(categoryItems, "collapsed");
+
+                    //enhance images
+                    /*
+                    var imgs = $dom.descendants(categoryItems, "img");
+                    for (var i = 0; i < imgs.length; i++) {
+                        var img = imgs[i];
+
+                        var src = img.getAttribute('src');
+
+
+                        var imageEnhancerModule = RFE.moduleByName("rfe.image-anhancer");
+                        var newSrc = imageEnhancerModule.getRightImageURL(src, img);
+
+                        if (newSrc) {
+                            var new_image = $dom.create("img");
+                            new_image.src = newSrc;
+                            //    new_image.style = img.style;
+
+                            // insert new image and remove old
+                            img.parentNode.insertBefore(new_image, img);
+                            img.parentNode.removeChild(img);
+                        }
+                    }
+
+                    */
+
+                    $dom.addClass(this, "opened");
+                }
+            }, false);
+
+        }
+
+    })();
+</script>

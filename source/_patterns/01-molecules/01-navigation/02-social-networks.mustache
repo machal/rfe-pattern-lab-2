@@ -1,0 +1,14 @@
+<!--used in header & footer navigation-->
+<ul class="{{styleModifier}}">
+    {{#social-networks}}
+    <li>
+        <a href="{{link}}" title="{{title}}" class="btn btn-rounded btn-{{social-network}} {{visibility}}" target="_blank"> <!-- PATTERNLAB comment: visibility class is for WhatsApp, (mobile & desktop buttons can be switched on/off independently on each other) --> 
+            <i class="ico ico-{{social-network}}"></i>
+        </a>
+    </li>
+    {{/social-networks}}
+
+    {{^social-networks}}
+    Patternlab (sn): missing JSON localization (/src/default-texts.tmpl)
+    {{/social-networks}}
+</ul>

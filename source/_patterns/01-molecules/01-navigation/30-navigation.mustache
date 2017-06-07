@@ -1,0 +1,301 @@
+<!-- NAV START --><div class="navigation" id="navigation">
+
+    {{#navigation }}
+    <div class="media">
+        <ul class="items">
+            {{#menu-items-media }}
+            {{#item }}
+            <!-- single tube -->
+            {{^has-multiple-tubes }}
+            <li class="collapsible item" id="menu-item-{{item-id}}">
+                <a href="{{link}}" class="handler {{#is-live}}live {{/is-live}}">
+                    {{#is-tv}}{{> atoms-ico:play-rounded }}{{/is-tv}}
+                    {{#is-radio}}{{> atoms-ico:audio-rounded }}{{/is-radio}}
+                    <span class="text">{{^is-live}}{{item-label}}{{/is-live}}{{#is-live}}{{Live}}{{/is-live}}</span>
+                    <!-- <span class="live"></span> -->
+                    {{> atoms-ico:chevron-up }}{{> atoms-ico:chevron-down }}{{> atoms-ico:plus }}{{> atoms-ico:minus }}
+                </a>
+                <div class="inner">
+                    <ul>
+                        <!--  Live or latest item highlight   -->
+                        {{> molecules-navi-media-live-or-latest}}
+                        <!--  links   -->
+                        {{> molecules-navi-media-subitems}}
+                    </ul>
+                </div>
+            </li>
+            {{/has-multiple-tubes }}
+
+            <!-- multiple tubes -->
+            {{#has-multiple-tubes }}
+
+            <li class="collapsible item" id="menu-item-{{item-id}}">
+                <a href="#" class="handler {{#is-live}}live {{/is-live}}">
+                    {{#is-tv}}{{> atoms-ico:play-rounded }}{{/is-tv}}
+                    {{#is-radio}}{{> atoms-ico:audio-rounded }}{{/is-radio}}
+                    <span class="text">{{^is-live}}{{item-label}}{{/is-live}}{{#is-live}}{{Live}}{{/is-live}}</span>
+                    <!-- <span class="live"></span> -->
+                    {{> atoms-ico:chevron-up }}{{> atoms-ico:chevron-down }}{{> atoms-ico:plus }}{{> atoms-ico:minus }}
+                </a>
+                <div class="inner">
+                    <ul>
+                        {{#multiple-tab-items}}
+                        {{#tab-item }}
+
+                        <!--  Live or latest item highlight   -->
+                        {{> molecules-navi-media-live-or-latest}}
+
+                        {{/tab-item }}
+                        {{/multiple-tab-items}}
+
+                        <!--  links   -->
+                        {{> molecules-navi-media-subitems}}
+                    </ul>
+                </div>
+            </li>
+            {{/has-multiple-tubes }}
+
+            {{/item }}
+            {{/menu-items-media }}
+        </ul>
+    </div>
+
+    <!-- primary navigation -->
+
+    <div class="menu">
+        <ul class="items">
+            {{#menu-items }}
+            {{#item }}
+            {{> molecules-navi-item}}   
+            {{/item }}
+            {{/menu-items }}
+
+            
+            <!-- user login - menu -->
+
+            {{#login-menu-items }}
+            {{#item }}
+            {{> molecules-navi-item:login }}
+            {{/item }}
+            {{/login-menu-items }}
+            
+
+
+            <!-- service menu (overflow menu) -->
+
+            <li class="service item collapsible">
+                <span class="handler" id="service-handler">
+                    <span class="more">{{more}}</span>{{> atoms-ico:menu }}
+                </span>
+                <div class="inner">
+                    <ul class="stored-items subitems">
+                        <!-- overflow items menu (JS functionality)-->
+                    </ul>
+                    <ul class="options subitems">
+                        <li class="edition subitem">
+                            <a href="{{link-success}}" class="handler">Language Long Name</a>
+                        </li>
+                        <li class="edition subitem hlight">
+                            <a href="{{link-success}}" class="handler">Language Long Name</a>
+                        </li>
+                        <li class="edition subitem">
+                            <a href="{{link-success}}" class="handler"><span class="replace-by-img bo-CN">xLanguage Long Name</span></a>
+                        </li>
+                        {{#RFERL-Sites}}
+                        <li class="subitem">
+                            <a href="{{link-success}}" class="handler">{{> atoms-ico:globe }}{{RFERL-Sites}}</a>
+                        </li>
+                        {{/RFERL-Sites}}
+                    </ul>
+                </div>
+            </li>
+            <!-- user-menu (language toggle, login) -->
+<!-- (kk) created and then commented for 7.06 - Login 
+            {{#user-menu-items }}
+                {{#item }}
+                    {{!> molecules-navi-item}}   
+                {{/item }}  
+            {{/user-menu-items }}-->
+        </ul>
+    </div><!-- menu-box -->
+
+    {{#menu-items }}
+    {{#item }}
+    {{#has-menu-box }}
+    <div class="menu-box" id="menu-item-{{item-id}}-box">
+
+        <div class="container3">
+            <div class="container2">
+                <div class="container1">
+
+                    <div class="col1">
+                        <a href="{{link}}"><h4 class="section-head">{{item-label}}</h4></a>
+
+                        <!--  Subitems -->
+                        <ul class="items">
+
+                            {{#subitems }}
+                            <li>
+                               <div class="media-block horizontal width-img size-3">
+                                    <a href="{{link}}">
+                                        {{subitem-label}}
+                                    </a>
+                                </div>
+                            </li>
+                            {{/subitems }}
+                        </ul>
+                    </div>
+
+                    <!-- Highlights -->
+                    <div class="media-block-wrap hlights col2">
+                        <div class="row">
+                            {{#has-specific-items }}
+                            {{> molecules-_media-block-holder-specific(size:4, class:"col-sm-6 col-md-6 col-lg-6", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                            {{/has-specific-items }}
+                            {{^has-specific-items }}
+                            {{> molecules-_media-block-holder(size:4, item-count:four, class:"col-sm-6 col-md-6 col-lg-6", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                            {{/has-specific-items }}
+                        </div>
+                    </div>
+
+                    <!-- See all box -->
+                    <div class="see-all col3">
+                        <a href="{{link}}">
+                            <span class="see-all-intro">{{all-in-category}}</span>
+                            <span class="see-all-category">
+                                {{item-label}}
+                            </span>
+                            <span class="see-all-arrow">
+                                {{! > atoms-ico:chevron-right-rounded }}
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {{/has-menu-box }}
+    {{/item }}
+    {{/menu-items }}
+
+    <!-- menu-box MEDIA   -->
+    {{#menu-items-media }}
+    {{#item }}
+    {{#has-menu-box }}
+
+
+    <!--  single tubes  -->
+    {{^has-multiple-tubes }}
+    <div class="menu-box media-nav " id="menu-item-{{item-id}}-box">
+        <div class="container3">
+            <div class="container2">
+                <div class="container1">
+                    <ul>
+                        <!-- Highlights -->  
+                        <li class="media-block-wrap col1 active">
+                            {{> molecules-navi-media-live-or-latest}}
+                        </li>
+                        <li class="media-block-wrap upcoming indent-time col2 active">
+                        <!-- Upcoming -->
+                            {{> molecules-navi-media-upcoming}}
+                        </li>
+                        <li class="media-block-wrap custom-links col3">
+                            <!-- Subitems -->
+                            {{> molecules-navi-media-subitems}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/has-multiple-tubes }}
+
+
+    <!--   multiple tubes  -->
+    {{#has-multiple-tubes }}
+    <div class="menu-box media-nav  multiple-tubes" id="menu-item-{{item-id}}-box">
+
+        <ul class="tabs js-tabs">
+            {{#multiple-tab-items}}
+            {{#tab-item }}
+            <li class="tab tube-tab {{multi-tab-class}} {{#tab-is-active}}active{{/tab-is-active}}" data-for="Live{{navi-type}}{{tab-id}}">
+                <span href="#{{multi-tab-class}}">{{tube-name}}</span>
+            </li>
+            {{/tab-item }}
+            {{/multiple-tab-items}}           
+        </ul>
+
+        <div class="container3" id="container-{{item-id}}">
+            <div class="container2">
+                <div class="container1">
+                    <ul>                       
+                        <!-- Highlights -->
+                        <!--  classes "col1" and "tab1" for patternlab only -->
+                        <li class="media-block-wrap col1 {{multi-tab-class}} active">
+                            {{#multiple-tab-items}}
+                                {{#tab-item}}                            
+                                    {{> molecules-navi-media-live-or-latest}}                            
+                                {{/tab-item}}
+                            {{/multiple-tab-items}}                                
+                        </li>
+                        <!-- Upcoming -->                        
+                        <!--  classes "col2" and "tab2" for patternlab only -->
+                        <li class="media-block-wrap upcoming indent-time col2 {{multi-tab-class}} active">
+                            {{#multiple-tab-items}}
+                                {{#tab-item}}                                        
+                                    {{> molecules-navi-media-upcoming}}
+                                {{/tab-item}}
+                            {{/multiple-tab-items}}
+                                   
+                        </li>
+                        <!-- subitems -->
+                        <!--  class "col3" for patternlab only -->
+                        <li class="media-block-wrap custom-links col3">
+                            {{> molecules-navi-media-subitems}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- patternlab only -->
+        <script>
+            function route() {
+                var hash = document.location.hash;
+
+                if (hash.length < 1) { //if there is a hash in the URL
+                    return;
+                }
+
+                var tabId = hash.substring(1); //remove '#'
+                var chosenTabs = document.querySelectorAll("." + tabId); //fint a chosen content
+
+                if (chosenTabs.length < 1) { // if the content doesn't exist - stop
+                    return;
+                }
+
+                var activeTabs = document.querySelectorAll(".multiple-tubes .active"); //select all 'active' tabs
+
+                for (var i = 0; i < activeTabs.length; i++) { // take the 'active' tabs one by one
+                    activeTabs[i].classList.remove("active"); //deactivate
+                }
+
+                for (var i = 0; i < chosenTabs.length; i++) { // take the tabs that should be used
+                    chosenTabs[i].classList.add("active"); //activate
+                }
+            }
+            window.onhashchange = route; //when the hash is changed
+            route(); //initial hash check
+
+        </script>
+
+
+    </div>
+    {{/has-multiple-tubes }}
+
+    {{/has-menu-box }}
+    {{/item }}
+    {{/menu-items-media }}
+    {{/navigation }}
+</div><!-- NAV END -->

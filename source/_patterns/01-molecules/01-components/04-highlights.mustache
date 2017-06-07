@@ -1,0 +1,64 @@
+<div class="hlights{{#isLiveMedia}} live-media{{/isLiveMedia}}{{^isLiveMedia}} breaking-news{{/isLiveMedia}}">
+    <div class="container">
+        <div class="nav pull-right">
+            {{#multiple-messages}}
+            <a href="#" class="prev" title="Previous">
+                {{> atoms-ico:chevron-backward }} 
+                <span>Previous</span>
+            </a>
+            <a href="#" class="next" title="Next">
+                {{> atoms-ico:chevron-forward }}
+                <span>Next</span>
+            </a>
+            {{/multiple-messages}}
+<!--                        
+            <a href="#" class="close" title="Close">
+                {{!> atoms-ico:close }}
+                <span>Close</span>
+            </a>-->
+        </div>
+        <div class="items"> 
+            {{#falback-page-link}}<a href="{{falback-page-link}}">{{/falback-page-link}}
+                <span class="label">
+                    {{#multiple-messages}}
+                    {{/multiple-messages}}
+                     <span class="number">{{number-of-messages}}</span>
+                    
+                    {{label}}
+                    {{> atoms-ico:chevron-down }} 
+                    {{> atoms-ico:chevron-up }} 
+                </span>
+                {{#falback-page-link}}</a>{{/falback-page-link}}
+            <ul>
+                {{#message}}
+                <li class="msg">
+                    <!-- tube -->
+                    {{#isLiveMedia}}<a href="{{tube-link}}" class="tube-name">{{tube-name}}</a>{{/isLiveMedia}}
+                    <!-- livestream -->
+                    {{#item-link}}<a href="{{item-link}}">{{/item-link}}
+                        {{#itemIcon}}<i class="ico ico-{{itemIcon}}"></i>{{/itemIcon}} 
+                        {{title}}
+                        {{#item-link}}</a>{{/item-link}}
+                </li>
+                {{/message}} 
+            </ul>
+        </div>
+    </div>
+    
+
+    <script>// !!!! patternlab ONLY !!!
+            function patternlab_handler(e) {
+                var handler = e.target;
+                var parent = handler.parentNode.parentNode;
+
+                parent.classList.toggle("opened")
+            }
+
+            var elems = document.querySelectorAll(".hlights .label");
+            for (var i = 0; i < elems.length; i++) {
+                elems[i].onclick = patternlab_handler;
+            }
+    </script>
+    
+</div>        
+

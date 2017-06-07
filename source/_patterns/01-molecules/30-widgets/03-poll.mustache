@@ -1,0 +1,99 @@
+{{#poll}}
+<div class="media-block-wrap">
+    <!-- media wrapper (widget)-->
+    
+    {{#widget-header}}<h3 class="section-head">{{widget-header}}</h3>{{/widget-header}}    
+
+    <div class="poll {{^poll-voted}}{{^poll-closed}}opened{{/poll-closed}}{{/poll-voted}}   {{styleModifier}}">
+        {{#question}}<h4 class="question">{{question}}</h4>{{/question}}    
+        <form action="/PollWidget/Vote" method="post">
+            <ul>
+                {{#answer}}
+                <li class="answer">
+                    <!--            {{#has-link}}<a href="{{link}}">{{/has-link}}-->
+                    <label for="answer_{{ID}}-{{step-ID}}" >
+                        {{^poll-voted}}                
+                        {{^poll-closed}}
+                        <input id="answer_{{ID}}-{{step-ID}}" name="poll_ID_007" type="radio" value="">
+                        {{/poll-closed}}
+                        {{/poll-voted}}
+                        <span class="label">{{label}}</span>
+                        <span class="percentage">{{result-percentage}}%</span>
+                        <span class="result">
+                            <span class="result-bar" style="width:{{result-percentage}}%"></span>
+                        </span> 
+                    </label>
+                    <!--                {{#has-link}}</a>{{/has-link}}-->
+                </li>
+                {{/answer}}
+            </ul>
+        </form>
+        {{#poll-closed}}
+        <p class="msg-closed" style="">
+            {{poll-closed-message}}
+        </p>
+        {{/poll-closed}}
+
+        {{#note}}
+        <p class="note">{{note}}</p>
+        {{/note}}
+
+        <!-- system message -->
+        {{> molecules-system-message}}
+
+        <!-- submit button -->
+        {{^poll-voted}}  
+        {{^poll-closed}}
+        {{> atoms-button:btn-anim }}
+
+
+        <script>
+
+            // for PatternLab ONLY !!!!!!!!!!!
+
+            (function() {
+
+                "use strict";
+
+                $dom.addClass($dom.get("#sys-msg-poll-01")[0], 'msg-anim-hidden');
+
+                var allButtons = $dom.get("p.buttons .btn");
+
+                for (var x = 0; x < allButtons.length; x++) { // add action to all triggers
+                    var item = allButtons[x];
+
+                    item.addEventListener("click", function(e) {
+                        //e.preventDefault();
+                        var message = $dom.get("#sys-msg-poll-01")[0];
+                        var button = $dom.get("#{{buttonID}}")[0];
+
+                        if ($dom.hasClass(button, 'btn-anim-loading')) {
+                            $dom.addClass(button, 'btn-anim-hidden');
+                            $dom.removeClass(message, 'msg-anim-hidden');
+                        }
+                        else {
+                            $dom.addClass(button, 'btn-anim-loading');
+                            setTimeout(function() {
+                                var message = $dom.get("#sys-msg-poll-01")[0];
+                                var button = $dom.get("#{{buttonID}}")[0];
+                                $dom.addClass(button, 'btn-anim-hidden');
+                                $dom.removeClass(message, 'msg-anim-hidden');
+                            }, 3000);
+                        }
+                    }, false);
+
+                }
+            })();
+        </script>        
+
+        {{/poll-closed}}
+        {{/poll-voted}}  
+
+        <!--    {{#poll-voted}}  
+                {{!> atoms-button:btn-disabled }}
+            {{/poll-voted}}  -->
+
+        <!-- /.PollWidget -->
+    </div>
+</div>
+{{/poll}}

@@ -1,0 +1,55 @@
+      {{#footer-navigation }}
+       
+        <div class="menu">
+            <ul class="items">
+              <!-- social network -->
+
+              <li class="socials block-socials">
+                <span class="handler" id="socials-handler">
+                  {{footer-navigation.title_socials}}
+                </span>
+                <div class="inner">
+                  {{> molecules-social-networks:subitems follow}}
+                </div>
+              </li>
+                {{#menu-items }}
+                {{#item }}
+                <li class="{{item-class}}{{#has-subitems }} collapsible{{/has-subitems }}" id="menu-item-{{item-id}}">
+
+                    <!-- if has-subitems == true, display no link but icons-->
+                    {{#has-subitems }}
+                    <span class="handler">
+                        {{item-label}}
+                        {{> atoms-ico:chevron-up }}{{> atoms-ico:chevron-down }}{{> atoms-ico:plus }}{{> atoms-ico:minus }}
+
+                    </span>
+                    <div class="inner">
+                        <ul class="subitems">
+                            {{#subitems }}
+                            <li>
+                                <a href="{{link}}">
+                                    {{subitem-label}}
+                                </a>
+                            </li>
+                            {{/subitems }}
+                        </ul>
+                    </div>
+                    {{/has-subitems }}
+
+                    <!-- if has-subitems == false, display link only-->
+                    {{^has-subitems }}
+                    {{{item-icon-html}}}
+                    <span class="handler">                        
+                        <a href="{{link}}">                            
+                            {{item-label}}
+                            {{{item-html}}}                                            
+                        </a>
+                    </span>
+                    {{/has-subitems }}
+                </li>
+                {{/item }}                
+             {{/menu-items }}
+            </ul>
+        </div>        
+
+      {{/footer-navigation }}

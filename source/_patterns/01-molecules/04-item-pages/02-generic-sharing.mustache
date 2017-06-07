@@ -1,0 +1,25 @@
+
+<ul class="sharing">
+    {{#content-sharing}}
+    <li class="{{#hidden-as-default}}share-additional{{/hidden-as-default}} {{#hidden-as-default-first}}first-additional{{/hidden-as-default-first}}">
+        <a href="{{link}}" title="{{network}}" class="btn btn-rounded btn-{{network}}{{#visibility}} {{visibility}}{{/visibility}}">
+            <i class="ico ico-{{network}}"><span>Share on {{title}}</span></i>
+        </a>
+        {{#shares-number}}
+            <span class="shares shares__{{network}}{{#visibility-shares}} {{visibility-shares}}{{/visibility-shares}}" title="Number of shares on {{network}}">{{shares-number}}</span>
+        {{/shares-number}}
+        {{^shares-number}}
+            <span class="shares shares__{{network}} shares--empty{{#visibility-shares}} {{visibility-shares}}{{/visibility-shares}}">&nbsp;</span>
+        {{/shares-number}}
+    </li>
+    {{/content-sharing}}
+
+    <!-- control button (more) -->
+    <li>
+        <a href="javascript:void(0)" title="{{texts.toggle-sharing}}" class="btn btn-rounded btn-load-more hidden sharing-more">
+            {{> atoms-ico:ellipsis }}
+        </a>
+    </li>
+</ul>
+
+

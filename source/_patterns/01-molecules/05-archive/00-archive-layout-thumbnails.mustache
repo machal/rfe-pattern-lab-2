@@ -1,0 +1,41 @@
+<div class="media-block-wrap">
+    <div class="row">
+        {{#specific-items-archive-first}}
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left ">
+                <div class="hlight">
+                    <div class="row">
+                        {{> molecules-_media-block-holder-specific(size:2, item-count:ten, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xs-vertical", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:true, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                </div>
+            </div>
+        {{/specific-items-archive-first}}
+
+                                <!-- if specific items not defined in JSON -->
+        {{^specific-items-archive-first}}
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left ">
+                <div class="hlight">
+                    <div class="row">
+                        {{> molecules-_media-block-holder(size:2, item-count:one, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xs-vertical", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:true, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                </div>
+            </div>
+        {{/specific-items-archive-first}}
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left">
+                <div class="small-thums-list follow-up-list">
+                    {{#specific-items-archive}}
+                    <div class="row">
+                        {{> molecules-_media-block-holder-specific(size:3, item-count:ten, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:true, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                    {{/specific-items-archive}}
+                    {{^specific-items-archive}}
+                    <div class="row">
+                        {{> molecules-_media-block-holder(size:3, item-count:six, class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:true, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                    {{/specific-items-archive}}
+                </div>
+            </div>
+
+    </div>
+    <!-- /.row -->
+</div>

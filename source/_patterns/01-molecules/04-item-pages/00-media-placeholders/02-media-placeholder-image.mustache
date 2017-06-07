@@ -1,0 +1,27 @@
+<div class="media-pholder image {{class}}">
+    
+    <!--if has link--> 
+    {{#url}}
+    <a href="{{url}}">
+    {{/url}}
+
+        <div class="thumb listThumb">
+            <img src="{{img}}" alt="{{imgAltText}}" class="enhanced" />
+        </div>
+    {{#url}}
+    </a>
+    {{/url}}
+
+    {{#isPhotoblog}}
+    <div class="desc">
+        <span class="img-number">{{imgCount}}</span>
+        {{/isPhotoblog}}
+
+        {{#text}}
+        <p class="caption">{{{text}}}</p>
+        {{/text}}
+
+        {{#isPhotoblog}}
+    </div>
+    {{/isPhotoblog}}
+</div>

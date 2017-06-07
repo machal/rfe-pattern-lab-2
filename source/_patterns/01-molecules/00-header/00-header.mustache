@@ -1,0 +1,52 @@
+{{^disabled-header}} <!-- do not display if header is disabled (e.g. simplified article page -->
+{{^its-pop-out}} <!-- do not display if Pop-out player page -->
+<div class="hdr">
+
+    {{#header-template-1}}
+    {{> molecules-header-navigation-fragment }} <!--used for: RFE, MBN, OCB, CT, -->
+    {{/header-template-1}}
+
+    {{#header-template-2}}
+    {{> molecules-header-navigation-fragment-voa }} <!--used for VOA-->
+    {{/header-template-2}}
+
+    <div class="sticky-nav-wrap container">
+        <div class="sticked-nav-actions">
+            <a href="" title="search" class="btn btn-rounded btn-open-srch">
+                <i class="ico ico-search"></i>
+            </a>
+        </div>
+        {{#header-snippet-enabled}}
+        {{> molecules-header-snippet}}
+        {{/header-snippet-enabled}}
+    </div>
+
+    <div class="nav-hdr-outer-container">
+        <div class="container" id="nav-hdr-container">
+        </div>
+    </div>
+
+    <div data-trigger="btn-open-srch" class="sticked-nav-popup popup-srch">
+        <div class="container">
+            <div class="stick-srch-form">
+                <form id="form-stickyNavSearch" role="search">
+                    {{> molecules-search-element }}
+                </form>
+            </div>
+            <button class="btn btn-close">{{> atoms-ico:close }}</button>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- flash messages: Live Highlight / Breaking News -->
+{{#highlights_v3}}
+{{> molecules-highlights }}
+{{/highlights_v3}}
+{{/its-pop-out}}
+
+{{#site-date-time-enabled}}
+{{> molecules-date-time-area }}
+{{/site-date-time-enabled}}
+{{/disabled-header}}

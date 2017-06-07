@@ -1,0 +1,13 @@
+{{#tabs}}
+<div class="nav-tabs nav-tabs--level-{{tabs-level}} {{#modifiers}}{{modifiers}}{{/modifiers}}">
+    <div class="nav-tabs__inner">
+        <ul class="nav nav-tabs__list">
+            {{#item}}
+            <li class="nav-tabs__item {{#isActive}} nav-tabs__item--active{{/isActive}}{{#modifiers}} {{modifiers}}{{/modifiers}}">
+                <a href="{{link}}"> {{ label }}</a>
+            </li>
+            {{/item}}
+        </ul>
+    </div>
+</div>
+{{/tabs}}
