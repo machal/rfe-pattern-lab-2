@@ -2,7 +2,7 @@
     <div class="container">
         <div class="darkBackground">
             {{#specific-items-featured-slider}}
-            {{> molecules-_media-block-holder-header}}
+            {{> molecules-media-block-holder-header}}
             {{/specific-items-featured-slider}}
 
             {{> molecules-media-slider-buttons }}
@@ -10,7 +10,7 @@
             {{^specific-items-featured-slider}} <!--if not page specific (using default .listitems data )-->
             <div class="slider {{ styleModifier }}">
                 <div class="row">
-                    {{> molecules-_media-block-holder:holder( size:3, item-count:ten, class:"col-xs-12 col-sm-6 col-md-4 col-lg-4", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
+                    {{> molecules-media-block-holder:holder( size:3, item-count:ten, class:"col-xs-12 col-sm-6 col-md-4 col-lg-4", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
                 </div>
             </div>
             {{/specific-items-featured-slider}}
@@ -18,7 +18,7 @@
             {{#specific-items-featured-slider}} <!--if page specific-->
             <div class="slider {{ styleModifier }}">
                 <div class="row">
-                    {{> molecules-_media-block-holder-specific:holder( size:3, item-count:ten, class:"col-xs-12 col-sm-6 col-md-4 col-lg-4", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
+                    {{> molecules-media-block-holder-specific:holder( size:3, item-count:ten, class:"col-xs-12 col-sm-6 col-md-4 col-lg-4", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
                 </div>
             </div>
             {{/specific-items-featured-slider}}
@@ -26,7 +26,7 @@
 
 
             {{#specific-items-featured-slider}}
-            {{> molecules-_media-block-holder-footer}}
+            {{> molecules-media-block-holder-footer}}
             {{/specific-items-featured-slider}}
         </div>
     </div>

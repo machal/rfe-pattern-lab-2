@@ -1,7 +1,7 @@
 <div class="media-block-wrap most-popular {{styleModifier}}">
     <h3 class="section-head">{{most-popular-widget-header}} {{styleModifier}}</h3>
     <div class="row">
-        {{!> molecules-_media-block-holder-header}}
+        {{!> molecules-media-block-holder-header}}
         <ul class="col-xs-12">
             {{#specific-items-most-popular}}
             {{#most-item}}
@@ -11,7 +11,7 @@
                     <i class="ico ico-chevron-down"></i>
                 </h3>
                 <div class="row">
-                    {{> molecules-_media-block-holder-specific:inner( size:4, item-count:ten, class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:true, horizontal:false,) }}
+                    {{> molecules-media-block-holder-specific:inner( size:4, item-count:ten, class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:true, horizontal:false,) }}
                 </div>
             </li>
             {{/most-item}}
