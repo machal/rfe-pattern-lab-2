@@ -1,0 +1,1966 @@
+Loading engines from the core...
+
+
+Loading engines from the edition or test directory...
+
+  mustache: good to go
+
+Done loading engines.
+
+
+====[ Pattern Lab / Node - v2.9.3 ]====
+
+Running "patternlab" task
+
+Warning:
+A pattern file: 01-molecules/00-header/00-logo/00-logo-template-1.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/00-header/00-logo/00-logo-template-voa.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/01-media-placeholder-master.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/02-media-placeholder-image.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/02-media-placeholder-photo-comparison.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/03-media-placeholder-link.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/04-media-placeholder-infographic.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/04-media-placeholder-player-audio-wysiwyg.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/04-media-placeholder-player.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/04-item-pages/00-media-placeholders/04-media-placeholder-quiz-embedded.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/30-widgets/20-sliders/01-media-slider.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+
+Warning:
+A pattern file: 01-molecules/30-widgets/20-sliders/02-media-slider-buttons.mustache was found greater than 2 levels deep from ./source/_patterns/.
+It's strongly suggested to not deviate from the following structure under _patterns/
+[patternType]/[patternSubtype]/[patternName].[patternExtension]
+
+While Pattern Lab may still function, assets may 404 and frontend links may break. Consider yourself warned. 
+Read More: http://patternlab.io/docs/pattern-organization.html
+
+Could not find pattern referenced with partial syntax molecules-_media-block-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax molecules-_media-block-holder-specific. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern atoms-title is invalid and cannot be copied
+Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-_media-block-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax molecules-_media-block-holder-specific. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern atoms-title is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-media-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-media-holder is invalid and cannot be copied
+Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-media-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-_media-block-schedule. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-_media-block-schedule is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-_media-block-schedule. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-_media-block-holder-specific. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax molecules-_media-block-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax molecules-_media-block-holder-specific. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax molecules-_media-block-holder-specific. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax molecules-_media-block-holder-specific. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+TypeError: Cannot read property 'template' of undefined
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:246:57
+  at Array.forEach (native)
+  at findparameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:240:35)
+  at Object.find_parameters (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/parameter_hunter.js:298:7)
+  at expandPartials (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:457:22)
+  at decomposePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:233:7)
+  at processPatternRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:407:5)
+  at Object.process_pattern_recursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:593:7)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:81:25
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:57:18
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at /Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:50:13
+  at Array.some (native)
+  at diveSync (/Users/machal/Sites/RFERL/patternlab2/node_modules/diveSync/diveSync.js:33:17)
+  at processAllPatternsRecursive (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:73:3)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:539:5)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Could not find pattern referenced with partial syntax molecules-comments-reply-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comments-reply-form  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comments-report-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comments-report-form  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comments-reply-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comments-report-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comments-submit-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comments-submit-form  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comments-list . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comments-list  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comments-submit-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comments-list . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comments-pangea . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comments-pangea  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comments-facebook . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern molecules-comments-facebook  is invalid and cannot be copied
+Could not find pattern referenced with partial syntax molecules-comments-pangea . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax molecules-comments-facebook . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Built pattern: atoms-button-standard
+Built pattern: atoms-button-standard-secondary
+Built pattern: atoms-button-secondary
+Built pattern: atoms-button-standard--icon
+Built pattern: atoms-button
+Built pattern: atoms-button-danger
+Built pattern: atoms-button-disabled
+Built pattern: atoms-button-reset
+Built pattern: atoms-button-load-more
+Built pattern: atoms-button-social
+Built pattern: atoms-button-social--rounded
+Built pattern: atoms-button-standard--animated
+Built pattern: atoms-button-link
+Built pattern: atoms-button-social--rounded-(all)
+Built pattern: atoms-text-fields
+Built pattern: atoms-checkbox
+Built pattern: atoms-radio-buttons
+Built pattern: atoms-html5-inputs
+Built pattern: atoms-unordered
+Built pattern: atoms-ordered
+Built pattern: atoms-definition
+Built pattern: atoms-select-menu-base
+Built pattern: atoms-select-menu-with-options-group
+Built pattern: atoms-fake-select-menu-base
+Built pattern: atoms-fake-select-elem-end
+Built pattern: atoms-fake-select-elem-start
+Built pattern: atoms-label-elem-end
+Built pattern: atoms-label-elem-start
+Built pattern: atoms-select-elem-end
+Built pattern: atoms-select-elem-start
+Built pattern: atoms-select-menu-option-start - Copy
+Built pattern: atoms-select-menu-option-start
+Built pattern: atoms-select-menu-option-end
+Built pattern: atoms-fake-select-menu-option-end
+Built pattern: atoms-fake-select-menu-option-start
+Built pattern: atoms-table
+Built pattern: atoms-headings
+Built pattern: atoms-paragraph
+Built pattern: atoms-blockquote
+Built pattern: atoms-inline-elements
+Built pattern: atoms-preformatted-text
+Built pattern: atoms-hr
+Built pattern: atoms-link-strong
+Built pattern: atoms-link-strong-small
+Built pattern: atoms-link-next
+Built pattern: atoms-link-prev
+Built pattern: atoms-badge_zone@complete
+Built pattern: atoms-time
+Built pattern: atoms-image@inreview
+Built pattern: atoms-image_ratio_16x9@complete
+Built pattern: atoms-image_ratio_4x3@complete
+Built pattern: atoms-image_ratio_1x1@complete
+Built pattern: atoms-ico
+Built pattern: atoms-icons
+Built pattern: molecules-test-headline
+Built pattern: molecules-test-paragraph
+Built pattern: molecules-test-media-blog-list
+Built pattern: molecules-test-media-blog
+Built pattern: molecules-header
+Built pattern: molecules-logo-template-1
+Built pattern: molecules-logo-template-voa
+Built pattern: molecules-header-snippet
+Built pattern: molecules-header-socials-voa
+Built pattern: molecules-actions-language-toggle
+Built pattern: molecules-header-navigation-fragment
+Built pattern: molecules-header-navigation-fragment-voa
+Built pattern: molecules-header-pop-out
+Built pattern: molecules-media-block_item-page
+Built pattern: molecules-media-block_item-page-link
+Built pattern: molecules-Content_Big-image-and-Thumbnails_(patternlab-only)
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-Content_Thumbnails-and-List_(patternlab-only)
+Built pattern: molecules-content-redirection
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-XX_00-content-widget_(patternlab-only)
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-block-schedule
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-block
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-block-holder
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-block-holder-header
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-block-holder-footer
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-block-holder-specific
+Built pattern: molecules-date-time-area
+Built pattern: molecules-page-title
+Built pattern: molecules-section-page-title-wrapper
+Built pattern: molecules-backgrounder
+Built pattern: molecules-content
+Built pattern: molecules-highlights
+Built pattern: molecules-factcheck-body
+Built pattern: molecules-schedule-action-links
+Built pattern: molecules-tags@forapproval
+Built pattern: molecules-pagedescript
+Built pattern: molecules-dropdowntext
+Built pattern: molecules-additionaltext
+Built pattern: molecules-tabs
+Built pattern: molecules-calendar--js
+Built pattern: molecules-calendar--nojs
+Built pattern: molecules-calendar-component
+Built pattern: molecules-calendar
+Built pattern: molecules-CMS-editorial-bar
+Built pattern: molecules-google-translate
+Built pattern: molecules-footer
+Built pattern: molecules-footer-template-1
+Built pattern: molecules-footer-template-2
+Built pattern: molecules-social-networks
+Built pattern: molecules-search
+Built pattern: molecules-actual-program-banner
+Built pattern: molecules-navigation
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-navi-item
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-navi-media-live-or-latest
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-navi-media-upcoming
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-navi-media-subitems
+Built pattern: molecules-footer-navigation
+Built pattern: molecules-simple-menu
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-panel-broadcasting
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-panel-tv
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-multimedia-context-menu
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-entity-sites-voa
+Built pattern: molecules-back-to-top-navigation
+Built pattern: molecules-item-header
+Built pattern: molecules-media-placeholder-master
+Built pattern: molecules-media-placeholder-image
+Built pattern: molecules-media-placeholder-photo-comparison
+Built pattern: molecules-media-placeholder-link
+Built pattern: molecules-media-placeholder-infographic
+Built pattern: molecules-media-placeholder-player-audio-wysiwyg
+Built pattern: molecules-media-placeholder-player
+Built pattern: molecules-media-placeholder-quiz-embedded
+Built pattern: molecules-item-affiliates-all
+Built pattern: molecules-item-affiliates-detail-city
+Built pattern: molecules-item-affiliates
+e =  Error: Unclosed section "items-satelite-broadcast" at 1684
+  at parseTemplate (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:226:13)
+  at Writer.parse (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:450:34)
+  at Writer.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:465:23)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:603:26)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-item-satelite-broadcasts
+Built pattern: molecules-item-satelite
+e =  Error: Unclosed section "itemsSpecific" at 722
+  at parseTemplate (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:226:13)
+  at Writer.parse (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:450:34)
+  at Writer.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:465:23)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:603:26)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-item-wave
+Built pattern: molecules-content-sharing
+Built pattern: molecules-generic-sharing
+Built pattern: molecules-intro
+Built pattern: molecules-item-page-support-links
+Built pattern: molecules-publishing-details
+Built pattern: molecules-tags@forapproval
+Built pattern: molecules-blockquote@inprogress
+Built pattern: molecules-category
+Built pattern: molecules-slide-in-widget
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-you-might-like
+Built pattern: molecules-archive-layout-thumbnails
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-archive-layout-blog
+Built pattern: molecules-article-body
+Built pattern: molecules-article-actions@forapproval
+Built pattern: molecules-article-map@forapproval
+Built pattern: molecules-author-link
+Built pattern: molecules-author
+Built pattern: molecules-author-highlight
+Built pattern: molecules-schedule-body
+Built pattern: molecules-affiliates-body
+Built pattern: molecules-program-index-body-2
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-satelite-body
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-waves-body
+Built pattern: molecules-liveblog-entry
+Built pattern: molecules-HTML5-player-audio
+Built pattern: molecules-HTML5-player-video
+Built pattern: molecules-media-download-schedule
+Built pattern: molecules-media-download
+Built pattern: molecules-category-menu
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-OLD_04-media-placeholder-player-audio-wysiwyg
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-OLD_04-media-placeholder-player
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-OLD_05-HTML5-player-audio
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-OLD_05-HTML5-player-video
+Built pattern: molecules-program-header
+Built pattern: molecules-program-index-body
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-program-body
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-program-item-body
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-program-body-episodes
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-program-body-about
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-program-body-articles
+Built pattern: molecules-quiz-master
+Built pattern: molecules-quiz-intro
+Built pattern: molecules-quiz-question-select
+Built pattern: molecules-quiz-question-answered
+Built pattern: molecules-quiz-results
+Built pattern: molecules-rss-content-body
+Built pattern: molecules-thumbnail@complete
+Built pattern: molecules-thumbnail_full-width_16x9@complete
+Built pattern: molecules-thumbnail_list-thumbnail_16x9@complete
+Built pattern: molecules-thumbnail_full-width_4x3@complete
+Built pattern: molecules-thumbnail_full-width_1x1@complete
+Built pattern: molecules-thumbnail_with-icon@inreview
+Built pattern: molecules-thumbnail_with-icon_play@complete
+Built pattern: molecules-thumbnail_rounded@complete
+Built pattern: molecules-thumbnail_media
+Built pattern: molecules-contact-us
+Built pattern: molecules-most-popular
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-poll
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-HTML-widget
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-multimedia-widget
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-region
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-tv-stream
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-comment-widget-item
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-widget-factcheck
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-slider
+e =  TypeError: Invalid template! Template should be a "string" but "undefined" was given as the first argument for mustache#render(template, view, partials)
+  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:598:13)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
+  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
+  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
+  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
+  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
+  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
+  at Array.forEach (native)
+  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
+  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
+  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
+  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
+  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
+  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
+  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
+  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
+  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
+  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
+  at Module._compile (module.js:571:32)
+  at Object.Module._extensions..js (module.js:580:10)
+  at Module.load (module.js:488:32)
+  at tryModuleLoad (module.js:447:12)
+  at Function.Module._load (module.js:439:3)
+  at Module.runMain (module.js:605:10)
+  at run (bootstrap_node.js:427:7)
+  at startup (bootstrap_node.js:151:9)
+  at bootstrap_node.js:542:3
+
+Built pattern: molecules-media-slider-buttons
+Built pattern: molecules-form
+Built pattern: molecules-form-input
+Built pattern: molecules-form-checkbox
+Built pattern: molecules-captcha
+Built pattern: molecules-captcha-nojs
+Built pattern: molecules-system-message
+Built pattern: molecules-comments-reply-form
+Built pattern: molecules-comments-report-form
+Built pattern: molecules-comments-submit-form
+Built pattern: molecules-comment
+Built pattern: molecules-comments-list
+Built pattern: molecules-comments-pangea
+Built pattern: molecules-comments
+Built pattern: molecules-comments-facebook
+Built pattern: molecules-form-group-user-name
+Built pattern: molecules-login-crosslinks
+Built pattern: molecules-panel-search-inpage
+Built pattern: molecules-search-element
+Built pattern: molecules-CMS-editorial-bar
+Built pattern: molecules-google-translate
+
+Done.
