@@ -29,14 +29,8 @@ Could not find pattern referenced with partial syntax molecules-media-block-hold
 JSON provided by partial pattern molecules-media-block-holder  is invalid and cannot be copied
 Could not find pattern referenced with partial syntax molecules-media-block-holder-specific . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
 Could not find pattern referenced with partial syntax molecules-media-block-holder . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern atoms-title is invalid and cannot be copied
-Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern atoms-title is invalid and cannot be copied
 Could not find pattern referenced with partial syntax molecules-media-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
 JSON provided by partial pattern molecules-media-holder is invalid and cannot be copied
-Could not find pattern referenced with partial syntax atoms-title. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
 Could not find pattern referenced with partial syntax molecules-media-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
 Could not find pattern referenced with partial syntax molecules-comments-pangea . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
 JSON provided by partial pattern molecules-comments-pangea  is invalid and cannot be copied
@@ -120,6 +114,7 @@ Built pattern: atoms-link-strong
 Built pattern: atoms-link-strong-small
 Built pattern: atoms-link-next
 Built pattern: atoms-link-prev
+Built pattern: atoms-title
 Built pattern: atoms-badge_zone@complete
 Built pattern: atoms-time
 Built pattern: atoms-image@inreview
@@ -202,74 +197,8 @@ Built pattern: molecules-item-header
 Built pattern: molecules-item-affiliates-all
 Built pattern: molecules-item-affiliates-detail-city
 Built pattern: molecules-item-affiliates
-e =  Error: Unclosed section "items-satelite-broadcast" at 1684
-  at parseTemplate (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:226:13)
-  at Writer.parse (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:450:34)
-  at Writer.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:465:23)
-  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:603:26)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
-  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
-  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
-  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
-  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
-  at Array.forEach (native)
-  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
-  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
-  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
-  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
-  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
-  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
-  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
-  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
-  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
-  at Module._compile (module.js:571:32)
-  at Object.Module._extensions..js (module.js:580:10)
-  at Module.load (module.js:488:32)
-  at tryModuleLoad (module.js:447:12)
-  at Function.Module._load (module.js:439:3)
-  at Module.runMain (module.js:605:10)
-  at run (bootstrap_node.js:427:7)
-  at startup (bootstrap_node.js:151:9)
-  at bootstrap_node.js:542:3
-
 Built pattern: molecules-item-satelite-broadcasts
 Built pattern: molecules-item-satelite
-e =  Error: Unclosed section "itemsSpecific" at 722
-  at parseTemplate (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:226:13)
-  at Writer.parse (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:450:34)
-  at Writer.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:465:23)
-  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:603:26)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
-  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
-  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
-  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
-  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
-  at Array.forEach (native)
-  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
-  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
-  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
-  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
-  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
-  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
-  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
-  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
-  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
-  at Module._compile (module.js:571:32)
-  at Object.Module._extensions..js (module.js:580:10)
-  at Module.load (module.js:488:32)
-  at tryModuleLoad (module.js:447:12)
-  at Function.Module._load (module.js:439:3)
-  at Module.runMain (module.js:605:10)
-  at run (bootstrap_node.js:427:7)
-  at startup (bootstrap_node.js:151:9)
-  at bootstrap_node.js:542:3
-
 Built pattern: molecules-item-wave
 Built pattern: molecules-content-sharing
 Built pattern: molecules-generic-sharing
@@ -292,73 +221,7 @@ Built pattern: molecules-author-highlight
 Built pattern: molecules-schedule-body
 Built pattern: molecules-affiliates-body
 Built pattern: molecules-program-index-body-2
-e =  Error: Unclosed section "items-satelite-broadcast" at 4980
-  at parseTemplate (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:213:17)
-  at Writer.parse (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:450:34)
-  at Writer.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:465:23)
-  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:603:26)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
-  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
-  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
-  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
-  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
-  at Array.forEach (native)
-  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
-  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
-  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
-  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
-  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
-  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
-  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
-  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
-  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
-  at Module._compile (module.js:571:32)
-  at Object.Module._extensions..js (module.js:580:10)
-  at Module.load (module.js:488:32)
-  at tryModuleLoad (module.js:447:12)
-  at Function.Module._load (module.js:439:3)
-  at Module.runMain (module.js:605:10)
-  at run (bootstrap_node.js:427:7)
-  at startup (bootstrap_node.js:151:9)
-  at bootstrap_node.js:542:3
-
 Built pattern: molecules-satelite-body
-e =  Error: Unclosed section "itemsSpecific" at 1482
-  at parseTemplate (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:213:17)
-  at Writer.parse (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:450:34)
-  at Writer.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:465:23)
-  at Object.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/mustache/mustache.js:603:26)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternengine-node-mustache/lib/engine_mustache.js:47:23)
-  at Pattern.render (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/object_factory.js:101:26)
-  at renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:145:22)
-  at Object.renderPattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/pattern_assembler.js:587:14)
-  at renderSinglePattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:387:52)
-  at patternsToBuild.forEach.pattern (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:40)
-  at Array.forEach (native)
-  at buildPatterns (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:585:21)
-  at Object.build (/Users/machal/Sites/RFERL/patternlab2/node_modules/patternlab-node/core/lib/patternlab.js:608:7)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/Gruntfile.js:36:10)
-  at Object.thisTask.fn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/task.js:73:16)
-  at Object.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:294:30)
-  at Task.runTaskFn (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:244:24)
-  at Task.<anonymous> (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:293:12)
-  at Task.start (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/util/task.js:302:5)
-  at Object.grunt.tasks (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt.js:155:8)
-  at Object.module.exports [as cli] (/Users/machal/Sites/RFERL/patternlab2/node_modules/grunt/lib/grunt/cli.js:27:9)
-  at Object.<anonymous> (/usr/local/lib/node_modules/grunt-cli/bin/grunt:45:20)
-  at Module._compile (module.js:571:32)
-  at Object.Module._extensions..js (module.js:580:10)
-  at Module.load (module.js:488:32)
-  at tryModuleLoad (module.js:447:12)
-  at Function.Module._load (module.js:439:3)
-  at Module.runMain (module.js:605:10)
-  at run (bootstrap_node.js:427:7)
-  at startup (bootstrap_node.js:151:9)
-  at bootstrap_node.js:542:3
-
 Built pattern: molecules-waves-body
 Built pattern: molecules-liveblog-entry
 Built pattern: molecules-HTML5-player-audio
