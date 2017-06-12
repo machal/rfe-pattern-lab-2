@@ -3,11 +3,11 @@
     <h3 class="section-head">{{ texts.comments_form_head }}</h3>
     <div id="comments-place">
         {{#comments-open}}
-        {{> molecules-comments-submit-form  }}
+        {{> molecules-comments-submit-form}}
         {{/comments-open}}
         {{^comments-open}}
         <span class="comments-closed-msg">This forum has been closed.</span>
         {{/comments-open}}
-        {{> molecules-comments-list  }}
+        {{> molecules-comments-list}}
     </div>
 </div>

@@ -6,7 +6,7 @@
         <span class="user">{{author}}{{#author_location}} <span class="location">({{author_location}})</span>{{/author_location}}</span>
         {{#is_moderator}} <div class="moderator label">{{texts.comments_moderator}}</div>{{/is_moderator}}
         <div class="date">{{texts.pub-date-text}} 14:27</div>
-    </div>  
+    </div>
     <div class="comment-content">
         {{#text}}
         <p>
@@ -39,9 +39,9 @@
 </div>
 
 {{#has_reply_form}}
-{{> molecules-comments-reply-form  }}
+{{> molecules-comments-reply-form}}
 {{/has_reply_form}}
 
 {{#has_report_form}}
-{{> molecules-comments-report-form  }}
+{{> molecules-comments-report-form}}
 {{/has_report_form}}
