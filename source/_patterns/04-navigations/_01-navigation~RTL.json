@@ -1,0 +1,889 @@
+{
+    "header-template-1": true,
+    "its-rtl": false,
+    "nav-type": "horizontal",
+    "its-en": true,
+    "its-ru": false,
+    "its-fa": false,
+    "its-tg": false,
+    "entity": "RFE",
+    "site": "en-US",
+    "content-type": "pg-nav",
+
+
+    "navigation_fallback": {
+        "navigation": {
+            "Watch": "ببینید",
+            "Listen": "بشنوید",
+            "Live": "",
+            "more": "بیشتر",
+            "language-toggle": "Learning English",
+            "link": "/patterns/10-RFE_rtl-22-success-persian/10-RFE_rtl-22-success-persian.html",
+            "RFERL-Sites": "دیگر زبان‌ها",
+            "link": "/patterns/10-RFE_rtl-22-success-persian/10-RFE_rtl-22-success-persian.html",
+            "user-name-NOT-IN-FIRST-PHASE": "login",
+            "all-in-category": "همه موارد را ببینید",
+            "sites-by-language": "Languages",
+            "sites-by-language-link": "/patterns/05-Phase1-52-entity-sites-voa/05-Phase1-52-entity-sites-voa.html",
+            "sites-by-language-preloaded": false,
+            "menu-items-media": [
+                {
+                    "item": {
+                        "item-label": "تلویزیون",
+                        "item-id": "watch",
+                        "is-tv": true,
+                        "has-subitems": true,
+                        "has-menu-box": true,
+                        "action-button": "ببینید",
+                        "is-live": false,
+                        "Live": "Live",
+                        "header": {
+                            "hightlight": "در حال پخش",
+                            "upcoming": "برنامه بعدی",
+                            "more": "برنامه‌های بیشتر"
+                        },
+                        "subitems": [
+                            {
+                                "subitem-label": "خبرها",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "برنامه‌ها",
+                                "link": "/patterns/10-RFE_rtl-06-program-index-persian/10-RFE_rtl-06-program-index-persian.html?tab=tv"
+                            },
+                            {
+                                "subitem-label": "جدول برنامه‌ها",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "video",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "10:00 - 12:00",
+                                    "category": "جهان",
+                                    "title": "\"قصه‌های جنگ\" یادبود ویتنام",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/vietnam.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "has-specific-items-upcoming": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "video",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "12:00 - 12:30",
+                                    "category": "اروپا",
+                                    "title": "اخبار شرق اروپا",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/vietnam.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "video",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "12:30 - 13:00",
+                                    "category": "جهان",
+                                    "title": "جنگ فن‌آوری بین شرکت‌ها",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/vietnam.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "video",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "13:00 - 16:00",
+                                    "category": "جهان",
+                                    "title": "اخبار جهان",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/vietnam.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "رادیو",
+                        "item-id": "listen",
+                        "is-radio": true,
+                        "has-subitems": true,
+                        "has-menu-box": true,
+                        "action-button": "پخش زنده",
+                        "is-live": true,
+                        "Live": "حي",
+                        "header": {
+                            "hightlight": "در حال پخش",
+                            "upcoming": "برنامه بعدی",
+                            "more": "بیشتر"
+                        },
+                        "subitems": [
+                            {
+                                "subitem-label": "خبرها",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "برنامه‌ها",
+                                "link": "/patterns/10-RFE_rtl-06-program-index-persian/10-RFE_rtl-06-program-index-persian.html?tab=radio"
+                            },
+                            {
+                                "subitem-label": "جدول برنامه‌ها",
+                                "link": "#success"
+                            },
+                            {
+                                "subitem-label": "پادکست",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "audio",
+                                    "isLive": true,
+                                    "date": "1.10. 2005",
+                                    "time": "11:00 - 12:00",
+                                    "category": "World",
+                                    "title": "از چهارگوشه جهان",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-07-program-item-audio-persian/10-RFE_rtl-07-program-item-audio-persian.html",
+                                    "img": {
+                                        "landscape-4x3": {
+                                            "src": "http://placeimg.com/400/300/tech?xsa",
+                                            "alt": "4x3 Image"
+                                        },
+                                        "landscape-16x9": {
+                                            "src": "/images/radio-graphic.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "has-specific-items-upcoming": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "audio",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "12:00 - 13:00",
+                                    "category": "جهان",
+                                    "title": "گفت‌وگو با استیو جابز",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-22-success-persian/10-RFE_rtl-22-success-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/vietnam.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "audio",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "13:00 - 14:00",
+                                    "category": "جهان",
+                                    "title": "زنده از منطقه درگیری",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/vietnam.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "audio",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "14:00 - 16:00",
+                                    "category": "World",
+                                    "title": "آموزش انگلیسی",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/vietnam.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "menu-items": [
+                {
+                    "item": {
+                        "item-label": "صفحه‌اصلی",
+                        "item-id": "02",
+                        "has-subitems": false,
+                        "has-menu-box": false,
+                        "link": "/patterns/10-RFE_rtl-00-homepage-persian/10-RFE_rtl-00-homepage-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "آسیا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "آفریقا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "اروپا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "آمریکا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": false
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "جهان",
+                        "item-id": "02",
+                        "has-subitems": true,
+                        "has-menu-box": false,
+                        "link": "/patterns/10-RFE_rtl-01-archive-persian/10-RFE_rtl-01-archive-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "آسیا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "آفریقا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "اروپا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "آمریکا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "28.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "متخصصان سلامت، درمان‌های مختلفی را برای ابولا در نظر دارند",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-02-article1-persian/10-RFE_rtl-02-article1-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/B404981D-391E-4D76-A02A-D435B608FEBC_w300_r1.jpg?635473331315106917",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "28.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "موافقت خلبانان ایرفرانس با  پایان دادن به اعتصاب دو هفته‌ای",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/297530D1-0E3C-4429-8511-E5493D61F3C8_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "29.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "دیدار نخست‌وزیر هند با باراک اوباما در کاخ سفید",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/45CBE784-B574-4449-B2E4-8EA83FBB9DD3_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "28.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "پلیس فرگوسن: شلیک به افسر پلیس با نزاع‌های نژادی مرتبط نبود",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/A1C60C4A-4EFF-4279-9BF3-3754F34B6F3C_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "سلامت",
+                        "item-id": "03",
+                        "has-subitems": true,
+                        "has-menu-box": false,
+                        "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "تغذیه",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "پزشکی",
+                                "link": "/patterns/10-RFE_rtl-01-archive-medical-persian/10-RFE_rtl-01-archive-medical-persian.html"
+                            },
+                            {
+                                "subitem-label": "روان",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "دندان",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "10:00 - 11:00",
+                                    "category": "سلامت",
+                                    "title": "چین متعهد به اصلاحات در ایمنی غذا و دارو شد",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/B4F92003-DE40-4E89-8F82-CF5F55230D34_w300_r1_s.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "10:00 - 11:00",
+                                    "category": "سلامت",
+                                    "title": "زامبیا گزارش‌ها در مورد پزشکی شیطانی را رد کرد",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/3DD2A9DB-144C-4C43-8227-331F1E053A7D_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "10:00 - 11:00",
+                                    "category": "سلامت",
+                                    "title": "متخصصان سلامت، درمان‌های مختلفی را برای ابولا در نظر دارند",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-02-article1-persian/10-RFE_rtl-02-article1-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/B404981D-391E-4D76-A02A-D435B608FEBC_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "video",
+                                    "isLive": false,
+                                    "date": "1.10. 2005",
+                                    "time": "10:00 - 11:00",
+                                    "category": "سلامت",
+                                    "title": "ویکتوریا بکهام، سفیر برنامه ایدز سازمان ملل شد ",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/729B5AD5-AFA4-46DD-BF4C-5AA1065DC560_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "فن‌آوری",
+                        "item-id": "04",
+                        "has-subitems": true,
+                        "has-menu-box": false,
+                        "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "تلفن",
+                                "link": "/patterns/10-RFE_rtl-01-archive-phones-persian/10-RFE_rtl-01-archive-phones-persian.html"
+                            },
+                            {
+                                "subitem-label": "تبلت",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "رایانه",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "عکس و فیلم",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "28.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "اپل از آیفون جدید رونمایی کرد",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-02-article2-persian/10-RFE_rtl-02-article2-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "/images/iPhone6.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "26.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "فضانوردان روسیه و آمریکا به ایستگاه فضایی رسیدند ",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/9D126D44-BF27-41FE-A8A6-47EF52060812_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "25.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "پژوهش‌ها می‌گوید قدمت آب در منظومه خورشیدی بیش از خورشید است",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/86B3A251-9ABB-4E04-AAE4-87470C17CABA_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "24.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "سفینه فضایی هند با موفقیت به مریخ رسید ",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://gdb.voanews.com/FC3FCB99-3BAA-42AD-AB29-D0BE0D4F4F9F_w300_r1.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "ورزش",
+                        "item-id": "05",
+                        "has-subitems": true,
+                        "has-menu-box": false,
+                        "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "فوتبال",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "هاکی",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "تنیس",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "دیگر رشته‌ها",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "28.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "لیگ برتر؛ ۱۰ چیز که در این هفته باید دنبال آن باشید",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-02-article2-persian/10-RFE_rtl-02-article2-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Football/Pix/pictures/2014/10/3/1412292768773/Ten-things-010.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "26.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "لوئیس همیلتون در گراند پری ژاپن",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/3/1412328872710/Arsene-Wenger-010.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "25.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "اسپورتینگ کانزاس به دیدار از کاخ سفید دلبسته است",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/2/1412279841378/1a16243e-eb23-47fe-8bae-28c5f4e377a5-620x372.jpeg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "24.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "بازگشت مایک تایسون به بوکس حرفه‌ای",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/30/1412088401486/Mike-Tyson-bites-Evander--010.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "فرهنگ",
+                        "item-id": "06",
+                        "has-subitems": true,
+                        "has-menu-box": false,
+                        "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "سینما",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "رادیو و تلویزیون",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "هنر و طراحی",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "کتاب",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "موسیقی",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "audio",
+                                    "isLive": false,
+                                    "date": "28.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "کیتارو، آهنگساز و نوازنده سرشناس ژاپنی، وارد ایران شد",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-02-article2-persian/10-RFE_rtl-02-article2-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/1/1412177439069/hozier-012.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "26.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "",
+                                    "title": "انتشار آخرین اشعار شیموس هینی در ایرلند",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/2/1412262269594/Seamus-Heaney-put-the-fin-012.jpg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "camera",
+                                    "isLive": false,
+                                    "date": "25.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "",
+                                    "title": "وقتی هنرمندان با دوربین به طبیعت می‌روند - گزارش تصویری",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/26/1411723870962/ac1e11db-ae52-47ad-8ae6-6c6358358543-1020x680.jpeg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "24.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "",
+                                    "title": "شعرهای پوستر: فراموش کردن",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/3/1412339941270/c18ed046-6580-484f-bf7d-31956cc118b8-620x372.jpeg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "اقتصاد",
+                        "item-id": "07",
+                        "has-subitems": true,
+                        "has-menu-box": false,
+                        "has-specific-items": false,
+                        "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "سرمایه",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "تجارت",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "دولت",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "item": {
+                        "item-label": "مدXXXX",
+                        "item-id": "08",
+                        "has-subitems": true,
+                        "has-menu-box": false,
+                        "specialClass": "last-menu-item",
+                        "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                        "subitems": [
+                            {
+                                "subitem-label": "هفته مد لندن",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "طراحی لباس",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            },
+                            {
+                                "subitem-label": "ردپا",
+                                "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html"
+                            }
+                        ],
+                        "has-specific-items": {
+                            "itemsSpecific": [
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "28.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "خوش‌پوش‌ترین افراد در هفته مد پاریس",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-02-article2-persian/10-RFE_rtl-02-article2-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/2/1412261639429/d580f62a-ff39-4805-bb24-ce21fe86edcc-620x372.jpeg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "26.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "نمایش لباس در هفته مد مسکو",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/1/1412169268298/84065acd-c495-46d2-9244-3972ffe7508a-620x372.jpeg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "25.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "زنان و هفته مد پاریس",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/30/1412087041118/0ccda825-b945-468c-b3d9-1e8f085fc54c-620x372.jpeg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                },
+                                {
+                                    "itemIcon": "",
+                                    "isLive": false,
+                                    "date": "24.10. 2014",
+                                    "time": "10:00 - 11:00",
+                                    "category": "جهان",
+                                    "title": "ساعت اپل در هفته مد پاریس - پنج چیز که ما آموختیم",
+                                    "intro": "",
+                                    "link": "/patterns/10-RFE_rtl-09-try-again-persian/10-RFE_rtl-09-try-again-persian.html",
+                                    "img": {
+                                        "landscape-16x9": {
+                                            "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/30/1412072696863/ddcbeebc-2dbd-4b34-8c3f-529cb013b1a4-620x372.jpeg",
+                                            "alt": "16x9 Image"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+
+            ],
+            "login-menu-items": [
+                {
+                    "item": {
+                        "item-label": "Login",
+                        "item-id": "login-01",
+                        "specialClass": "logged-out",
+                        "hasIcon": true,
+                        "iconType": "user",
+                        "has-subitems": false,
+                        "has-menu-box": false,
+                        "link": "/patterns/09-RFE-06-login/09-RFE-06-login.html",
+                        "subitems": [
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

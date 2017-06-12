@@ -11,6 +11,29 @@ Done loading engines.
 ====[ Pattern Lab / Node - v2.9.3 ]====
 
 Running "patternlab" task
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern templates-_navigation_fallback is invalid and cannot be copied
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern templates-_navigation_fallback is invalid and cannot be copied
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern templates-_navigation_fallback is invalid and cannot be copied
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern templates-_navigation_fallback is invalid and cannot be copied
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern templates-_navigation_fallback is invalid and cannot be copied
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
+JSON provided by partial pattern templates-_navigation_fallback is invalid and cannot be copied
+Could not find pattern referenced with partial syntax templates-_navigation_fallback. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
 Built pattern: atoms-button-standard
 Built pattern: atoms-button-standard-secondary
 Built pattern: atoms-button-secondary
@@ -229,5 +252,69 @@ Built pattern: molecules-panel-search-inpage
 Built pattern: molecules-search-element
 Built pattern: molecules-CMS-editorial-bar
 Built pattern: molecules-google-translate
+Built pattern: templates-article
+Built pattern: templates-article_v2
+Built pattern: templates-liveblog
+Built pattern: templates-simplified-article
+Built pattern: templates-simplified-liveblog
+Built pattern: templates-simplified-media
+Built pattern: templates-simplified-photoblog
+Built pattern: templates-homepage-4col-MBN
+Built pattern: templates-homepage-4col
+Built pattern: templates-homepage-7.01
+Built pattern: templates-homepage-7.02
+Built pattern: templates-homepage-7.08
+Built pattern: templates-homepage-PHASE1
+Built pattern: templates-homepage-polygraph
+Built pattern: templates-homepage-top-area
+Built pattern: templates-homepage
+Built pattern: templates-infopage_3c
+Built pattern: templates-section-comment-widget-7.16
+Built pattern: templates-section-html-widget-7.11
+Built pattern: templates-section-media-widget-7.10
+Built pattern: templates-top-story-widget-7.09
+Built pattern: templates-NOJS-media-navigation-page
+Built pattern: templates-audio-pop-out-player
+Built pattern: templates-media
+Built pattern: templates-photoblog
+Built pattern: templates-archive-factcheck
+Built pattern: templates-archive
+Built pattern: templates-broadcast-page
+Built pattern: templates-infographic
+Built pattern: templates-pool-page
+Built pattern: templates-program-index
+Built pattern: templates-program-item
+Built pattern: templates-program
+Built pattern: templates-quiz-embedded
+Built pattern: templates-quiz
+Built pattern: templates-rss-podcast
+Built pattern: templates-schedule
+Built pattern: templates-author
+Built pattern: templates-search
+Built pattern: templates-subscription
+Built pattern: templates-job-detail
+Built pattern: templates-jobs-landing
+Built pattern: templates-login-liberty
+Built pattern: templates-login
+Built pattern: templates-navigation_fallback
+Built pattern: templates-ugc
+Built pattern: templates-comments-fallback
+Built pattern: templates-breaking-news-page
+Built pattern: templates-success
+Built pattern: templates-page-404
+Built pattern: templates-content-redirection-page
+Built pattern: templates-entity-sites-rfe
+Built pattern: templates-entity-sites-voa
+Built pattern: templates-XXX-03-photoblog-compare
+Built pattern: templates-XXX-52-entity-sites-ocb
+Built pattern: templates-XXX-52-entity-sites
+Built pattern: templates-XXX_05-archive_4c
+Built pattern: templates-XXX_21-try-again
+Built pattern: navigations-navigation
+Built pattern: navigations-navigation-georgian
+Built pattern: navigations-navigation-multiple-tube
+Built pattern: navigations-navigation-no-media
+Built pattern: navigations-navigation-RTL-no-media
+Built pattern: navigations-navigation-RTL
 
 Done.
