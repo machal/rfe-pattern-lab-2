@@ -11,63 +11,6 @@ Done loading engines.
 ====[ Pattern Lab / Node - v2.9.3 ]====
 
 Running "patternlab" task
-Could not find pattern referenced with partial syntax molecules-media-block-holder-specific . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-media-block-holder-specific  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-media-block-holder . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-media-block-holder  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-media-block-holder-specific . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-media-block-holder . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-media-block-holder-specific . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-media-block-holder-specific  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-media-block-holder . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-media-block-holder  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-media-block-holder-specific . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-media-block-holder . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-media-block-holder-specific . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-media-block-holder-specific  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-media-block-holder . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-media-block-holder  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-media-block-holder-specific . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-media-block-holder . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-media-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-media-holder is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-media-holder. This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-pangea . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-pangea  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-facebook . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-facebook  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-pangea . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-facebook . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-reply-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-reply-form  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-report-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-report-form  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-reply-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-report-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comment  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comment . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-submit-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-submit-form  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-list . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-list  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-submit-form . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-list . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-pangea . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-pangea  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-facebook . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-JSON provided by partial pattern molecules-comments-facebook  is invalid and cannot be copied
-Could not find pattern referenced with partial syntax molecules-comments-pangea . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
-Could not find pattern referenced with partial syntax molecules-comments-facebook . This can occur when a pattern was renamed, moved, or no longer exists but it still called within a different template somewhere.
 Built pattern: atoms-button-standard
 Built pattern: atoms-button-standard-secondary
 Built pattern: atoms-button-secondary
