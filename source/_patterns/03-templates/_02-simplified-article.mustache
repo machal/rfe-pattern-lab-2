@@ -1,0 +1,79 @@
+<div id="content">
+    {{#mainImage}}
+        <div class="media-hdr-container">
+            <div class="container">
+                <img src="{{img}}" alt="{{imgAltText}}" class="enhanced" />
+
+                {{#text}}
+                    <p class="caption">{{{text}}}</p>
+                {{/text}}
+            </div>
+        </div>
+    {{/mainImage}}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11 pull-left">
+                        {{#category}}
+                            <!-- item category (zone) -->
+                            {{> molecules-category }}
+                        {{/category}}
+
+                        <!-- item title (H1) -->
+                        {{> atoms-title }}
+
+                        <div class="publishing-details">
+                            <!-- data and time -->
+                            <div class="published">
+                                <span class="{{#pubDateText}}date{{/pubDateText}} {{#broadcastTime}}time{{/broadcastTime}}" title="{{timeZone}}">
+                                    {{pubDateText}} {{broadcastTime:23456}}
+                                </span>
+                            </div>
+                            <!-- /.published -->
+
+                            {{> molecules-author-link }}
+                            <!-- /.authors -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- item-body -->
+        <div class="body-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 pull-left content-offset bottom-offset">
+                            <!-- intro -->
+                            {{^introTop}} <!-- if not at the top of the page (above image) -->
+                                {{> molecules-intro}}
+                            {{/introTop}}
+
+                            <!-- on media page "main content" - hidden by default, loaded by Ajax (or by URL parameter for devices without JavaScript support) -->
+                            <div id="article-content">
+                                <!-- main content -->
+                                {{> molecules-content}}
+                            </div>
+                            <!-- comments  -->
+                            {{> molecules-comments}}
+                        </div>
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.body-container -->
+    </div><!-- /.container-->
+
+    <!-- bottom part -->
+    {{!> molecules-comments}}
+    {{> molecules-slide-in-widget}}
+    {{> molecules-you-might-like}}
+
+
+</div><!-- /.content-->
+

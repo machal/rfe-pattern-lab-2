@@ -1,0 +1,25 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+
+        {{#quiz}}
+        <!-- item header -->
+        {{> molecules-item-header}}
+        {{/quiz}}
+
+    </div><!-- /.container-->
+    
+    <!-- bottom part -->
+    {{!> molecules-comments}}
+    {{!> molecules-slide-in-widget}}
+    {{> molecules-you-might-like}}
+
+</div><!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}
+ 

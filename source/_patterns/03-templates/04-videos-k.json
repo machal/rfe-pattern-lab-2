@@ -1,0 +1,38 @@
+{
+    "category": "Categoryx",
+    "title": "Video Title",
+    "intro": "The chairman of Ukraine's Central Election Commission has said that Petro Poroshenko has been elected president of Ukraine.",
+    "content": [
+        "<p>The chairman of Ukraine's Central Election Commission has said that Petro Poroshenko has been elected president of Ukraine. </p>",
+        "<p>Commission Chairman Mykhaylo Ohendovskyy told a press briefing in Kyiv that there will be no need for a second round of the presidential election, as Poroshenko received enough votes to be declared the winner outright.</p>",
+        "<p>Briefing in Kyiv that there will be no need for a second round of the presidential election, as Poroshenko received enough said that has been elected president of Ukraine.</p>",
+        "<h1>Iraqi Parliament Speaker Resigns</h1>",
+        "<p>Ohendovskyy said, \"Ukraine's new president, Petro Poroshenko, was elected on May 25.</p>",
+        "<h2>Iraqi Parliament Speaker Resigns</h2>",
+        "<p>The commission said that, with more than 90 percent of the vote processed, Poroshenko had more than 54 percent of the vote, followed by former Prime Minister Yulia  Tymoshenko with 13 percent.</p>",
+        "<h3>Iraqi Parliament Speaker Resigns</h3>",
+        "<p>The commission said that, with more than 90 percent of the vote processed, Poroshenko had more than 54 percent of the vote, followed by former Prime Minister Yulia  Tymoshenko with 13 percent.</p>",
+        "<h4>Iraqi Parliament Speaker Resigns</h4>",
+        "<p>The commission said that, with more than 90 percent of the vote processed, Poroshenko had more than 54 percent of the vote, followed by former Prime Minister Yulia  Tymoshenko with 13 percent.</p>"
+    ],
+    "widgetThumbnails": [
+        {
+            "img.landscape-16x9.src": "../../images/speaker.jpg",
+            "zone": "Brno",
+            "heading_h3": "Kyrgyz Parliament Elects New Speaker",
+            "paragraph": "Ata-Jurt party nominated Kurmanbek Osmonov to be speaker but he did not have as much Atambaev won a popular election and the speaker is chosen by parliament, not by one party"
+        },
+        {
+            "img.landscape-16x9.src": "../../images/bee.jpg",
+            "zone": "Afghanistan",
+            "heading_h3": "The Land Of Smoke And Honey",
+            "paragraph": "It took Moscow Mayor Yury Luzhkov a while to Or maybe it was the suffering of his pet bees This bee thing might just be the excuse the powers-that-be are looking for to tell Luzhkov"
+        },
+        {
+            "img.landscape-16x9.src": "../../images/korea.jpg",
+            "zone": "World",
+            "heading_h3": "South Korea, Japan Support UN North Korea Warning",
+            "paragraph": "South Korea and Japan have welcomed a declaration by the UN Security Council threatening punitive measures if North Korea carries out a nuclear test"
+        }
+    ]
+}

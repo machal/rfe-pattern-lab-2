@@ -1,0 +1,105 @@
+﻿{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+
+    <div class="container">
+
+        <!-- item header -->
+        {{> molecules-item-header}}
+
+        <!-- item-body -->
+        <div class="body-container">
+            <div class="row">
+
+                {{^mainImage}} <!-- if it has main image, the Sharing should be part of "hdr-container"-->
+                {{^sharing-hidden-at-the-top}}
+                <div class="col-xs-12 col-md-2 pull-left article-share">
+                    {{> molecules-content-sharing }}
+
+                    {{#item-page-link-to-comments-enabled}}
+                    <!-- comments link -->
+                    <p class="link-comments">
+                        <a href="#comments">
+                            {{ texts.see_comments }} <i class="ico ico-chevron-down"></i>
+                        </a>
+                    </p>
+                    {{/item-page-link-to-comments-enabled}}
+                </div>
+                {{/sharing-hidden-at-the-top}}
+                {{/mainImage}}
+
+
+                <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 pull-left content-offset bottom-offset">
+                            <!-- intro -->
+                            {{^introTop}} <!-- if not at the top of the page (above image) -->
+                            {{> molecules-intro}}
+                            {{/introTop}}
+                            <!-- on media page "main content" - hidden by default, loaded by Ajax (or by URL parameter for devices without JavaScript support) -->
+                            <div id="article-content">
+                                <!-- main content -->
+                                {{> molecules-content}}
+                                <!-- personal data protection -->
+                                <div class="wsw">
+                                    <div class="action-box">
+                                        <h2>Apply Now</h2>
+                                        <p>
+                                            Should you be interested in this position please apply by sending your CV and a cover letter in English to <a href="mailto:jobs@rferl.org">jobs@rferl.org</a> , including in the subject line the vacancy number as above.
+                                        </p>
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            Appointment against this post is on a local basis only.
+                                            <a href="/info/vacancies/438.html#locally">
+                                                Detail ...
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    <hr class="separator">
+                                    <div class="text text-secondary">
+                                        <p>
+                                            By replying to this advertisement or sending your CV and/or other personal data to RadioFreeEurope/RadioLiberty, you are agreeing to having your data saved and managed by employees of the HR department of the company for possible future reference in full accordance with the law (no. 101/2000 Sb. regarding personal data protection). This agreement may only be withdrawn by a written revocation and remains valid until that date. However no longer than 5 years.
+                                            <br />Thank you
+                                        </p>
+                                        <p>
+                                            Odpovědí na tento inzerát či zasláním Vašeho životopisu a případných dalších osobních materiálů do společnosti RadioFreeEurope/RadioLiberty dáváte souhlas ke zpracování a uchování Vašich osobních údajů dle zákona č. 101/2000 Sb., o ochraně osobních údaju. Tento souhlas platí až do jeho odvolání písemnou formou, maximálně však po dobu 5 let.
+                                            <br />Děkujeme
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--secondary content-->
+                        <div class="content-secondary">
+                            {{#secondary-content-right-region-widget}}
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                {{#specific-items-html-widget-01}}
+                                {{> molecules-HTML-widget}}
+                                {{/specific-items-html-widget-01}}
+
+                                {{#specific-items-html-widget-02}}
+                                {{> molecules-HTML-widget}}
+                                {{/specific-items-html-widget-02}}
+                            </div>
+                            {{/secondary-content-right-region-widget}}
+
+                        </div><!-- /content-secondary-->
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.row -->
+        </div>
+        <!-- /#item-body -->
+
+    </div><!-- /.container-->
+</div><!-- /.page-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 

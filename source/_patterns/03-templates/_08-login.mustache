@@ -1,0 +1,47 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <!-- main content -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+
+                <!-- login -->
+                {{#login}}
+                <h1 class="pg-title">{{title}}</h1>
+                
+                {{#crossLinks}}
+                    <p class="text cross-link-login-register {{class}}">
+                        {{title}}
+                        <a href="{{link}}" title="{{linkText}}">{{linkText}}</a>
+                    </p>
+                {{/crossLinks}}
+                
+                {{#description}}
+                    <p class="desc">{{text}}</p>
+                {{/description}}
+
+                {{> molecules-form}}
+
+<!--                <div class="text">
+                {{#loginCrossLinks}}
+                    <p class="">{{title}}
+                        <a href="{{link}}" title="{{linkText}}"> {{linkText}}</a>
+                    </p>
+                {{/loginCrossLinks}}
+                </div>-->
+
+                {{/login}}
+                <!-- /login -->
+
+            </div>
+        </div><!-- /main content-->
+    </div><!-- /.container-->
+</div>
+<!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 

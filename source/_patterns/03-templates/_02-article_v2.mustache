@@ -1,0 +1,125 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <!-- item header -->
+        {{> molecules-item-header}}
+
+        <!-- item-body -->
+        <div class="body-container">
+            <div class="row">
+
+                {{^mainImage}} <!-- if it has main image, the Sharing should be part of "hdr-container"-->
+                {{^sharing-hidden-at-the-top}}
+                <div class="col-xs-12 col-md-2 pull-left article-share">
+                    {{> molecules-content-sharing }}
+                    {{> molecules-item-page-support-links }}
+                </div>
+                {{/sharing-hidden-at-the-top}}
+                {{/mainImage}}
+
+
+
+
+                <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                    <div class="row">
+
+
+                        {{#factcheck}}
+                        <!--factcheck statement-->
+                        <div class="col-xs-12">
+                            {{> molecules-factcheck-body }}
+                        </div>
+                        {{/factcheck}}
+
+
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 pull-left content-offset bottom-offset">
+                            <!-- intro -->
+                            {{^introTop}} <!-- if not at the top of the page (above image) -->
+                            {{> molecules-intro}}
+                            {{/introTop}}
+
+
+
+                            <!-- on media page "main content" - hidden by default, loaded by Ajax (or by URL parameter for devices without JavaScript support) -->
+                            <div id="article-content">
+                                <!-- main content -->
+                                {{> molecules-content}}
+                                <!-- author highlight -->
+                                {{> molecules-author-highlight}}
+                            </div>
+                            <!-- comments -->
+                            {{> molecules-comments}}
+
+                        </div>
+
+                        <!-- secondary part -->
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-left design-top-offset">
+                            <!-- Related -->
+                            {{^related-disabled }}
+                            <div class="media-block-wrap">
+                                {{#specific-items-related }}
+                                <h3 class="section-head">{{ widget-headline }}</h3>
+                                <div class="row">
+                                    {{> molecules-media-block-holder-specific(size:4, class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                                </div><!-- /.row -->
+                                {{/specific-items-related }}
+
+                                {{^specific-items-related }}
+                                <h3 class="section-head">{{ section-head.related }}</h3>
+                                <div class="row">
+                                    {{> molecules-media-block-holder(size:4, item-count:"two", class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:true, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                                </div><!-- /.row -->
+                                {{/specific-items-related }}
+                            </div>
+                            {{/related-disabled }}
+
+                            <!-- poll -->
+                            {{#poll-related-enabled}}
+                            {{> molecules-poll}}
+                            {{/poll-related-enabled}}
+
+                            <!-- External Links -->
+                            {{#external-links-enabled}}
+                            <div class="media-block-wrap">
+                                {{#specific-items-external-links }}
+                                <h3 class="section-head">{{ widget-headline }}</h3>
+                                <div class="row">
+                                    {{> molecules-media-block-holder-specific(size:4, item-count:"six", class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                                </div><!-- /.row -->
+                                {{/specific-items-external-links }}
+
+                                {{^specific-items-external-links }}
+                                <h3 class="section-head">{{ section-head.external-links }}</h3>
+                                <div class="row">
+                                    {{> molecules-media-block-holder(size:4, item-count:"six", class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                                </div><!-- /.row -->
+                                {{/specific-items-external-links }}
+                            </div>
+                            {{/external-links-enabled }}
+
+
+
+                            <!-- right-region -->
+                            {{#right-region-enabled}}
+                            {{> molecules-region}}
+                            {{/right-region-enabled}}
+
+                        </div>
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.body-container -->
+    </div><!-- /.container-->
+    <!-- bottom part -->
+    {{!> molecules-comments}}
+    {{> molecules-slide-in-widget}}
+    {{> molecules-you-might-like}}
+
+
+</div><!-- /.content-->
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}

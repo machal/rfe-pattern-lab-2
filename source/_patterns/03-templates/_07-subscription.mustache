@@ -1,0 +1,137 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+
+        <!-- main content -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+
+                <!-- SUBSCRIPTION -->
+                {{#subscription}}
+                <h1 class="pg-title">{{title}}</h1>
+                <p class="pg-subtitle">{{subtitle}}</p>
+                <h2 class="list-title">{{listTitle}}</h2>
+                <p class="desc">{{{description}}}</p>
+
+                <form>
+                    <ul class="topic-list">
+                        {{#subscription-list}}
+                        <!--                    <li>
+                                    <input type="checkbox" name="pleaseAddName" id="{{for}}" value="">
+                                    <label for="{{for}}">{{label}}</label>
+                                    <p>{{intro}}</p>
+                                </li>-->
+                        {{> molecules-form-checkbox:subscription-item}}
+
+                        {{/subscription-list}}
+
+                        {{#form}}
+
+                        {{> molecules-form-input }}
+
+                        {{/form}}
+
+                        {{> molecules-captcha }}
+
+                    </ul>
+                    <!-- system message -->
+                    <!-- Patternlab comment: this message should appear after user clicks on "subscribe" button   -->
+                    {{#system-messages-Subscription}}
+                    {{> molecules-system-message}}
+                    {{/system-messages-Subscription}}
+                    <div>
+                        <span class="help-block text-error general-input-error">{{texts.err_general_input_message}}</span>
+                    </div>
+
+                    {{> atoms-button}}
+                    <!-- Patternlab Only -->
+                    <script>
+                        //patternlab only !!!
+                        function hideAllMessages() {
+                            var allSystemMessages = document.getElementsByClassName('sys-msg');
+                            for (var i = 0; i < allSystemMessages.length; i++) {
+                                allSystemMessages[i].setAttribute("style", "display:none;");
+                            }
+                        }
+
+                        function hideErrorMessages() {
+                            var allTextError = document.getElementsByClassName('text-error');
+                            for (var i = 0; i < allTextError.length; i++) {
+                                allTextError[i].setAttribute("style", "display:none;");
+                            }
+                        }
+
+                        function hideDangerMessage() {
+                            document.getElementById('systemMessageSubscriptionDanger').setAttribute("style", "display:none;");
+
+                        }
+
+                        setTimeout(function() {
+                            //hideAllMessages();
+                            hideDangerMessage();
+                            hideErrorMessages()
+                        }, 1000);
+
+                        function showAllMessages() {
+                            var allSystemMessages = document.getElementsByClassName('sys-msg');
+                            for (var i = 0; i < allSystemMessages.length; i++) {
+                                allSystemMessages[i].setAttribute("style", "dislpay:block;");
+                            }
+                        }
+
+
+                        function showErrorMessages() {
+                            var allTextError = document.getElementsByClassName('text-error');
+                            for (var i = 0; i < allTextError.length; i++) {
+                                allTextError[i].setAttribute("style", "dislpay:block;");
+                            }
+                        }
+
+
+                        function showDangerMessage() {
+                            document.getElementById('systemMessageSubscriptionDanger').setAttribute("style", "display:block;");
+                        }
+
+                        function highlightField() {
+                            var allDataRequired = document.querySelectorAll('[data-required="true"]');
+                            for (var i = 0; i < allDataRequired.length; i++) {
+                                //console.log(allDataRequired[i])
+                                allDataRequired[i].parentNode.classList.add("has-error")
+                            }
+                        }
+
+                        {{buttonID}}.onclick = function(e) {
+                            //alert('aaa');
+                            //showAllMessages();
+                            showDangerMessage();
+                            showErrorMessages();
+                            highlightField();
+                            e.preventDefault();
+                        };
+                    </script>
+
+                </form>
+                {{/subscription}}
+                <!-- /SUBSCRIPTION -->
+                <!-- UNSUBSCRIBE -->
+                {{#unsubscribe}}
+                <h1 class="pg-title">{{title}}</h1>
+                <p class="desc">{{{description}}}</p>
+                {{/unsubscribe}}
+                <!-- /UNSUBSCRIBE -->
+
+
+            </div><!-- /main content-->
+        </div><!-- /.row -->
+
+    </div><!-- /.container-->
+</div>
+<!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}
+ 

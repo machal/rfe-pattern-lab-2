@@ -1,0 +1,17 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+
+    <div class="container">
+        {{> molecules-page-title }}
+    </div>
+    {{> molecules-program-index-body}}
+
+
+</div> <!-- /.page-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 

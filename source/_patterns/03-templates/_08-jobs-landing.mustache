@@ -1,0 +1,75 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <!-- main content -->
+        <h1 class="pg-title">{{title}}  </h1>
+        <div class="row">
+            <div class="content-body">
+                {{#jobs-landing-page}}
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="row content-offset">
+                        {{#specific-items-group-location}}
+                        <div class="media-block-wrap">
+                            <div class="col-xs-12">{{> molecules-media-block-holder-header}}</div>
+
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="row">
+                                    {{> molecules-media-block-holder-specific(size:3, item-count:"one", class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false, horizontal:true) }}
+                                </div>
+                            </div>
+
+                        </div>
+                        {{/specific-items-group-location}}
+
+                        <!--internship - hardcoded information-->
+                        <div class="media-block-wrap text">
+                            <div class="col-xs-12">
+                                <h2 class="section-head">
+                                    Internships
+                                </h2>
+                                <div class="widget-content">
+                                    <p>
+                                        <a href="#infopage" title="">Info about the internship program</a>
+                                    </p>
+                                    <p>
+                                        <span class="label">Prague:</span>
+                                        To apply for internship in Prague use email <a href="mailto:PRGinternships@rferl.org" class="mixmail" rel="nofollow">PRGinternships@rferl.org</a>
+                                    </p><p>
+                                        <span class="label">Washington D.C:</span>
+                                        To apply for internship in Washington DC, please use email <a href="mailto:DCinternships@rferl.org" class="mixmail" rel="nofollow">DCinternships@rferl.org</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- /content-body-->
+            {{/jobs-landing-page}}
+
+            <!--secondary content-->
+            <div class="content-secondary">
+                {{#secondary-content-right-region-widget}}
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    {{#specific-items-html-widget-01}}
+                    {{> molecules-HTML-widget}}
+                    {{/specific-items-html-widget-01}}
+
+                    {{#specific-items-html-widget-02}}
+                    {{> molecules-HTML-widget}}
+                    {{/specific-items-html-widget-02}}
+                </div>
+                {{/secondary-content-right-region-widget}}
+
+            </div><!-- /content-secondary-->
+        </div><!-- /row-->
+    </div><!-- /.container-->
+</div><!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}

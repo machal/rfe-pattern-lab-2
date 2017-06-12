@@ -1,0 +1,31 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <div class="row">
+            
+            <!-- item header -->
+            {{#is-layout-3}}
+                {{> molecules-item-header}}
+            {{/is-layout-3}}
+
+            <!-- item-body -->
+            <div class="col-xs-12">
+                {{#infographic}}
+                    {{> molecules-media-placeholder-master }}
+                {{/infographic}}
+            </div>
+
+            <div class="col-xs-12 pull-left flip">
+                {{> molecules-content-sharing }}
+            </div>
+            
+        </div><!-- /.row -->
+    </div><!-- /.container-->
+</div><!-- /.page-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 

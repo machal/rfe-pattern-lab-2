@@ -1,0 +1,43 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                {{> molecules-page-title }}
+
+                {{#broadcast-page-tabs}}
+                {{> molecules-tabs:nav-tabs--has-content }}
+                {{/broadcast-page-tabs}}
+
+                {{#broadcast-page-content-schedule}}
+                {{> molecules-schedule-body }}
+                {{/broadcast-page-content-schedule}}
+
+                {{#broadcast-page-content-program-index}}
+                {{> molecules-program-index-body-2 }}
+                {{/broadcast-page-content-program-index}}
+
+                {{#broadcast-page-content-waves}}
+                {{> molecules-waves-body }}
+                {{/broadcast-page-content-waves}}
+
+                {{#broadcast-page-content-satelite}}
+                {{> molecules-satelite-body }}
+                {{/broadcast-page-content-satelite}}
+
+                {{#broadcast-page-content-affiliates}}
+                {{> molecules-affiliates-body }}
+                {{/broadcast-page-content-affiliates}}
+
+            </div> <!-- /grid-->
+        </div><!-- /.row -->
+    </div><!-- /.container-->
+</div><!-- /.page-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 

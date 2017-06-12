@@ -1,0 +1,79 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <!-- main content -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                <!-- ugc -->
+                {{#ugc}}
+                <h1 class="pg-title">{{title}}  </h1>
+                <!--{{#crossLinks}}
+            <p class="text cross-link-login-register {{class}}">
+                {{title}}
+                <a href="{{link}}" title="{{linkText}}">{{linkText}}</a>
+            </p>
+        {{/crossLinks}}-->
+                {{#description}}
+                <p class="desc">{{text}}</p>
+                {{/description}}
+
+                {{> molecules-form}}
+
+                <!--                <div class="text">
+                        {{#loginCrossLinks}}
+                            <p class="">{{title}}
+                                <a href="{{link}}" title="{{linkText}}"> {{linkText}}</a>
+                            </p>
+                        {{/loginCrossLinks}}
+                        </div>-->
+                {{/ugc}}
+                <!-- /ugc -->
+
+
+            </div>
+            <div class="clearfix"></div> 
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="info-pnl">
+                    <script>
+                        // Patternlab only
+                        //script for colapsing the tab
+                        //function openSaveCategoryMenu(e) {
+
+                        //    var parent = $(e.target).parents(".category");
+                        //    var link = $(parent).find("span");
+                        //    var items = $(parent).find(".items");
+
+                        //    link.toggleClass("opened");
+                        //    items.toggleClass("collapsed");
+
+                        //    e.preventDefault();
+                        //    return false;
+                        // }
+                    </script>
+
+                    <span class="handler">
+                        Technical requirements
+                        <!-- <i class="ico ico-chevron-down pull-right"></i> commenting it out as future colapse function could be added-->
+                    </span>
+                    <div class="inner">
+                        <p class="desc">Allowed file formats</p>
+                        <span class="label">Image:</span> JPG, JPEG, GIF, PNG, TIF, TIFF <br />
+                        <span class="label">Video:</span> FLV, AVI, MPG, MPEG, RM, 3GP, WMV, MP4, ASF, M4V, MOV, OGV, WEBM, F4V, M2V, 3G2, MKV, DIVX, WTV, 4XA, 4XM, TS, MJPG, MJ2, 265, HEVC, MXF <br />
+                        <span class="label">Audio:</span>  MP3, WMA, RA, OGG, WAV, MP4, AAC, M4A, RM, AIFF, AIF, ASF, AVR, CAF, MKA, OGG, OGA, FLAC, MID, AMR, AWB, M4R, MMF <br />
+                        <span class="label">Document:</span>  TXT, PDF <br />
+                        <span class="label">Maximum file size:</span>  200 MB <br />
+                    </div>
+                </div>
+            </div>
+        </div><!-- /main content-->
+    </div><!-- /.container-->
+</div>
+<!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}  

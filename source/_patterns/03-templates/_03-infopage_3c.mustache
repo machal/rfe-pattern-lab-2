@@ -1,0 +1,40 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    {{> molecules-section-page-title-wrapper }}    
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 pull-left">
+
+                <!-- -->
+                <!-- 01 -->
+                <!-- -->
+                {{#specific-items-html-widget-01}}
+                    {{> molecules-HTML-widget}}
+                {{/specific-items-html-widget-01}}
+
+                <!-- -->
+                <!-- 02 -->
+                <!-- -->
+                <div class="row">
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
+                {{#specific-items-contact-us}}
+                {{> molecules-contact-us}}
+                {{/specific-items-contact-us}}
+            </div>
+
+        </div><!-- /.row -->
+        
+    </div><!-- /.container-->
+</div><!-- /.page-->
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}
+         

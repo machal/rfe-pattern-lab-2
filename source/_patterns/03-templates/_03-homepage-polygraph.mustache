@@ -1,0 +1,48 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="primaryContent">
+        <div class="container">
+        </div><!-- /.container-->
+    </div><!-- /.secondaryContent-->
+    <!-- FRED -->
+    {{#specific-items-featured-slider}}
+    {{> molecules-media-slider:img-overlay }}
+    {{/specific-items-featured-slider}}
+    <!-- /FRED -->
+    <div class="secondaryContent">
+        <div class="container">
+            <!--fifth row - 2x 2col widget-->
+            {{#specific-items_polygraph}}
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  wg-area-4c">
+                    <div class="media-block-wrap">
+                        {{> molecules-media-block-holder-header}}
+                        {{> molecules-widget-factcheck}}
+                        {{> molecules-media-block-holder-footer}}
+                    </div>
+                </div>
+
+            </div> <!--row-->
+            {{/specific-items_polygraph}}
+
+            {{#widget-2-specific-items_polygraph}}
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  wg-area-4c">
+                    <div class="media-block-wrap">
+                        {{> molecules-media-block-holder-header}}
+                        {{> molecules-widget-factcheck}}
+                        {{> molecules-media-block-holder-footer}}
+                    </div>
+                </div>
+
+            </div> <!--row-->
+            {{/widget-2-specific-items_polygraph}}
+        </div><!-- /.container-->
+    </div><!-- /.secondaryContent-->
+</div><!-- /#content-->
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}         

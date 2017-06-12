@@ -1,0 +1,22 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content" class="pg-comments">
+    <div class="hdr-container">
+        <div class="container">
+            <h1>
+                <a href="{{title-link}}">{{title}}</a>
+            </h1>
+        </div><!-- /.container-->
+    </div>
+    <div class="container">
+        <!-- comments -->
+        {{> molecules-comments}}
+    </div><!-- /.container-->
+</div><!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}
+  

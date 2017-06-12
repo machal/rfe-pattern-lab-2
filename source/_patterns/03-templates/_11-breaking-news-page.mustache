@@ -1,0 +1,38 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <!-- breaking news list -->
+                {{#highlights-page}}
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-lg-8 pull-left">
+                        <h1 class="pg-title">{{widget-header}}</h1>
+                        <div class="media-block-wrap">
+                            {{!> molecules-media-block-holder-header}}
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                                <div class="row">
+                                    {{> molecules-media-block-holder-specific(size:4, item-count:"one", class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false, horizontal:true) }}
+                                </div>
+                            </div>
+                            {{> molecules-media-block-holder-footer}}
+                        </div>
+                    </div>
+                </div>
+                {{/highlights-page}}
+            </div>
+
+        </div><!-- /.row -->
+    </div><!-- /.container-->
+</div><!-- /.page-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}
+

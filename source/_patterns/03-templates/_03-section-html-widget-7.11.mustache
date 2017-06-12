@@ -1,0 +1,99 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    {{> molecules-section-page-title-wrapper }}
+    <div class="container">
+        <div class="row">
+
+            <!-- Top Story  --><div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 pull-left">
+
+                <!-- First double -->
+                {{#specific-items-first-widget}}
+                {{> molecules-HTML-widget}}
+                {{/specific-items-first-widget}}
+
+
+                <!-- SUB stories - second double column --><div class="media-block-wrap">
+                    <div class="row">
+                        {{> molecules-media-block-holder(size:2, item-count:"two", class:"col-xs-12 col-sm-6 col-md-6 col-lg-6", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Sidebar --><div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
+                <!--  first item --><div class="special-sidebar media-block-wrap">
+                    {{#specific-items-top-right-first}}
+                    {{> molecules-HTML-widget}}
+                    {{/specific-items-top-right-first}}
+                </div>
+
+                <!--  second items --><div class="media-block-wrap">
+                    {{#specific-items-top-right-second}}
+                    {{> molecules-media-block-holder-header}}
+                    <div class="row">
+                        {{> molecules-media-block-holder(size:4, item-count:"five",  class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                    </div>
+                    {{> molecules-media-block-holder-footer}}
+                    {{/specific-items-top-right-second}}
+                </div>
+            </div>
+
+            <hr />
+            <!-- 3 columns  --><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+
+                <!-- First double --><div class="media-block-wrap">
+                    {{#specific-items-first-widget}}
+
+                    {{> molecules-media-block-holder-header}}
+
+                    <!-- multimedia-widget  -->
+                    {{> molecules-multimedia-widget}}
+
+                    {{> molecules-media-block-holder-footer}}
+                    {{/specific-items-first-widget}}
+                </div>
+
+
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.container-->
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="media-block-wrap col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                {{#specific-items-bottom-left }}
+                {{> molecules-media-block-holder-header}}
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                        <div class="row">
+                            {{> molecules-media-block-holder-specific(size:3, item-count:"two", class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:true, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 follow-up-list">
+                        <div class="row">
+                            {{> molecules-media-block-holder(size:4, item-count:"four", class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                        </div>
+                    </div>
+                </div>
+                {{/specific-items-bottom-left  }}
+            </div>
+
+            <div class="media-block-wrap col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h3 class="section-head">{{section-head.blogs-title}}</h3>
+                <div class="row">
+                    {{> molecules-media-block-holder(size:4, item-count:"four", class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:false, showCategory:false, showTime:false, showDate:true, showDateRelative:false, showCounter:false,horizontal:true) }}
+                </div>
+            </div>
+
+        </div><!-- /.row -->
+    </div><!-- /.container-->
+</div><!-- /.page-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}

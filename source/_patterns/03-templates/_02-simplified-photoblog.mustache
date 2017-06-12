@@ -1,0 +1,74 @@
+﻿<div id="content">
+    <!-- content-body -->
+    <div class="media-container">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 pull-left">
+                            {{#category}}
+                                <!-- item category (zone) -->
+                                {{> molecules-category }}
+                            {{/category}}
+
+                            <!-- item title (H1) -->
+                            {{> atoms-title }}
+
+                            <div class="publishing-details">
+                                <!-- data and time -->
+                                <div class="published">
+                                    <span class="{{#pubDateText}}date{{/pubDateText}} {{#broadcastTime}}time{{/broadcastTime}}" title="{{timeZone}}">
+                                        {{pubDateText}} {{broadcastTime:23456}}
+                                    </span>
+                                </div>
+                                <!-- /.published -->
+
+                                {{> molecules-author-link }}
+                                <!-- /.authors -->
+                            </div>
+
+                            {{#introTop}}
+                                {{> molecules-intro}}
+                            {{/introTop}}
+
+                            {{#displayContentItems}}
+                                <!-- "main content" - hidden by default, loaded by Ajax (or by URL parameter for devices without JavaScript support) -->
+                                <div id="photoblog-content" class="content-offset">
+                                    <!-- main content -->
+                                    {{> molecules-content}}
+                                </div>
+                                <!-- /#video-content -->
+                                <!-- button for "content loading" -->
+                                <div class="content-loader">
+                                    <p>
+                                        <a class="btn" data-smoothscroll="disabled" data-ajaxplaceholder="#photoblog-content" data-textshow="{{ btn_text.show_details }}" data-texthide="{{ btn_text.hide_details }}" href="#photoblog-content">{{ btn_text.show_details }}</a>
+                                    </p>
+                                </div>
+                            {{/displayContentItems}}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 pull-left">
+
+                            {{#mainImage}}
+                                {{#mainImage}}
+                                    {{> molecules-media-placeholder-master }}
+                                {{/mainImage}}
+                            {{/mainImage}}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.container-->
+    </div><!-- /.media-container-->
+
+</div><!-- /#content-->

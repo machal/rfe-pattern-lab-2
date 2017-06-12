@@ -1,0 +1,46 @@
+<div id="content">
+    <div class="container">
+        <!-- main content -->
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-md-offset-4">
+                <div class="login">
+                    <div class="logo-log"> <a href="{{link}}"> <img src="../../css/LIB/img/logo-login.png" alt="LibertyNet logo" /> </a> </div>
+                    <!-- login -->
+                    {{#login}}
+                    <h1 class="pg-title">{{title}}</h1>
+                    {{> molecules-pagedescript}}
+                    {{#crossLinks}}
+                    <p class="text cross-link-login-register {{class}}">
+                        {{title}}
+                        <a href="{{link}}" title="{{linkText}}">{{linkText}}</a>
+                    </p>
+                    {{/crossLinks}}
+                    {{#description}}
+                    <p class="desc">{{text}}</p>
+                    {{/description}}
+                    {{> molecules-form}}
+
+                    {{> molecules-additionaltext}}
+
+                    
+                    <!--                <div class="text">
+                        {{#loginCrossLinks}}
+                            <p class="">{{title}}
+                                <a href="{{link}}" title="{{linkText}}"> {{linkText}}</a>
+                            </p>
+                        {{/loginCrossLinks}}
+                        </div>-->
+                    {{/login}}
+                    <!-- /login -->
+                    <!-- footer copyright -->
+                </div>
+            </div>
+        </div><!-- /main content-->
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="copyright">{{texts.copyright}}</p>               
+            </div>
+        </div>
+    </div><!-- /.container-->
+</div>
+<!-- /.content-->

@@ -1,0 +1,31 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="hdr-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                     {{! > molecules-content-redirection }}
+                     <h1>{{#media-icon}}<i class="ico ico-{{media-icon}}"></i>{{/media-icon }}
+                         {{title}}
+                     </h1>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="content-redirect">
+                        {{#redirection-link}}<a href="{{redirection-link}}" title="{{ redirection-text }}"> {{/redirection-link}}
+                            {{^content-not-supported}}<i class="ico ico-arrow-top-forward"></i>{{/content-not-supported}}
+                            {{#content-not-supported}}<i class="ico ico-info"></i>{{/content-not-supported}}
+                            {{{ redirection-text }}}
+                        {{#redirection-link}}</a>{{/redirection-link}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.page-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}  

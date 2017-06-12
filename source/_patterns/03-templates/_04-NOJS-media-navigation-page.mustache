@@ -1,0 +1,56 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content" class="media-nav " >
+    <div class="container ">
+
+        <!-- tab menu -->
+        {{> molecules-tabs:media-tabs }}
+
+
+        {{#navigation }}
+        <ul class="items">
+            {{#menu-items-media }}
+            {{#item }}
+            {{#has-menu-box }}
+
+            <!-- checks for multiple tubes -->
+            {{#multiple-tab-items}}
+            {{#tab-item }}
+            <li class="item" id="hiPleaseInsertAnID{{multi-tab-class}}">
+                {{#has-multiple-tubes }}
+                <span class="tube-name">{{tube-name}}</span>
+                {{/has-multiple-tubes }}
+                <div class="inner">
+                    <ul>
+                        <!-- Live / lates -->
+                        {{> molecules-navi-media-live-or-latest}}
+                        <!-- upcoming -->
+                        {{> molecules-navi-media-upcoming}}
+                    </ul>
+                </div>
+            </li>
+            {{/tab-item }}
+            {{/multiple-tab-items }}
+            {{/has-menu-box }}
+
+            <!--        sets only one iteration of "More Radio" subitems items -->
+            {{#is-radio}} 
+            <!-- "More Radio" subitems -->
+            {{> molecules-navi-media-subitems}}
+            {{/is-radio}}
+
+            {{/item }}
+            {{/menu-items-media }}
+
+        </ul>
+        {{/navigation }}
+    </div>
+</div>
+
+<!--tube-count-{{tube-count}}-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 

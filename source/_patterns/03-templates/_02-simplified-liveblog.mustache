@@ -1,0 +1,105 @@
+<div id="content">
+    {{#mainImage}}
+        <div class="media-hdr-container">
+            <div class="container">
+                <img src="{{img}}" alt="{{imgAltText}}" class="enhanced" />
+
+                {{#text}}
+                    <p class="caption">{{{text}}}</p>
+                {{/text}}
+            </div>
+        </div>
+    {{/mainImage}}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11 pull-left">
+                        {{#category}}
+                            <!-- item category (zone) -->
+                            {{> molecules-category }}
+                        {{/category}}
+
+                        <!-- item title (H1) -->
+                        {{> atoms-title }}
+
+                        <div class="publishing-details">
+                            <!-- data and time -->
+                            <div class="published">
+                                <span class="{{#pubDateText}}date{{/pubDateText}} {{#broadcastTime}}time{{/broadcastTime}}" title="{{timeZone}}">
+                                    {{pubDateText}} {{broadcastTime:23456}}
+                                </span>
+                            </div>
+                            <!-- /.published -->
+
+                            {{> molecules-author-link }}
+                            <!-- /.authors -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.row -->
+
+        <!-- item-body -->
+        <div class="body-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 pull-left content-offset bottom-offset">
+                            <!-- intro -->
+                            {{^introTop}} <!-- if not at the top of the page (above image) -->
+                                {{> molecules-intro}}
+                            {{/introTop}}
+
+                            <!-- summary -->
+                            <div class="summary">
+                                {{#liveblog_summary}}
+                                    <h3 class="section-head">{{widget-title}}</h3>
+                                    {{> molecules-content}}
+                                {{/liveblog_summary}}
+                            </div>
+
+                            <div class="controls">
+                                <!-- sorting -->
+                                {{^isLiveblog-isLive}}
+                                    <ul class="sorting">
+                                        <li>
+                                            <a class="btn" href="#newest">{{liveblog_texts.newest-first}}</a>
+                                        </li>
+                                        <li>
+                                            <a class="btn" href="#oldest">{{liveblog_texts.oldest-first}}</a>
+                                        </li>
+                                    </ul>
+                                {{/isLiveblog-isLive}}
+                                <!-- reload -->
+                                {{#isLiveblog-isLive}}
+                                    <div class="update">
+                                        <a class="btn" href="#"><i class="ico ico-refresh"></i>{{liveblog_texts.update}}</a><!-- Last updated: 2 mins ago -->
+                                    </div>
+                                {{/isLiveblog-isLive}}
+                            </div>
+
+                            <!-- on media page "main content" - hidden by default, loaded by Ajax (or by URL parameter for devices without JavaScript support) -->
+                            <div id="article-content">
+                                <!-- entries -->
+                                {{#liveblogEntry}}
+                                    {{> molecules-liveblog-entry}}
+                                {{/liveblogEntry}}
+
+                                <!-- load more -->
+                                {{> atoms-button-load-more}}
+                                <!-- author highlight -->
+                                {{> molecules-author-highlight}}
+                            </div>
+                            <!-- comments  -->
+                            {{> molecules-comments}}
+                        </div>
+
+                    </div><!-- /.row -->
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.body-container -->
+
+    </div><!-- /.container -->
+</div><!-- /#content -->

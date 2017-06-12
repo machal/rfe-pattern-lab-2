@@ -1,0 +1,22 @@
+<div id="content">
+    {{> molecules-header-pop-out}}
+
+    <div class="media-container">
+        <!-- item header -->
+        <div class="container">
+            {{> molecules-item-header }}
+        </div>
+    </div>
+
+    {{#link-to-program-page}}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10  pull-right">
+                <a href="{{link}}" class="btn prog-link" title="{{label}}" target="_blank">
+                    {{label}}
+                </a>
+            </div>
+        </div>
+    </div>
+    {{/link-to-program-page}}
+</div><!-- /.page-->

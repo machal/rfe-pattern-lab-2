@@ -1,0 +1,50 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-category col-xs-12 col-lg-12 pull-right">
+                <div class="row">
+                    <!-- primary part -->
+                    <div class="col-xs-12 col-md-8 col-lg-8 pull-left content-offset">
+                        {{> molecules-page-title }}
+                        {{> molecules-calendar-component }}
+
+                        <section>
+                            <!-- main content / layouts -->
+                            {{#archive-layout-thumbnails}}
+                            {{> molecules-archive-layout-thumbnails }}
+                            {{/archive-layout-thumbnails}}
+
+                            {{#archive-layout-blog}}
+                            {{> molecules-archive-layout-blog }}
+                            {{/archive-layout-blog}}
+                        </section>
+                        {{> atoms-button-load-more}}
+                    </div>
+
+                    <!-- secondary part -->
+                    {{#right-region-enabled}}
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
+                        <!-- right-region -->
+                        {{> molecules-region}}
+                    </div>
+                    {{/right-region-enabled}}
+
+                </div><!-- /.row -->
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.container-->
+
+    <!-- bottom part -->
+    {{!> molecules-comments}}
+    {{!> molecules-slide-in-widget}}
+    {{> molecules-you-might-like}}
+
+</div><!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 

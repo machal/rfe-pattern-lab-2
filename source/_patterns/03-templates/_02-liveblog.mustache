@@ -1,0 +1,109 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+
+    <div class="container">
+        <!-- item header -->
+        {{> molecules-item-header}}
+        <!-- item-body -->
+        <div class="body-container row">
+            <!-- article-body -->
+            <div class="col-xs-12 col-sm-12 col-md-10 pull-right">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-8 pull-left content-offset bottom-offset">
+                        <!-- summary -->
+                        <div class="summary">
+                            {{#liveblog_summary}}
+                            <h3 class="section-head">{{widget-title}}</h3>
+                            {{> molecules-content}}
+                            {{/liveblog_summary}}
+                        </div>
+                        <div class="controls">
+                            <!-- sorting -->
+                            {{^isLiveblog-isLive}}
+                            <ul class="sorting">
+                                <li>
+                                    <a class="btn" href="#newest">{{liveblog_texts.newest-first}}</a>
+                                </li>
+                                <li>
+                                    <a class="btn" href="#oldest">{{liveblog_texts.oldest-first}}</a>
+                                </li>
+                            </ul>
+                            {{/isLiveblog-isLive}}
+                            <!-- reload -->
+                            {{#isLiveblog-isLive}}
+                            <div class="update">
+                                <a class="btn" href="#"><i class="ico ico-refresh"></i>{{liveblog_texts.update}}</a><!-- Last updated: 2 mins ago -->
+                            </div>
+                            {{/isLiveblog-isLive}}
+                        </div>
+                        <!-- "main content" - hidden by default, loaded by Ajax (or by URL parameter for devices without JavaScript support) -->
+                        <div id="article-content">
+                            <!-- entries -->
+                            {{#liveblogEntry}}
+                            {{> molecules-liveblog-entry}}
+                            {{/liveblogEntry}}
+
+                            <!-- load more -->
+                            {{> atoms-button-load-more}}
+                            <!-- author highlight -->
+                            {{> molecules-author-highlight}}
+                        </div>
+                        <!-- /#article-content -->
+                        <!-- comments  -->
+                        {{> molecules-comments}}
+                    </div>
+                    <!-- secondary part -->
+                    <div class="col-xs-12 col-sm-12 col-md-4 pull-left design-top-offset">
+                        <!-- Related -->
+                        <div class="media-block-wrap">
+                            {{#specific-items-related }}
+                            <h3 class="section-head">{{ widget-headline }}</h3>
+                            <div class="row">
+                                {{> molecules-media-block-holder-specific(size:4, class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                            </div>
+                            {{/specific-items-related }}
+
+                            {{^specific-items-related }}
+                            <h3 class="section-head">{{ section-head.related }}</h3>
+                            <div class="row">
+                                {{> molecules-media-block-holder(size:4, item-count:"two", class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:true, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                            </div>
+                            {{/specific-items-related }}
+                        </div>
+
+                        <!-- right-region -->
+                        {{#right-region-enabled}}
+                        <div class="media-block-wrap">
+                            {{#specific-items-top-stories }}
+                            <h3 class="section-head">{{ widget-top-stories }}</h3>
+                            <div class="row">
+                                {{> molecules-media-block-holder-specific(size:4, class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                            </div>
+                            {{/specific-items-top-stories }}
+
+                            {{^specific-items-top-stories }}
+                            <h3 class="section-head">{{ section-head.top-stories }}</h3>
+                            <div class="row">
+                                {{> molecules-media-block-holder(size:4, item-count:"four", class:"col-xs-12 col-sm-6 col-md-12 col-lg-12", showIntro:false, showTitle:true, showImg:true, showCategory:true, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:true) }}
+                            </div>
+                            {{/specific-items-top-stories }}
+                        </div>
+                        {{/right-region-enabled}}
+                    </div><!-- /secondary part -->
+                </div><!-- /.row-->
+            </div>
+        </div><!-- /.body-container-->
+    </div><!-- /.container-->
+
+    <!-- bottom part -->
+    {{!> molecules-comments}}
+    {{!> molecules-slide-in-widget}}
+    {{> molecules-you-might-like}}
+
+</div><!-- /.content-->
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}}

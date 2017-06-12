@@ -1,0 +1,27 @@
+{{^page-no-header-no-footer}}<!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-header }}
+{{/page-no-header-no-footer}}
+
+<div id="content">
+    <div class="container">
+        <!-- main content -->
+        <div class="row">
+            <div class="col-xs-12">
+
+                <!-- login -->
+
+                <h1 class="pg-title">Navigation</h1>
+                {{#navigation_fallback}}
+                {{> molecules-navigation}}
+                {{/navigation_fallback}}
+
+                <!-- /login -->
+            </div>
+        </div><!-- /main content-->
+    </div><!-- /.container-->
+</div>
+<!-- /.content-->
+
+{{^page-no-header-no-footer}}   <!-- if not tru, will display header & footer - USED for Quiz-embedded page -->
+{{> molecules-footer }}
+{{/page-no-header-no-footer}} 
