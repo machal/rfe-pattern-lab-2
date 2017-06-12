@@ -1,0 +1,365 @@
+{
+    "1": {
+        "itemIcon": "video",
+        "isLive": true,
+        "date": "1.10. 2014",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/08-Testing-01-archive/08-Testing-01-archive.html",
+        "title": "'No Justice' For Afghan Civilian Deaths",
+        "intro": "Amnesty International has released a report documenting the inability of the families of Afghan civilians killed in attacks by U.S. and other foreign forces to obtain justice.",
+        "link": "/patterns/08-Testing-09-try-again/08-Testing-09-try-again.html",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?xsa",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/technature?xwsa",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?xsa",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "/images/vietnam.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "2": {
+        "itemIcon": "audio",
+        "isUpdated": false,
+        "date": "2.10. 2014",
+        "time": "11:00 - 12:00",
+        "category": "Economy",
+        "title": "Air France Faces More Strikes After Talks With Pilots Reach Deadlock",
+        "intro": "Union request for a mediator rejected by both the airline's management and the French government",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?32",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?32",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?32",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/6E4B306A-D018-45C5-BE44-74D4890F10B1_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "3": {
+        "category": "Economy",
+        "date": "3.9. 2014",
+        "time": "12:00 - 13:30",
+        "title": "S. Africa Gives Cuba $31 Million Economic Aid ",
+        "intro": "South African President Jacob Zuma pledged the money to Cuba in 2010, but its implementation was delayed for several years",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?2332323",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?2332323",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?2332323",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/70A8C6FE-1C1B-46ED-AAFB-60FE27F8C694_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "4": {
+        "itemIcon": "camera",
+        "category": "History",
+        "date": "4.10.2014",
+        "time": "10:00 - 11:00",
+        "title": "Iconic Store, Seized by Nazis, Rises Anew in Berlin",
+        "intro": "Mall of Berlin, rebuilt on rubble of shopping center destroyed by WWII, opens with a ceremony paying tribute to original Jewish owners of the Wertheim store",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?2332323",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?2332323",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?2332323",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/1F548569-B0D1-482F-911F-300CDEEDCD32_cx0_cy2_cw0_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "5": {
+        "category": "Technology",
+        "date": "5.10.2014",
+        "time": "19:15 - 19:30",
+        "title": "Facing Hostile Government, Adobe to Close China R&D Arm",
+        "intro": "California-based company will maintain China sales offices, but research and development operations will cease by end of December",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?dgf",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?dgf",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?dgf",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/188EAEB1-1205-42E7-965F-6FA4319CD796_cx6_cy2_cw64_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "6": {
+        "category": "Technology",
+        "itemIcon": "video",
+        "date": "6.10.2014",
+        "time": "21:45 - 22:30",
+        "title": "Microsoft Offers First Look at New Windows",
+        "intro": "Tech giant will unveil a new name for its best-known product Tuesday when it offers first official glimpse of latest operating system",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?rtyu",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?rtyu",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?rtyu",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/2F87067C-99FE-437A-9887-256DE2F54962_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "7": {
+        "itemIcon": "video",
+        "category": "Africa",
+        "date": "17.9.2014",
+        "time": "01:22 - 01:30",
+        "title": "Spanish Diplomat Dies in Khartoum Stabbing",
+        "intro": "According to a police statement, 61-year-old official headed Spanish embassy's visa section and had worked in country for three years",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?cdgsax",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?cdgsax",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?cdgsax",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/6BBD9A61-226A-452E-9314-F90D58DD5769_w300_r1.png",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "8": {
+        "category": "Sport",
+        "date": "8.10.2014",
+        "time": "13:40 - 14:00",
+        "itemIcon": "video",
+        "isUpdated": true,
+        "title": "Europe Again Defeats US for Golf's Ryder Cup",
+        "intro": "Europe retains trophy, easily defeating US team in Scotland for its eighth victory in last 10 times in biennial event",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?dcgffc",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?dcgffc",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?dcgffc",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/CAECFB11-1468-494D-AE4D-A69691C82FC2_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "9": {
+        "category": "Europe",
+        "date": "19.9.2014",
+        "time": "14:15 - 14:30",
+        "title": "Air France Pilots Agree to End 2-week Strike ",
+        "intro": "Air France's leading pilots union has decided to end to a two-week strike that crippled the French airline, a union official told Reuters on Sunday.",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?vhgdsv",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?vhgdsv",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?vhgdsv",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/297530D1-0E3C-4429-8511-E5493D61F3C8_w640_r1_s_cx0_cy16_cw0.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "10": {
+        "category": "Politics",
+        "date": "10.9.2014",
+        "time": "14:52 - 15:20",
+        "title": "Catalonia Decrees Secession Referendum",
+        "intro": "The president of Spain's Catalonia region signed a decree on Saturday calling for a referendum on independence to be held on Nov. 9, putting the local government on a collision course with Madrid, which says such a vote is illegal.",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?vxchagsg",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?vxchagsg",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?vxchagsg",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/A8B33DB2-23B0-4798-8DE0-1777AC79E078_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    "11": {
+        "category": "Culture",
+        "date": "11.9.2014",
+        "time": "19:15 - 19:30",
+        "title": "Behind Wall of Police, Serbia Hosts First Gay Pride Since 2010",
+        "intro": "Gay rights activists in Serbia held their first Pride march in four years on Sunday, walking through Belgrade streets emptied of traffic and pedestrians by a massive security operation.",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?dytdax",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?dytdax",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?dytdax",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/FB826675-4169-44B4-9ABC-42D9BC38F02A_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+
+    },
+    "12": {
+        "category": "USA",
+        "date": "12.10.2014",
+        "time": "15:15 - 16:30",
+        "title": "India’s Modi to Meet President Obama at White House",
+        "intro": "On Sunday prime minister received an enthusiastic welcome from thousands of Indian-Americans in New York’s Madison Square Garden",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?ddghgf",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?ddghgf",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?ddghgf",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/45CBE784-B574-4449-B2E4-8EA83FBB9DD3_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+
+    }
+}
+
+

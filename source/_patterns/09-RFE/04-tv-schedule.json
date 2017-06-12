@@ -1,0 +1,1028 @@
+﻿{
+  "header-template-1": true,
+  "its-rtl": false,
+  "nav-type": "horizontal",
+  "its-en": true,
+  "its-ru": false,
+  "its-fa": false,
+  "its-tg": false,
+  "entity": "RFE",
+  "site": "en-US-TEST",
+  "content-type": "page-schedule",
+
+  "page-title-enabled": true,
+  "page-title": "TV Schedule",
+  "timeZone": "Prague time",
+
+
+  "tabs": {
+    "tab-ID": "schedule",
+    "item": [
+      {
+        "label": "Channel 1",
+        "isActive": true,
+        "data-target-tab": "channel-1",
+        "link": "schedule.html?tab=channel-1"
+      },
+      {
+        "label": "Radio 2",
+        "isActive": false,
+        "data-target-tab": "radio-2",
+        "link": "schedule.html?tab=radio-2"
+      }
+    ]
+  },
+  "link-calendar-text": "This week",
+  "calendar": {
+    "btn_text": {
+      "default": "Select date"
+    }
+  },
+
+  "schedule-navigation": {
+    "day-selected": "Tuesday 9 March 2016",
+    "timeZone": "Moscow time",
+    "itemsSpecific": [
+
+      {
+        "date": "4 Mar",
+        "day": "Thur",
+        "offset": "offset-5"
+      },
+      {
+        "date": "5 Mar",
+        "day": "Fri",
+        "offset": "offset-4"
+      },
+      {
+        "date": "6 Mar",
+        "day": "Sat",
+        "offset": "offset-3"
+      },
+      {
+        "date": "7 Mar",
+        "day": "Sun",
+        "offset": "offset-2"
+      },
+      {
+        "date": "8 Mar",
+        "day": "Mon",
+        "offset": "offset-1"
+      },
+      {
+        "date": "9 Mar",
+        "day": "Today",
+        "offset": "offset-0",
+        "highlight": true
+      },
+      {
+        "date": "10 Mar",
+        "day": "Wed",
+        "offset": "offset-1"
+      },
+      {
+        "date": "11 Mar",
+        "day": "Thur",
+        "offset": "offset-2"
+      },
+      {
+        "date": "12 Mar",
+        "day": "Fri",
+        "offset": "offset-3"
+      },
+      {
+        "date": "13 Mar",
+        "day": "Sat",
+        "offset": "offset-4"
+      },
+      {
+        "date": "14 Mar",
+        "day": "Sun",
+        "offset": "offset-5"
+      }
+
+    ]
+
+  },
+
+  "specific-items-schedule": {
+    "Live": "Live",
+    "widget-header": "",
+    "widget-header-link": "",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": true,
+        "date": "1.10. 2005",
+        "time": "09:00 - 11:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Misas breakfast show",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Life in prison sought for former Bosnian Serb leader accused of genocide, other crimes committed during 1990s Balkan war ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/795C90E1-A7BF-44CA-BE27-8F0895C99F9E_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Victor Cala",
+              "link": "#link"
+            },
+            {
+              "name": "Christina Mai Hicks",
+              "link": "#link"
+            }
+          ]
+        },
+        "Crosslink": [
+          {
+            "crosslink-label": "MORE FROM:",
+            "crosslink-schedule": "Misas breakfast show"
+          }
+        ],
+        "hasActionLinks": true,
+        "multiple-bitrate-download": {
+          "simple-menu": [
+            {
+              "item": {
+                "class": "",
+                "item-label": "",
+                "hasIcon": true,
+                "pop-out-player-button": false,
+                "iconType": "download",
+                "link": "http://flashvideo.rferl.org/Videoroot/Pangeavideo/2015/02/7/74/7421cb41-d597-4dd7-b641-2a6ac975b333_mobile.mp4?download=1",
+                "has-subitems": true,
+                "subitems": [
+                  {
+                    "subitem-label": "270p - 2MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "360p - 3MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "720p - 5MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hasFeature": false,
+        "feature": [
+          {
+            "time": "09:00 - 9:30",
+            "title": "Feature clip from Misas breakfast show",
+            "link": "#link"
+          }
+        ]
+      },
+
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": true,
+        "date": "1.10. 2005",
+        "time": "11:00 - 12:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "The Stephen Nolan Show",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/3373EEC4-B479-436C-AB86-7B944677FBE0_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Charles Buttonovitch",
+              "link": "#link"
+            }
+          ]
+        },
+        "Crosslink": [
+          {
+            "crosslink-label": "MORE FROM:",
+            "crosslink-schedule": "The Stephen Nolan Show"
+          }
+        ],
+        "hasActionLinks": true,
+        "multiple-bitrate-download": {
+          "simple-menu": [
+            {
+              "item": {
+                "class": "",
+                "item-label": "",
+                "hasIcon": true,
+                "pop-out-player-button": false,
+                "iconType": "download",
+                "link": "http://flashvideo.rferl.org/Videoroot/Pangeavideo/2015/02/7/74/7421cb41-d597-4dd7-b641-2a6ac975b333_mobile.mp4?download=1",
+                "has-subitems": true,
+                "subitems": [
+                  {
+                    "subitem-label": "270p - 2MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "360p - 3MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "720p - 5MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": true,
+        "date": "1.10. 2005",
+        "time": "12:00 - 12:15",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Noon Newscast",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Life in prison sought for former Bosnian Serb leader accused of genocide, other crimes committed during 1990s Balkan war ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/05CBF62A-3855-4238-9EC9-D93AC922DF03_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Міхась Скобла",
+              "link": "#link"
+            }
+          ]
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isRepeat": true,
+        "isBroadcast": true,
+        "date": "1.10. 2005",
+        "time": "12:15 - 13:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "The Power Vertical",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/609B67E4-2F64-4EE1-86B5-D6F26B7870AF_w300.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Валер Карбалевіч",
+              "link": "#link"
+            },
+            {
+              "name": "Уладзімер Глод",
+              "link": "#link"
+            },
+            {
+              "name": "Віталь Цыганкоў",
+              "link": "#link"
+            }
+          ]
+        },
+        "Crosslink": [
+          {
+            "crosslink-label": "MORE FROM:",
+            "crosslink-schedule": "The Power Vertical"
+          }
+        ],
+        "hasActionLinks": true,
+        "multiple-bitrate-download": {
+          "simple-menu": [
+            {
+              "item": {
+                "class": "",
+                "item-label": "",
+                "hasIcon": true,
+                "pop-out-player-button": false,
+                "iconType": "download",
+                "link": "http://flashvideo.rferl.org/Videoroot/Pangeavideo/2015/02/7/74/7421cb41-d597-4dd7-b641-2a6ac975b333_mobile.mp4?download=1",
+                "has-subitems": true,
+                "subitems": [
+                  {
+                    "subitem-label": "270p - 2MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "360p - 3MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "720p - 5MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hasFeature": false,
+        "feature": [
+          {
+            "time": "09:00 - 9:30",
+            "title": "Feature clip from Misas breakfast show",
+            "link": "#link"
+          },
+          {
+            "time": "09:30 - 9:35",
+            "title": "Feature clip The Power Vertical",
+            "link": "#link"
+          }
+        ]
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": true,
+        "date": "1.10. 2005",
+        "time": "13:00 - 15:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "All song considered - Amanda Cariet and Helmut Hermann",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/CB38EC8F-253D-4B32-BF20-6A2983123B01_w200_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Charles Buttonovitch",
+              "link": "#link"
+            }
+          ]
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": true,
+        "isBroadcast": true,
+        "date": "1.10. 2005",
+        "time": "15:00 - 16:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "The afternoon \"News Diet",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/A2F0BA95-6354-469C-9F30-4EB64CA5481B_cx0_cy2_cw0_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": false,
+        "date": "1.10. 2005",
+        "time": "17:00 - 18:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "The Correspondents",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/03EC6386-B2E1-47D7-9C88-817463E79845_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Charles Buttonovitch",
+              "link": "#link"
+            }
+          ]
+        },
+        "Crosslink": [
+          {
+            "crosslink-label": "MORE FROM:",
+            "crosslink-schedule": "The Correspondents"
+          }
+        ],
+        "hasActionLinks": true,
+        "multiple-bitrate-download": {
+          "simple-menu": [
+            {
+              "item": {
+                "class": "",
+                "item-label": "",
+                "hasIcon": true,
+                "pop-out-player-button": false,
+                "iconType": "download",
+                "link": "http://flashvideo.rferl.org/Videoroot/Pangeavideo/2015/02/7/74/7421cb41-d597-4dd7-b641-2a6ac975b333_mobile.mp4?download=1",
+                "has-subitems": true,
+                "subitems": [
+                  {
+                    "subitem-label": "270p - 2MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "360p - 3MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "720p - 5MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": false,
+        "date": "1.10. 2005",
+        "time": "18:00 - 19:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Evening Show with Charles Button",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Life in prison sought for former Bosnian Serb leader accused of genocide, other crimes committed during 1990s Balkan war ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/05CBF62A-3855-4238-9EC9-D93AC922DF03_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Christina Mai Hicks",
+              "link": "#link"
+            }
+          ]
+        },
+        "Crosslink": [
+          {
+            "crosslink-label": "MORE FROM:",
+            "crosslink-schedule": "Evening Show with Charles Button"
+          }
+        ],
+        "hasActionLinks": true,
+        "multiple-bitrate-download": {
+          "simple-menu": [
+            {
+              "item": {
+                "class": "",
+                "item-label": "",
+                "hasIcon": true,
+                "pop-out-player-button": false,
+                "iconType": "download",
+                "link": "http://flashvideo.rferl.org/Videoroot/Pangeavideo/2015/02/7/74/7421cb41-d597-4dd7-b641-2a6ac975b333_mobile.mp4?download=1",
+                "has-subitems": true,
+                "subitems": [
+                  {
+                    "subitem-label": "270p - 2MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "360p - 3MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "720p - 5MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isRepeat": true,
+        "isBroadcast": true,
+        "date": "1.10. 2005",
+        "time": "19:00 - 19:30",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Evening News",
+        "link": "",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/3205E06C-D3E4-4299-A9ED-D3DBE417A97D_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "showAuthor": false,
+        "authors": {
+          "label": "Presenter:",
+          "item": [
+            {
+              "name": "Victor Cala",
+              "link": "#link"
+            }
+          ]
+        },
+        "Crosslink": [
+          {
+            "crosslink-label": "MORE FROM:",
+            "crosslink-schedule": "Evening News"
+          }
+        ],
+        "hasActionLinks": true,
+        "multiple-bitrate-download": {
+          "simple-menu": [
+            {
+              "item": {
+                "class": "",
+                "item-label": "",
+                "hasIcon": true,
+                "pop-out-player-button": false,
+                "iconType": "download",
+                "link": "http://flashvideo.rferl.org/Videoroot/Pangeavideo/2015/02/7/74/7421cb41-d597-4dd7-b641-2a6ac975b333_mobile.mp4?download=1",
+                "has-subitems": true,
+                "subitems": [
+                  {
+                    "subitem-label": "270p - 2MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "360p - 3MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  },
+                  {
+                    "subitem-label": "720p - 5MB",
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": false,
+        "date": "1.10. 2005",
+        "time": "19:30 - 20:30",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Talking politics with Ben Harper & Bill Murry",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/7286D426-BFB5-46E1-B568-800086080C5E_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": false,
+        "date": "1.10. 2005",
+        "time": "20:30 - 22:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Freedom Mainstream",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/F97F0556-CAE0-4580-B2B8-4B9673989DCF_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "isBroadcast": false,
+        "date": "1.10. 2005",
+        "time": "22:00 - 23:59",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Late night music mix",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/7902D487-D864-4DE5-A617-D27EDC9DC771_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+
+  "right-region-enabled": true,
+
+  "START-GENERATED-DEFAULT-TEXTS": "",
+  "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "try-again": "Please try again",
+  "success": "Thank you<br/> please continue",
+  "ok": "Ok",
+  "redirection-text": "This content is not available on Beta site. <br/> Please, see it on full site",
+  "section-head": {
+    "related": "Related articles",
+    "custom-widget": "My custom widget",
+    "you-might-like": "You might like also",
+    "archive": "Archive",
+    "top-stories": "Top Stories",
+    "blogs-title": "Blogs",
+    "schedule_and_frequencies": "Schedule and Frequencies",
+    "subscribe": "Subscribe",
+    "episodes": "Episodes",
+    "produced-by": "Produced by"
+  },
+  "social-networks": [
+    {
+      "link": "#facebook",
+      "social-network": "facebook",
+      "title": "Facebook"
+    },
+    {
+      "link": "#twitter",
+      "social-network": "twitter",
+      "title": "Twitter"
+    },
+    {
+      "link": "#youtube",
+      "social-network": "youtube",
+      "title": "YouTube"
+    },
+    {
+      "link": "#google-plus",
+      "social-network": "g-plus",
+      "title": "G+"
+    },
+    {
+      "link": "#vkontakte",
+      "social-network": "vkontakte",
+      "title": "vKontakte"
+    },
+    {
+      "link": "#soundcloud",
+      "social-network": "soundcloud",
+      "title": "SoundCloud"
+    }
+  ],
+  "texts": {
+    "main-navigation-nojs-label": "Main Menu",
+    "all_comments": "All comments (125)",
+    "comment_sorting": "Comment Sorting",
+    "comment_sorting_latest_first": "Latest first",
+    "comment_sorting_chronological": "Chronological",
+    "see_comments": "See comments",
+    "see_tv_programs": "See TV Programs",
+    "see_radio_programs": "See Radio Programs",
+    "pub-date-text": "March 04, 2013",
+    "pub-date-datetime": "2013-03-04 09:29:24",
+    "follow-facebook": "Facebook",
+    "follow-twitter": "Twitter",
+    "shortwave": "Shortwave",
+    "tv_satellites": "TV Satellites",
+    "podcast": "Podcast",
+    "rss": "RSS",
+    "itunes": "iTunes",
+    "newsletter": "Newsletter",
+    "load_more": "Load more",
+    "see_all_episodes": "See all episodes",
+    "tv_programs": "TV Programs",
+    "radio_programs": "Radio Programs",
+    "videos": "Videos",
+    "search": "Search",
+    "success": "This is success!",
+    "copyright": "Radio Free Europe/Radio Liberty & 2014 RFE/RL, Inc. All Rights Reserved.",
+    "back_top_top": "Back to top",
+    "reply": "Reply",
+    "report": "Report",
+    "share": "Share",
+    "toggle-sharing": "Toggle more sharing options",
+    "comments_head": "All comments (125)",
+    "comments_form_head": "Your opinion",
+    "comments_form_note-NOT-IN-FIRST-PHASE": "For more options please <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Login</a> or <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Register</a>.",
+    "comments_moderator": "Moderator",
+    "comments_your_name": "Your name...",
+    "comments_your_comment": "Your comment...",
+    "comments_your_reply": "Your reply...",
+    "comments_your_reason": "Reason for reporting...",
+    "read_more_info": "Read more info"
+  },
+  "btn_text": {
+    "default": "Button",
+    "show_details": "Show more details",
+    "hide_details": "Hide details",
+    "submit_comment": "Submit comment",
+    "load_more_comments": "Load more comments",
+    "load_more": "Load more",
+    "search": "Search",
+    "reset_comment": "Cancel",
+    "reply_comment": "Reply",
+    "report_comment": "Report"
+  },
+  "sizes": {
+    "screen-sm-min": "740px"
+  },
+  "END-GENERATED-DEFAULT-TEXTS": "",
+  "START-GENERATED-LINKS": "",
+  "link-try-again": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-success": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-article": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-video": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-facebook": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-gplus": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-vkontakte": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-email": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-home": "/patterns/09-RFE-00-homepage/09-RFE-00-homepage.html",
+  "link-author-facebook": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-author-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-index-menu-tv": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-program-index-menu-radio": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-comments-submit": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-comments-report": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-search-result": "/patterns/09-RFE-07-search-result/09-RFE-07-search-result.html",
+  "link-crosslink-tv-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-crosslink-radio-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-crosslink-videos": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-multimedia-context-menu-schedule": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-multimedia-context-menu-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html",
+  "link-multimedia-context-menu-podcast": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "END-GENERATED-LINKS": "",
+  "START-GENERATED-HEADER-AND-MENU": "",
+  "multimedia_context_menu": {
+    "schedule": "Schedule",
+    "programs": "Programs",
+    "podcast": "Podcast"
+  },
+
+
+
+
+
+  "footer-navigation": {
+    "title_socials": "Follow Us",
+    "menu-items": [
+
+      {
+        "item": {
+          "item-label": "Info",
+          "item-id": "01",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "About",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Contact Us",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Terms Of Use",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Privacy",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Help",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Jobs",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Sitemap",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "All RFE/RL Sites",
+              "link": "#success"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Services",
+          "item-id": "02",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Podcast",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "RSS",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mailing List",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Category",
+          "item-id": "03",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "Russia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tatar-Bashkir",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "North Caucasus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iran",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iraq",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kazakhstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kyrgyzstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tajikistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Turkmenistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Uzebekistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Armenia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Azerbaijan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Afghanistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Pakistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Balkans",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Belarus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moldova",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Ukraine",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Marketing & Affiliates",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "User links 2",
+          "item-id": "02",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Item 1",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moje babicka 3",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Runaway my dear",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      }
+
+    ]
+  },
+  "END-GENERATED-HEADER-AND-MENU": ""
+
+}

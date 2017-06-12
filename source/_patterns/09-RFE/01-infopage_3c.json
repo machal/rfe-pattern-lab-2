@@ -1,0 +1,432 @@
+{
+
+  "header-template-1": true,
+  "its-rtl": false,
+  "nav-type": "horizontal",
+  "entity": "RFE",
+  "site": "en-US",
+  "content-type": "pg-section pg-home",
+  "widget-footer": "See more",
+  "widget-footer-link": "#",
+
+  "specific-items-html-widget-01": {
+    "widget-header": "About us 2",
+    "widget-header-link": "",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "special-class": "",
+    "contentItems": [
+      {
+        "isParagraph": true,
+        "text": "Our Mission: RFE/RL journalists report the news in 21 countries where a free press is banned by the government or not fully established. We provide what many people cannot get locally: uncensored news, responsible discussion, and open debate <a href=\"#\">(mission statement)</a>."
+      },
+      {
+        "isParagraph": true,
+        "text": "21 Countries, 28 Languages: We broadcast to 21 countries in 28 languages, including Iran, Iraq, Afghanistan, Pakistan, and Russia. With over 400 full-time journalists, 750 freelancers, and 19 local bureaus, RFE/RL is one of the most comprehensive news operations in the world."
+      },
+      {
+        "isParagraph": true,
+        "text": "On The Front Lines: Our journalists are on the front lines in the fight for media freedom in their countries and often put themselves at great risk to do their jobs."
+      },
+      {
+        "isParagraph": true,
+        "text": "Regional Expertise: RFE/RL journalists and experts are a unique source of information about many of the world's political hotspots. We also host briefings and special events in Washington, D.C. and Prague."
+      }
+    ]
+  },
+
+  "specific-items-contact-us": {
+    "widget-header": "Widget header",
+    "widget-footer": "See more",
+    "widget-footer-link": "#",
+    "contact-us-form": {
+      "section-head": "Contact us",
+      "sender-email": "Your email:",
+      "receiver-email": {
+        "multiple": true,
+        "label": "Email to:",
+        "emails": [
+          {
+            "name": "Charles Buttonovitch",
+            "email": "karel@rferl.org"
+          },
+          {
+            "name": "Julian Buttonovitch",
+            "email": "karel@rferl.org"
+          }
+        ]
+      },
+      "subject": "Subject:",
+      "body": "Your message:",
+      "submit": "Send"
+    }
+  },
+
+
+
+
+
+  "START-GENERATED-DEFAULT-TEXTS": "",
+  "right-region-enabled": false,
+  "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "try-again": "Please try again",
+  "success": "Thank you<br/> please continue",
+  "ok": "Ok",
+  "redirection-text": "This content is not available on Beta site. <br/> Please, see it on full site",
+  "section-head": {
+    "related": "Related articles",
+    "custom-widget": "My custom widget",
+    "you-might-like": "You might like also",
+    "archive": "Archive",
+    "top-stories": "Top Stories",
+    "blogs-title": "Blogs",
+    "schedule_and_frequencies": "Schedule and Frequencies",
+    "subscribe": "Subscribe",
+    "episodes": "Episodes",
+    "produced-by": "Produced by"
+  },
+  "social-networks": [
+    {
+      "link": "#facebook",
+      "social-network": "facebook",
+      "title": "Facebook"
+    },
+    {
+      "link": "#twitter",
+      "social-network": "twitter",
+      "title": "Twitter"
+    },
+    {
+      "link": "#youtube",
+      "social-network": "youtube",
+      "title": "YouTube"
+    },
+    {
+      "link": "#google-plus",
+      "social-network": "g-plus",
+      "title": "G+"
+    },
+    {
+      "link": "#vkontakte",
+      "social-network": "vkontakte",
+      "title": "vKontakte"
+    },
+    {
+      "link": "#soundcloud",
+      "social-network": "soundcloud",
+      "title": "SoundCloud"
+    }
+  ],
+  "texts": {
+    "main-navigation-nojs-label": "Main Menu",
+    "all_comments": "All comments (125)",
+    "comment_sorting": "Comment Sorting",
+    "comment_sorting_latest_first": "Latest first",
+    "comment_sorting_chronological": "Chronological",
+    "see_comments": "See comments",
+    "see_tv_programs": "See TV Programs",
+    "see_radio_programs": "See Radio Programs",
+    "pub-date-text": "March 04, 2013",
+    "pub-date-datetime": "2013-03-04 09:29:24",
+    "follow-facebook": "Facebook",
+    "follow-twitter": "Twitter",
+    "shortwave": "Shortwave",
+    "tv_satellites": "TV Satellites",
+    "podcast": "Podcast",
+    "rss": "RSS",
+    "itunes": "iTunes",
+    "newsletter": "Newsletter",
+    "load_more": "Load more",
+    "see_all_episodes": "See all episodes",
+    "tv_programs": "TV Programs",
+    "radio_programs": "Radio Programs",
+    "videos": "Videos",
+    "search": "Search",
+    "success": "This is success!",
+    "copyright": "Radio Free Europe/Radio Liberty & 2014 RFE/RL, Inc. All Rights Reserved.",
+    "time-zone": "(Provided in central time)",
+    "back_top_top": "Back to top",
+    "reply": "Reply",
+    "report": "Report",
+    "share": "Share",
+    "toggle-sharing": "Toggle more sharing options",
+    "comments_head": "All comments (125)",
+    "comments_form_head": "Your opinion",
+    "comments_form_note-NOT-IN-FIRST-PHASE": "For more options please <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Login</a> or <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Register</a>.",
+    "comments_moderator": "Moderator",
+    "comments_your_name": "Your name...",
+    "comments_your_comment": "Your comment...",
+    "comments_your_reply": "Your reply...",
+    "comments_your_reason": "Reason for reporting...",
+    "read_more_info": "Read more info"
+  },
+  "btn_text": {
+    "default": "Button",
+    "show_details": "Show more details",
+    "hide_details": "Hide details",
+    "submit_comment": "Submit comment",
+    "load_more_comments": "Load more comments",
+    "load_more": "Load more",
+    "search": "Search",
+    "reset_comment": "Cancel",
+    "reply_comment": "Reply",
+    "report_comment": "Report"
+  },
+  "sizes": {
+    "screen-sm-min": "740px"
+  },
+  "END-GENERATED-DEFAULT-TEXTS": "",
+  "START-GENERATED-LINKS": "",
+  "link-try-again": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-success": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-article": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-video": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-facebook": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-gplus": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-vkontakte": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-email": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-home": "/patterns/09-RFE-00-homepage/09-RFE-00-homepage.html",
+  "link-author-facebook": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-author-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-index-menu-tv": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-program-index-menu-radio": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-comments-submit": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-comments-report": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-search-result": "/patterns/09-RFE-07-search-result/09-RFE-07-search-result.html",
+  "link-crosslink-tv-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-crosslink-radio-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-crosslink-videos": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-multimedia-context-menu-schedule": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-multimedia-context-menu-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html",
+  "link-multimedia-context-menu-podcast": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "END-GENERATED-LINKS": "",
+  "START-GENERATED-HEADER-AND-MENU": "",
+  "multimedia_context_menu": {
+    "schedule": "Schedule",
+    "programs": "Programs",
+    "podcast": "Podcast"
+  },
+
+  "navigation": {
+    "language-toggle": "English #1"
+  },
+
+  
+
+  "footer-navigation": {
+    "title_socials": "Follow Us",
+    "menu-items": [
+
+      {
+        "item": {
+          "item-label": "Info",
+          "item-id": "01",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "About",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Contact Us",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Terms Of Use",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Privacy",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Help",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Jobs",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Sitemap",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "All RFE/RL Sites",
+              "link": "#success"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Services",
+          "item-id": "02",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Podcast",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "RSS",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mailing List",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Category",
+          "item-id": "03",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "Russia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tatar-Bashkir",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "North Caucasus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iran",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iraq",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kazakhstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kyrgyzstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tajikistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Turkmenistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Uzebekistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Armenia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Azerbaijan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Afghanistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Pakistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Balkans",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Belarus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moldova",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Ukraine",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Marketing & Affiliates",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "User links 2",
+          "item-id": "02",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Item 1",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moje babicka 3",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Runaway my dear",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      }
+
+    ]
+  },
+  "END-GENERATED-HEADER-AND-MENU": ""
+}

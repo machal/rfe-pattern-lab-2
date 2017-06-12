@@ -1,0 +1,108 @@
+{
+    "header-template-1": true,
+    "its-rtl": false,
+    "nav-type": "horizontal",
+    "its-en": true,
+    "its-ru": false,
+    "its-fa": false,
+    "its-tg": false,
+    "entity": "RFE",
+    "site": "en-US",
+    "content-type": "pg-registration",
+    "login": {
+        "title": "Registration",
+        "crossLinks":
+                {
+                    "class": "",
+                    "title": "Already have an account?",
+                    "linkText": "Login here",
+                    "link": "/patterns/06-7.06-06-login/06-7.06-06-login.html"
+                },
+        "description": [
+            {
+                "text": "Register to contribute to the RFE/RL community by leaving your own comments on articles. You can also leave feedback for our reporters and converse with other readers on the site."
+            },
+            {
+                "text": "Note that your display name will be visible to the public."
+            }
+        ],
+        "buttonID": "registrationSendButton",
+        "buttonAnimation": true,
+        "btn_text": {
+            "default": "Register now"
+        },
+        "form": {
+            "captchaRequired": false,
+            "text-required": "*",
+            "item-input": [
+                {
+                    "label": "Your email address",
+                    "formGroupClass": "text email",
+                    "input-type": "email",
+                    "isRequired": true,
+                    "text-error-message": "Email not valid",
+                    "errorIsHidden": true,
+                    "ID": "userEmailID"
+                },
+                {
+                    "label": "Display Name",
+                    "formGroupClass": "text",
+                    "input-type": "text",
+                    "isRequired": true,
+                    "text-error-message": "Name too short",
+                    "errorIsHidden": true,
+                    "ID": "userDisplayNameID"
+                },
+                {
+                    "label": "Password",
+                    "formGroupClass": "text",
+                    "input-type": "password",
+                    "isRequired": true,
+                    "text-error-message": "Password do not match",
+                    "errorIsHidden": true,
+                    "ID": "userPasswordID"
+                },
+                {
+                    "label": "Confirm Password",
+                    "formGroupClass": "text",
+                    "input-type": "password",
+                    "isRequired": true,
+                    "text-error-message": "Password do not match",
+                    "errorIsHidden": true,
+                    "ID": "userPasswordConfirmationID"
+                }
+            ],
+            "system-messages": [
+                {"system-message": {
+                        "ID": "systemMessageSucess",
+                        "buttonID": "systemMessageSubscriptionDanger",
+                        "type": "success",
+                        "text": "Thank you for your registration. Please check your email to verify your account."
+                    }
+                },
+                {"system-message": {
+                        "ID": "systemMessageError",
+                        "buttonID": "systemMessageButton02",
+                        "type": "danger",
+                        "text": "Login credentials are inccorect"
+                    }
+                }
+            ],
+            "textTerms":
+                    {
+                        "class": "",
+                        "text": "By registering you agree with the",
+                        "linkText": "rules of this site",
+                        "link": "#"
+                    }
+        },
+        "loginCrossLinks": [
+            {
+                "title": "Already registered?",
+                "linkText": "Login now",
+                "link": "/patterns/06-7.06-06-login/06-7.06-06-login.html"
+            }
+        ]
+    }
+}
+

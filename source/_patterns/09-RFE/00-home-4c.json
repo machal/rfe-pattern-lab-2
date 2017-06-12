@@ -1,0 +1,981 @@
+{
+  "header-template-1": true,
+  "its-rtl": false,
+  "nav-type": "horizontal",
+  "its-en": true,
+  "its-ru": false,
+  "its-fa": false,
+  "its-tg": false,
+  "entity": "RFE",
+  "site": "en-US-TEST",
+  "content-type": "pg-section pg-home lay-4col",
+
+  "section-page-title-enabled": false,
+  "page-title": "My section page title",
+
+  "specific-items_tow_col_first": {
+    "widget-header": "First 2 col widget",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Iranian Billionaire Sentenced To Death For Corruption",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/615B85AB-C7FA-4BD2-8DAC-32A865E13384_cx0_cy10_cw65_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "quiz",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Rags To Riches To Death Row: The Rise And Fall Of An Iranian Billionaire",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/BD0F9063-28A3-467F-B814-77D3E33E17E1_w300_r1_s.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_tow_col_second": {
+    "widget-header": "Secound 2 col widget",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "IRAN",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Nine Takeaways From Iran's Elections",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/74286466-97DF-4F84-BE71-3264F87C7444_w1000_r1_s.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "News",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "EU, Turkey Debate 'Breakthrough' Migrant Swap",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/84009B1A-91D6-4BA2-9FF5-71B88EBE8677_cx0_cy10_cw0_w600_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_second-row_first": {
+    "widget-header": "America",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Treasure Hunters Seek 'Hidden Treasure' in Central Kenya",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "/images/obama.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_second-row_second": {
+    "widget-header": "Europe",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "News",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "EU, Turkey Debate 'Breakthrough' Migrant Swap",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/84009B1A-91D6-4BA2-9FF5-71B88EBE8677_cx0_cy10_cw0_w600_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_second-row_third": {
+    "widget-header": "Africa",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "camera",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "In Senegal, Presidential Term Limits Spark Hot Debate",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/D6FCB98F-D11D-455E-9253-CDF5BE9056D6_w600_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_second-row_forth": {
+    "widget-header": "Russia",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "News",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Swapping Lenin For Lennon",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/7E7B3273-011E-47D6-BFD5-F8F1827B34D3_w600_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+
+  "specific-items-featured-slider": {
+    "widget-header": "Featured stories",
+    "widget-header-link": "#test",
+    "widget-footer": "More videos",
+    "widget-footer-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Health Care Specialists Consider Different Treatments for Ebola",
+        "link": "/patterns/09-RFE-01-article1/09-RFE-01-article1.html",
+        "intro": "In West Africa, the World Health Organization says the Ebola virus has so far infected over 3,700 people and killed over 1,800. There is no cure for disease, and a potential vaccine could be months, or years, away.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/B404981D-391E-4D76-A02A-D435B608FEBC_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Tens of Thousands of Pro-Democracy Protesters in Hong Kong Refuse to Disperse",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Tens of Thousands of Pro-Democracy Protesters in Hong Kong Refuse to Disperse",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/54C2F602-83C5-496E-B2C0-B480DE89D7D6_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "American Detained in North Korea Describes Hard Life",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "American Detained in North Korea Describes Hard Life",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/7690B57E-2233-42FC-8301-F29FD0F446A6_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Raw Video: Interview with Hong Kong Student Protesters",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Pro-democracy protesters in Hong Kong continued to defy China on Monday despite calls for them to disperse. Thousands of protesters have taken over usually busy streets in key parts of the Asian financial hub and Beijing has warned against foreign interference. ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/b593300a-78fc-4713-ab9b-e63a62809011_tv_w300.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Health Care Specialists Consider Different Treatments for Ebola",
+        "link": "/patterns/09-RFE-01-article1/09-RFE-01-article1.html",
+        "intro": "In West Africa, the World Health Organization says the Ebola virus has so far infected over 3,700 people and killed over 1,800. There is no cure for disease, and a potential vaccine could be months, or years, away.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/B404981D-391E-4D76-A02A-D435B608FEBC_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Tens of Thousands of Pro-Democracy Protesters in Hong Kong Refuse to Disperse",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Tens of Thousands of Pro-Democracy Protesters in Hong Kong Refuse to Disperse",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/54C2F602-83C5-496E-B2C0-B480DE89D7D6_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "American Detained in North Korea Describes Hard Life",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "American Detained in North Korea Describes Hard Life",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/7690B57E-2233-42FC-8301-F29FD0F446A6_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Raw Video: Interview with Hong Kong Student Protesters",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Pro-democracy protesters in Hong Kong continued to defy China on Monday despite calls for them to disperse. Thousands of protesters have taken over usually busy streets in key parts of the Asian financial hub and Beijing has warned against foreign interference. ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/b593300a-78fc-4713-ab9b-e63a62809011_tv_w300.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Japan Rescue Search for Victims of Mount Ontake Volcano Eruption",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "More than 30 people were presumed dead on Sunday near the peak of a Japanese volcano, Mount Ontake, that erupted unexpectedly a day earlier while it was packed with hikers out to admire autumn foliage, sending a huge cloud of ash and rock tumbling down its slopes. ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/94B65DB1-EEC7-47B1-B460-62103EC57487_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+
+  "specific-items_forth-row_first": {
+    "widget-header": "America",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Iranian Billionaire Sentenced To Death For Corruption",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/615B85AB-C7FA-4BD2-8DAC-32A865E13384_cx0_cy10_cw65_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "quiz",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Rags To Riches To Death Row: The Rise And Fall Of An Iranian Billionaire",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/BD0F9063-28A3-467F-B814-77D3E33E17E1_w300_r1_s.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_forth-row_second": {
+    "widget-header": "Europe",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "IRAN",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Nine Takeaways From Iran's Elections",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/74286466-97DF-4F84-BE71-3264F87C7444_w1000_r1_s.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "News",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "EU, Turkey Debate 'Breakthrough' Migrant Swap",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/84009B1A-91D6-4BA2-9FF5-71B88EBE8677_cx0_cy10_cw0_w600_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+
+
+  "specific-items_fifth-row_first": {
+    "widget-header": "Ukraina",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "camera",
+        "isLive": false,
+        "date": "31.12. 2015",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Photojournalists Changing The Image Of Women In Armenia",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Armenian photographer Anahit Hayrapetyian is a passionate believer in the power of photography to empower women. Along with fellow renowned Armenian photographers Nazik Armenakian and Anush Babajanian, she founded 4Plus, a women’s photography collective working to support women in the profession by organizing exhibitions, training, and workshops. The trio also want to change perceptions of women in Armenia in the way they are portrayed as the subject matter in photos. (All photos courtesy of 4Plus)",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/D49E2799-1224-49CC-BF2F-5033578F5F89_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Georgian Prime Minister Cautions Feuding Coalition Allies",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/83492E88-EA17-4417-8CD2-24362E6B6068_cx28_cy24_cw72_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_fifth-row_second": {
+    "widget-header": "Top Shots",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "12.02. 2016",
+        "time": "10:00 - 11:00",
+        "category": "Photography",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Compelling Images From Around The World - Week #16",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/7E3D9272-A3EA-4BF2-A7F0-EC76905F2E7F_cx0_cy10_cw0_w400_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "11.02. 2016",
+        "time": "10:00 - 11:00",
+        "category": "Photography",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Tajikistan's Dwindling 'Town Of Giants",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/CDD5C177-0F39-4D8D-88A2-A2DF0FF3D9E2_w400_s.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_fifth-row_third": {
+    "widget-header": "Blogs",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "25.12. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Turning Migrant Boats Into Backpacks",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/ad2373f3-a24a-48ae-987d-be63526ae66e_tv_w400_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "11.10. 2012",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "#",
+        "title": "In Senegal, Presidential Term Limits Spark Hot Debate",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/D6FCB98F-D11D-455E-9253-CDF5BE9056D6_w600_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items_fifth-row_forth": {
+    "widget-header": "Russia",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10.2005",
+        "time": "10:00 - 11:00",
+        "category": "News",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Ukrainian Protesters Attack Russian Embassy, Demand Pilot's Release",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/b28e13f8-ba12-4ab8-96ff-fa175a508755_tv_w300_r1_s.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isUpdated": true,
+        "date": "6.3.2016",
+        "time": "10:00 - 11:00",
+        "category": "News",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Russian Court Delays Savchenko Verdict",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Turkey and the European Union has agreed to the outlines of a possible deal on returning thousands of migrants to Turkey, and said they are aiming to clinch the deal at a summit on March 17.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/18DF2AB7-41BA-4B33-8C21-2D2E9326121B_cx0_cy1_cw0_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+
+
+  "right-region-enabled": false,
+
+  "START-GENERATED-DEFAULT-TEXTS": "",
+  "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "try-again": "Please try again",
+  "success": "Thank you<br/> please continue",
+  "ok": "Ok",
+  "redirection-text": "This content is not available on Beta site. <br/> Please, see it on full site",
+  "section-head": {
+    "related": "Related articles",
+    "custom-widget": "My custom widget",
+    "you-might-like": "You might like also",
+    "archive": "Archive",
+    "top-stories": "Top Stories",
+    "blogs-title": "Blogs",
+    "schedule_and_frequencies": "Schedule and Frequencies",
+    "subscribe": "Subscribe",
+    "episodes": "Episodes",
+    "produced-by": "Produced by"
+  },
+  "social-networks": [
+    {
+      "link": "#facebook",
+      "social-network": "facebook",
+      "title": "Facebook"
+    },
+    {
+      "link": "#twitter",
+      "social-network": "twitter",
+      "title": "Twitter"
+    },
+    {
+      "link": "#youtube",
+      "social-network": "youtube",
+      "title": "YouTube"
+    },
+    {
+      "link": "#google-plus",
+      "social-network": "g-plus",
+      "title": "G+"
+    },
+    {
+      "link": "#vkontakte",
+      "social-network": "vkontakte",
+      "title": "vKontakte"
+    },
+    {
+      "link": "#soundcloud",
+      "social-network": "soundcloud",
+      "title": "SoundCloud"
+    }
+  ],
+  "texts": {
+    "main-navigation-nojs-label": "Main Menu",
+    "all_comments": "All comments (125)",
+    "comment_sorting": "Comment Sorting",
+    "comment_sorting_latest_first": "Latest first",
+    "comment_sorting_chronological": "Chronological",
+    "see_comments": "See comments",
+    "see_tv_programs": "See TV Programs",
+    "see_radio_programs": "See Radio Programs",
+    "pub-date-text": "March 04, 2013",
+    "pub-date-datetime": "2013-03-04 09:29:24",
+    "follow-facebook": "Facebook",
+    "follow-twitter": "Twitter",
+    "shortwave": "Shortwave",
+    "tv_satellites": "TV Satellites",
+    "podcast": "Podcast",
+    "rss": "RSS",
+    "itunes": "iTunes",
+    "newsletter": "Newsletter",
+    "load_more": "Load more",
+    "see_all_episodes": "See all episodes",
+    "tv_programs": "TV Programs",
+    "radio_programs": "Radio Programs",
+    "videos": "Videos",
+    "search": "Search",
+    "success": "This is success!",
+    "copyright": "Radio Free Europe/Radio Liberty & 2014 RFE/RL, Inc. All Rights Reserved.",
+    "back_top_top": "Back to top",
+    "reply": "Reply",
+    "report": "Report",
+    "share": "Share",
+    "toggle-sharing": "Toggle more sharing options",
+    "comments_head": "All comments (125)",
+    "comments_form_head": "Your opinion",
+    "comments_form_note-NOT-IN-FIRST-PHASE": "For more options please <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Login</a> or <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Register</a>.",
+    "comments_moderator": "Moderator",
+    "comments_your_name": "Your name...",
+    "comments_your_comment": "Your comment...",
+    "comments_your_reply": "Your reply...",
+    "comments_your_reason": "Reason for reporting...",
+    "read_more_info": "Read more info"
+  },
+  "btn_text": {
+    "default": "Button",
+    "show_details": "Show more details",
+    "hide_details": "Hide details",
+    "submit_comment": "Submit comment",
+    "load_more_comments": "Load more comments",
+    "load_more": "Load more",
+    "search": "Search",
+    "reset_comment": "Cancel",
+    "reply_comment": "Reply",
+    "report_comment": "Report"
+  },
+  "sizes": {
+    "screen-sm-min": "740px"
+  },
+  "END-GENERATED-DEFAULT-TEXTS": "",
+  "START-GENERATED-LINKS": "",
+  "link-try-again": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-success": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-article": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-video": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-facebook": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-gplus": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-vkontakte": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-email": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-home": "/patterns/09-RFE-00-homepage/09-RFE-00-homepage.html",
+  "link-author-facebook": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-author-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-index-menu-tv": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-program-index-menu-radio": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-comments-submit": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-comments-report": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-search-result": "/patterns/09-RFE-07-search-result/09-RFE-07-search-result.html",
+  "link-crosslink-tv-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-crosslink-radio-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-crosslink-videos": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-multimedia-context-menu-schedule": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-multimedia-context-menu-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html",
+  "link-multimedia-context-menu-podcast": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "END-GENERATED-LINKS": "",
+  "START-GENERATED-HEADER-AND-MENU": "",
+  "multimedia_context_menu": {
+    "schedule": "Schedule",
+    "programs": "Programs",
+    "podcast": "Podcast"
+  },
+
+
+  
+
+
+  "footer-navigation": {
+    "title_socials": "Follow Us",
+    "menu-items": [
+
+      {
+        "item": {
+          "item-label": "Info",
+          "item-id": "01",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "About",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Contact Us",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Terms Of Use",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Privacy",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Help",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Jobs",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Sitemap",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "All RFE/RL Sites",
+              "link": "#success"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Services",
+          "item-id": "02",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Podcast",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "RSS",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mailing List",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Category",
+          "item-id": "03",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "Russia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tatar-Bashkir",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "North Caucasus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iran",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iraq",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kazakhstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kyrgyzstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tajikistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Turkmenistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Uzebekistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Armenia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Azerbaijan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Afghanistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Pakistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Balkans",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Belarus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moldova",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Ukraine",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Marketing & Affiliates",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "User links 2",
+          "item-id": "02",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Item 1",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moje babicka 3",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Runaway my dear",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      }
+
+    ]
+  },
+  "END-GENERATED-HEADER-AND-MENU": ""
+
+}

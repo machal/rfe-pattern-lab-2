@@ -1,0 +1,650 @@
+{
+  "header-template-1": true,
+  "its-rtl": false,
+  "nav-type": "horizontal",
+  "entity": "RFE",
+  "site": "en-US",
+  "content-type": "pg-section pg-home",
+  "site-date-time-enabled": false,
+
+  "widget-footer": "See more",
+  "widget-footer-link": "#",
+
+
+  "specific-items-sub-stories": {
+    "widget-header": "",
+    "widget-header-link": "",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "UN Prosecutors Seeking Maximum Penalty for Karadzic",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Life in prison sought for former Bosnian Serb leader accused of genocide, other crimes committed during 1990s Balkan war ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/05CBF62A-3855-4238-9EC9-D93AC922DF03_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "USA",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Popes Francis, Benedict Stress Importance of Elderly in Society",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Francis seeks to underscore importance of the elderly in society, says nursing homes should not be allowed to become 'prisons,' run for profit rather than care",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/A2F0BA95-6354-469C-9F30-4EB64CA5481B_cx0_cy2_cw0_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items-top-right-first": {
+    "widget-header": "Multimedia",
+    "widget-header-link": "#",
+    "widget-footer": "",
+    "widget-footer-link": "",
+    "itemsSpecific": [
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Treasure Hunters Seek 'Hidden Treasure' in Central Kenya",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "/images/obama.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ],
+
+    "img": "/images/obama.jpg",
+    "text": "Iran's Rouhani Skeptical on Syria Strikes",
+    "media-icon": "play-rounded",
+    "media-type": "video",
+    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+
+  },
+  "specific-items-top-right": {
+    "widget-header": "",
+    "widget-header-link": "",
+    "widget-footer": "More multimedia",
+    "widget-footer-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "itemsSpecific": [
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Treasure Hunters Seek 'Hidden Treasure' in Central Kenya",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Could a cave in a small village in central Kenya be the site of buried treasure? A rumor of riches, left behind by colonialists, has some residents dreaming of wealth, while others see it as a dangerous hoax. VOA's Gabe Joselow has the story.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/92c5b297-77cd-4004-9680-3947f01a1a6b_tv_w300.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Intersecting Cultures, Languages in New Play of NYC Neighborhood",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Four years ago, theater artist Ari Laura Kreith founded a theater company to present plays reflecting the multicultural, multilingual lives in her New York City neighborhood of Jackson Heights.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/A9F57884-0C44-4ED1-862E-16854941C042_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Turkish Filmmakers Face Increasing Political Pressure",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Islamist-rooted government is accused of increasingly interfering with and intimidating filmmakers",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/272FC58C-F29B-455A-8731-2584F2B5A8E2_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "camera",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Thai PM Bemoans Divisive Soap Operas, Offers to Write Better Ones",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Some television dramas have also been criticized for trivializing rape and domestic violence",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/17888450-06BF-495F-AC4D-9B492BB69C6E_cx0_cy16_cw0_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Top 5 Songs for Week Ending Sept. 27",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Girls still rule the list as Nicki Minaj, Iggy Azalea, Jesse J and Taylor Swift try to dethrone Meghan Trainor",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/C46AF6BF-96FD-43D4-BFD9-7272D0983695_cx0_cy2_cw0_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items-horizontal-strip": {
+  },
+  "specific-items-featured-slider": {
+    "widget-header": "Featured stories",
+    "widget-header-link": "#test",
+    "widget-footer": "More videos",
+    "widget-footer-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Health Care Specialists Consider Different Treatments for Ebola",
+        "link": "/patterns/09-RFE-01-article1/09-RFE-01-article1.html",
+        "intro": "In West Africa, the World Health Organization says the Ebola virus has so far infected over 3,700 people and killed over 1,800. There is no cure for disease, and a potential vaccine could be months, or years, away.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/B404981D-391E-4D76-A02A-D435B608FEBC_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Tens of Thousands of Pro-Democracy Protesters in Hong Kong Refuse to Disperse",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Tens of Thousands of Pro-Democracy Protesters in Hong Kong Refuse to Disperse",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/54C2F602-83C5-496E-B2C0-B480DE89D7D6_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "American Detained in North Korea Describes Hard Life",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "American Detained in North Korea Describes Hard Life",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/7690B57E-2233-42FC-8301-F29FD0F446A6_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Raw Video: Interview with Hong Kong Student Protesters",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Pro-democracy protesters in Hong Kong continued to defy China on Monday despite calls for them to disperse. Thousands of protesters have taken over usually busy streets in key parts of the Asian financial hub and Beijing has warned against foreign interference. ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/b593300a-78fc-4713-ab9b-e63a62809011_tv_w300.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "audio",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Japan Rescue Search for Victims of Mount Ontake Volcano Eruption",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "More than 30 people were presumed dead on Sunday near the peak of a Japanese volcano, Mount Ontake, that erupted unexpectedly a day earlier while it was packed with hikers out to admire autumn foliage, sending a huge cloud of ash and rock tumbling down its slopes. ",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/94B65DB1-EEC7-47B1-B460-62103EC57487_w300_h170.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "specific-items-bottom-left": {
+    "widget-header": "Technology",
+    "widget-header-link": "",
+    "widget-footer": "More videos",
+    "widget-footer-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "Phones",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Apple Announces the new iPhone 6",
+        "link": "/patterns/09-RFE-02-article2/09-RFE-02-article2.html",
+        "intro": "After months of rampant speculation (and an abnormally high number of apparent leaks), the new iPhone has arrived. In fact, two new iPhones have arrived — the iPhone 6, and the iPhone 6 Plus.",
+        "img": {
+          "landscape-16x9": {
+            "src": "/images/iPhone6.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      },
+      {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "Others",
+        "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "title": "Watchdog: Kremlin Internet Plans Could Endanger Free Speech ",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Russian proposals on protecting Internet users against threats from the West could be a Kremlin ploy to crack down on critical voices inside Russia, a representative of Europe's main rights and democracy watchdog said.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/4CE9135C-F605-48F3-BAAE-F1B1705A7521_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        }
+      }
+    ]
+  },
+  "START-GENERATED-DEFAULT-TEXTS": "",
+  "right-region-enabled": false,
+  "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "try-again": "Please try again",
+  "success": "Thank you<br/> please continue",
+  "ok": "Ok",
+  "redirection-text": "This content is not available on Beta site. <br/> Please, see it on full site",
+  "section-head": {
+    "related": "Related articles",
+    "custom-widget": "My custom widget",
+    "you-might-like": "You might like also",
+    "archive": "Archive",
+    "top-stories": "Top Stories",
+    "blogs-title": "Blogs",
+    "schedule_and_frequencies": "Schedule and Frequencies",
+    "subscribe": "Subscribe",
+    "episodes": "Episodes",
+    "produced-by": "Produced by"
+  },
+
+  "texts": {
+    "main-navigation-nojs-label": "Main Menu",
+    "all_comments": "All comments (125)",
+    "comment_sorting": "Comment Sorting",
+    "comment_sorting_latest_first": "Latest first",
+    "comment_sorting_chronological": "Chronological",
+    "see_comments": "See comments",
+    "see_tv_programs": "See TV Programs",
+    "see_radio_programs": "See Radio Programs",
+    "pub-date-text": "March 04, 2013",
+    "pub-date-datetime": "2013-03-04 09:29:24",
+    "follow-facebook": "Facebook",
+    "follow-twitter": "Twitter",
+    "shortwave": "Shortwave",
+    "tv_satellites": "TV Satellites",
+    "podcast": "Podcast",
+    "rss": "RSS",
+    "itunes": "iTunes",
+    "newsletter": "Newsletter",
+    "load_more": "Load more",
+    "see_all_episodes": "See all episodes",
+    "tv_programs": "TV Programs",
+    "radio_programs": "Radio Programs",
+    "videos": "Videos",
+    "search": "Search",
+    "success": "This is success!",
+    "copyright": "Radio Free Europe/Radio Liberty & 2014 RFE/RL, Inc. All Rights Reserved.",
+    "time-zone": "(Provided in central time)",
+    "back_top_top": "Back to top",
+    "reply": "Reply",
+    "report": "Report",
+    "share": "Share",
+    "toggle-sharing": "Toggle more sharing options",
+    "comments_head": "All comments (125)",
+    "comments_form_head": "Your opinion",
+    "comments_form_note-NOT-IN-FIRST-PHASE": "For more options please <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Login</a> or <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Register</a>.",
+    "comments_moderator": "Moderator",
+    "comments_your_name": "Your name...",
+    "comments_your_comment": "Your comment...",
+    "comments_your_reply": "Your reply...",
+    "comments_your_reason": "Reason for reporting...",
+    "read_more_info": "Read more info"    
+  
+  },
+  "btn_text": {
+    "default": "Button",
+    "show_details": "Show more details",
+    "hide_details": "Hide details",
+    "submit_comment": "Submit comment",
+    "load_more_comments": "Load more comments",
+    "load_more": "Load more",
+    "search": "Search",
+    "reset_comment": "Cancel",
+    "reply_comment": "Reply",
+    "report_comment": "Report"
+  },
+  "sizes": {
+    "screen-sm-min": "740px"
+  },
+  "END-GENERATED-DEFAULT-TEXTS": "",
+  "START-GENERATED-LINKS": "",
+  "link-try-again": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-success": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-article": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-video": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-facebook": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-gplus": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-vkontakte": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-email": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-home": "/patterns/09-RFE-00-homepage/09-RFE-00-homepage.html",
+  "link-author-facebook": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-author-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-index-menu-tv": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-program-index-menu-radio": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-comments-submit": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-comments-report": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-search-result": "/patterns/09-RFE-07-search-result/09-RFE-07-search-result.html",
+  "link-crosslink-tv-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-crosslink-radio-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-crosslink-videos": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-multimedia-context-menu-schedule": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-multimedia-context-menu-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html",
+  "link-multimedia-context-menu-podcast": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "END-GENERATED-LINKS": "",
+  "START-GENERATED-HEADER-AND-MENU": "",
+  "multimedia_context_menu": {
+    "schedule": "Schedule",
+    "programs": "Programs",
+    "podcast": "Podcast"
+  },
+
+
+
+
+  
+
+  "footer-navigation": {
+    "title_socials": "Follow Us",
+    "menu-items": [
+
+      {
+        "item": {
+          "item-label": "Info",
+          "item-id": "01",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "About",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Contact Us",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Terms Of Use",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Privacy",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Help",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Jobs",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Sitemap",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "All RFE/RL Sites",
+              "link": "#success"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Services",
+          "item-id": "02",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Podcast",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "RSS",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mailing List",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Category",
+          "item-id": "03",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "Russia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tatar-Bashkir",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "North Caucasus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iran",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iraq",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kazakhstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kyrgyzstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tajikistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Turkmenistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Uzebekistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Armenia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Azerbaijan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Afghanistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Pakistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Balkans",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Belarus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moldova",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Ukraine",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Marketing & Affiliates",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "User links 2",
+          "item-id": "02",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Item 1",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moje babicka 3",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Runaway my dear",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      }
+
+    ]
+  },
+  "END-GENERATED-HEADER-AND-MENU": ""
+}

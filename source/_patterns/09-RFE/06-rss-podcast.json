@@ -1,0 +1,1148 @@
+{
+
+  "header-template-1": true,
+  "its-rtl": false,
+  "nav-type": "horizontal",
+  "its-en": true,
+  "its-ru": false,
+  "its-fa": false,
+  "its-tg": false,
+  "entity": "RFE",
+  "site": "en-US",
+  "content-type": "pg-rss-podcast",
+
+  "page-title-enabled": true,
+  "page-title": "RSS / Podcast",
+
+  "tabs": {
+    "tab-ID": "rss-podcast-tabs",
+    "item": [
+      {
+        "label": "RSS",
+        "isActive": false,
+        "data-target-tab": "rss",
+        "link": "/patterns/06-7.05-06-rss-podcast/06-7.05-06-rss-podcast.html?tab=rss"
+      },
+      {
+        "label": "Podcast",
+        "isActive": true,
+        "data-target-tab": "podcast",
+        "link": "/patterns/06-7.05-06-rss-podcast/06-7.05-06-rss-podcast.html?tab=podcast"
+      }
+    ]
+  },
+  "specific-tabs-rss": {
+    "description": "Subscribe to Radio Free Europe/Radio Liberty RSS feeds to get news and information delivered directly to your desktop! For an explanation of what RSS is and how to use it, please see our <a href=\"/info/rss/403.html\">help page</a>.",
+
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Straight Talk Africa",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/00A41D58-1817-46FE-87FC-A9717078E2F8.png",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": {
+          "butttonType": "rss",
+          "label": "Subscribe",
+          "link": "http://www.rferl.org/api/z$qimetkiy"
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "From Our Bureaus",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/00A41D58-1817-46FE-87FC-A9717078E2F8.png",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": {
+          "butttonType": "rss",
+          "label": "Subscribe",
+          "link": "http://www.rferl.org/api/z$qimetkiy"
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Picks ",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "RFE/RL's Top Picks",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.voanews.com/00A41D58-1817-46FE-87FC-A9717078E2F8.png",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": {
+          "butttonType": "rss",
+          "label": "Subscribe",
+          "link": "http://www.rferl.org/api/z$qimetkiy"
+        }
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Morning news",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was.",
+        "img": {
+          "landscape-16x9": {
+            "src": "/images/tv-graphic.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "rss",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Daily results",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musi.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/DF497D7B-C75E-44BB-9600-B470AD96E2C3_cx0_cy39_cw0_w300_r1.png",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "rss",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Time for Freedom - Final Release",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "The European languages are members of the same family. Their separate existence is a myth.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/14F3F2C0-8871-47ED-AF56-4B3215AA48E1_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "rss",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "The Power Vertical",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/A599F7E4-61E4-4126-837A-6520F84CB39A_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "rss",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Your letters",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "A wonderful serenity has taken possession of my entire soul.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/4E3C48F7-F665-4249-B892-123A7CAE14DA_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "rss",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      }
+    ]
+  },
+  "specific-tabs-podcast": {
+    "description": "Subscribe to Radio Free Europe Radio Liberty Podcast to get audio automatically delivered to you. You can listen to the files on your computer or load them on your portable media player and take them with you.",
+    "itemsSpecific": [
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Morning news",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was.",
+        "img": {
+          "landscape-16x9": {
+            "src": "/images/tv-graphic.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "podcast",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Daily results",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musi.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/DF497D7B-C75E-44BB-9600-B470AD96E2C3_cx0_cy39_cw0_w300_r1.png",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "podcast",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          },
+          {
+            "butttonType": "itunes",
+            "label": "iTunes",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Time for Freedom - Final Release",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "The European languages are members of the same family. Their separate existence is a myth.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/14F3F2C0-8871-47ED-AF56-4B3215AA48E1_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "itunes",
+            "label": "iTunes",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "The Power Vertical",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/A599F7E4-61E4-4126-837A-6520F84CB39A_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "itunes",
+            "label": "iTunes",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "Your letters",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "A wonderful serenity has taken possession of my entire soul.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/4E3C48F7-F665-4249-B892-123A7CAE14DA_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "podcast",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          },
+          {
+            "butttonType": "itunes",
+            "label": "iTunes",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      },
+      {
+        "itemIcon": "",
+        "isLive": false,
+        "date": "1.10. 2005",
+        "time": "10:00 - 11:00",
+        "category": "",
+        "category-link": "",
+        "title": "The Metamorphosis by Franz Kafka",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "intro": "One morning, when Gregor Samsa woke from troubled dreams.",
+        "img": {
+          "landscape-16x9": {
+            "src": "http://gdb.rferl.org/82EF0783-D32E-4DE4-883C-CE578540495A_w300_r1.jpg",
+            "alt": "16x9 Image"
+          }
+        },
+        "hasExtraLink": [
+          {
+            "butttonType": "podcast",
+            "label": "Subscribe",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          },
+          {
+            "butttonType": "itunes",
+            "label": "iTunes",
+            "link": "http://www.rferl.org/api/z$qimetkiy"
+          }
+        ]
+      }
+    ]
+  },
+  "START-GENERATED-DEFAULT-TEXTS": "",
+  "right-region-enabled": false,
+  "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "try-again": "Please try again",
+  "success": "Thank you<br/> please continue",
+  "ok": "Ok",
+  "redirection-text": "This content is not available on Beta site. <br/> Please, see it on full site",
+  "section-head": {
+    "related": "Related articles",
+    "custom-widget": "My custom widget",
+    "you-might-like": "You might like also",
+    "archive": "Archive",
+    "top-stories": "Top Stories",
+    "blogs-title": "Blogs",
+    "schedule_and_frequencies": "Schedule and Frequencies",
+    "subscribe": "Subscribe",
+    "episodes": "Episodes",
+    "produced-by": "Produced by"
+  },
+  "social-networks": [
+    {
+      "link": "#facebook",
+      "social-network": "facebook",
+      "title": "Facebook"
+    },
+    {
+      "link": "#twitter",
+      "social-network": "twitter",
+      "title": "Twitter"
+    },
+    {
+      "link": "#youtube",
+      "social-network": "youtube",
+      "title": "YouTube"
+    },
+    {
+      "link": "#google-plus",
+      "social-network": "g-plus",
+      "title": "G+"
+    },
+    {
+      "link": "#vkontakte",
+      "social-network": "vkontakte",
+      "title": "vKontakte"
+    },
+    {
+      "link": "#soundcloud",
+      "social-network": "soundcloud",
+      "title": "SoundCloud"
+    }
+  ],
+  "texts": {
+    "main-navigation-nojs-label": "Main Menu",
+    "all_comments": "All comments (125)",
+    "comment_sorting": "Comment Sorting",
+    "comment_sorting_latest_first": "Latest first",
+    "comment_sorting_chronological": "Chronological",
+    "see_comments": "See comments",
+    "see_tv_programs": "See TV Programs",
+    "see_radio_programs": "See Radio Programs",
+    "pub-date-text": "March 04, 2013",
+    "pub-date-datetime": "2013-03-04 09:29:24",
+    "follow-facebook": "Facebook",
+    "follow-twitter": "Twitter",
+    "shortwave": "Shortwave",
+    "tv_satellites": "TV Satellites",
+    "podcast": "Podcast",
+    "rss": "RSS",
+    "itunes": "iTunes",
+    "newsletter": "Newsletter",
+    "load_more": "Load more",
+    "see_all_episodes": "See all episodes",
+    "tv_programs": "TV Programs",
+    "radio_programs": "Radio Programs",
+    "videos": "Videos",
+    "search": "Search",
+    "success": "This is success!",
+    "copyright": "Radio Free Europe/Radio Liberty & 2014 RFE/RL, Inc. All Rights Reserved.",
+    "back_top_top": "Back to top",
+    "reply": "Reply",
+    "report": "Report",
+    "share": "Share",
+    "toggle-sharing": "Toggle more sharing options",
+    "comments_head": "All comments (125)",
+    "comments_form_head": "Your opinion",
+    "comments_form_note-NOT-IN-FIRST-PHASE": "For more options please <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Login</a> or <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Register</a>.",
+    "comments_moderator": "Moderator",
+    "comments_your_name": "Your name...",
+    "comments_your_comment": "Your comment...",
+    "comments_your_reply": "Your reply...",
+    "comments_your_reason": "Reason for reporting...",
+    "read_more_info": "Read more info"
+  },
+  "btn_text": {
+    "default": "Button",
+    "show_details": "Show more details",
+    "hide_details": "Hide details",
+    "submit_comment": "Submit comment",
+    "load_more_comments": "Load more comments",
+    "load_more": "Load more",
+    "search": "Search",
+    "reset_comment": "Cancel",
+    "reply_comment": "Reply",
+    "report_comment": "Report"
+  },
+  "sizes": {
+    "screen-sm-min": "740px"
+  },
+  "END-GENERATED-DEFAULT-TEXTS": "",
+  "START-GENERATED-LINKS": "",
+  "link-try-again": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-success": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-article": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-video": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-facebook": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-sharing-gplus": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-vkontakte": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-sharing-email": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-home": "/patterns/09-RFE-00-homepage/09-RFE-00-homepage.html",
+  "link-author-facebook": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-author-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+  "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+  "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-program-index-menu-tv": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-program-index-menu-radio": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-comments-submit": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-comments-report": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-search-result": "/patterns/09-RFE-07-search-result/09-RFE-07-search-result.html",
+  "link-crosslink-tv-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+  "link-crosslink-radio-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+  "link-crosslink-videos": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "link-multimedia-context-menu-schedule": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+  "link-multimedia-context-menu-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html",
+  "link-multimedia-context-menu-podcast": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+  "END-GENERATED-LINKS": "",
+  "START-GENERATED-HEADER-AND-MENU": "",
+  "multimedia_context_menu": {
+    "schedule": "Schedule",
+    "programs": "Programs",
+    "podcast": "Podcast"
+  },
+
+  
+
+  "footer-navigation": {
+    "title_socials": "Follow Us",
+    "menu-items": [
+      {
+        "item": {
+          "item-label": "Info",
+          "item-id": "01",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "About",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Contact Us",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Terms Of Use",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Privacy",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Help",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Jobs",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Sitemap",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "All RFE/RL Sites",
+              "link": "#success"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Services",
+          "item-id": "02",
+          "item-class": "block-primary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Podcast",
+              "link": "/patterns/06-7.05-06-rss-podcast/06-7.05-06-rss-podcast.html"
+            },
+            {
+              "subitem-label": "RSS",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mailing List",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "Category",
+          "item-id": "03",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+          "subitems": [
+            {
+              "subitem-label": "Russia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tatar-Bashkir",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "North Caucasus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iran",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Iraq",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kazakhstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Kyrgyzstan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Tajikistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Turkmenistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Uzebekistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Armenia",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Azerbaijan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Afghanistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Pakistan",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Balkans",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Belarus",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moldova",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Ukraine",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Marketing & Affiliates",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      },
+      {
+        "item": {
+          "item-label": "User links 2",
+          "item-id": "02",
+          "item-class": "block-secondary",
+          "has-subitems": true,
+          "link": "",
+          "subitems": [
+            {
+              "subitem-label": "Item 1",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Moje babicka 3",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Mobile App",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "Runaway my dear",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            },
+            {
+              "subitem-label": "My Favorites",
+              "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+            }
+          ]
+        }
+      }
+
+    ]
+  },
+  "END-GENERATED-HEADER-AND-MENU": ""
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

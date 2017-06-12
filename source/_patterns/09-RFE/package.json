@@ -1,0 +1,11 @@
+{
+  "name": "sss-sss-ss",
+  "version": "0.1.0",
+  "dependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.5",
+    "glob": "^4.0.5",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-text-replace": "^0.3.12"
+  }
+}

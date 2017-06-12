@@ -1,0 +1,1433 @@
+{
+    "header-template-1": true,
+    "its-rtl": false,
+    "nav-type": "horizontal",
+    "its-en": true,
+    "its-ru": false,
+    "its-fa": false,
+    "its-tg": false,
+    "entity": "RFE",
+    "site": "en-US",
+    "content-type": "pg-prog-index",
+    "page-title-enabled": true,
+    "page-title": "Programs",
+    "tabs": {
+        "tab-ID": "program-index-tabs",
+        "tabs-level": 1,
+        "modifiers":  "nav-tabs--default",
+        "item": [
+            {
+                "label": "TV",
+                "isActive": false,
+                "data-target-tab": "tv",
+                "link": "/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+                "modifiers": "nav-tabs__item--default"
+            },
+            {
+                "label": "Radio",
+                "isActive": true,
+                "data-target-tab": "radio",
+                "link": "/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+                "modifiers": "nav-tabs__item--default"
+            }
+        ]
+    },
+    "specific-items-tv": {
+        "widget-header": "News in Brief",
+        "widget-header-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "widget-footer": "More in archive",
+        "widget-footer-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "itemsSpecific": [
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Straight Talk Africa",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "Shaka Ssali hosts this call-in program that examines topics of special interest to Africans.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/00A41D58-1817-46FE-87FC-A9717078E2F8.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Morning News",
+                "link": "/patterns/09-RFE-05-program/09-RFE-05-program.html",
+                "intro": "Morning headlines, with links to the most interesting news items, articles, and oddities around the web.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "/images/tv-graphic.jpg",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Health Chat",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "Health Chat is a live call-in program that addresses health issues of interest to Africa.  ",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/FF115D8E-1D22-4F62-B47D-50F967DBE373.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "The Correspondents",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "The Correspondents is VOA’s weekly discussion of the world’s top stories, as seen through the eyes of our dedicated reporters in the US and around the globe. ",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/5D736E72-568E-4B05-B70B-447095031AA2_w640_h360.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "On Assignment",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "\"On Assignment\" is a weekly behind-the-scenes look at the VOA reporters and producers reporting the news from around the world.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/4B6701DA-CF77-4F8D-82FF-8441C2D50BEA_cx0_cy5_cw0_w640_h360.jpg",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Soul Lounge",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "Music lover and cultural critic, Shawna Renee, introduces you to some of her favorite Soul, R&B and Hip Hop artists.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/F92852C1-2B8A-4A9C-BE97-9D6BA7C24F32.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Press Conference USA",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "30-minute weekly program on a wide range of topics spanning U.S. politics, foreign policy, global health, science and culture.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/81AB1191-95C0-42B5-9B87-EAA0677F89DC.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            }
+        ]
+    },
+    "specific-items-radio": {
+        "widget-header": "News in Brief",
+        "widget-header-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "widget-footer": "More in archive",
+        "widget-footer-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "itemsSpecific": [
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Encounter",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "Join host Carol Castiel each week as she and two advocates from the world of politics, public policy, or academia discuss and debate a critical issue in the news, bringing depth, perspective, and insight to the world around us.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "/images/radio-graphic.jpg",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Jazz America",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "Each weekend on Jazz America host Russ Davis brings you the best in jazz, present and past. Each week Russ interviews a musician and features music from their latest recordings.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/07E83498-8713-4FA0-9CC8-A76316F57695.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Science World",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "Join host Rick Pantaleo to examine global issues in science, technology, health, agriculture, and the environment on Science World.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/53A806D3-F7EE-4A3D-9D3B-8ECDBF0F4130.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "Top 20 Countdown",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "Every Thursday, host Ray McDonald surveys the Top 20 pop singles and albums in the U.S. as ranked by Billboard magazine.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/C565DE82-FFC9-4AD0-983B-4C09210D1F07.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            },
+            {
+                "itemIcon": "",
+                "isLive": false,
+                "date": "1.10. 2005",
+                "time": "10:00 - 11:00",
+                "category": "",
+                "category-link": "",
+                "title": "International Edition",
+                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                "intro": "30 minutes of in-depth world news reported by VOA’s worldwide corps of correspondents - on the events people are talking about. Updated 10 times a day.",
+                "img": {
+                    "landscape-16x9": {
+                        "src": "http://gdb.voanews.com/77BB45DE-B2DB-4E24-B1F9-0D81C30ECC43.png",
+                        "alt": "16x9 Image"
+                    }
+                }
+            }
+        ]
+    },
+    "START-GENERATED-DEFAULT-TEXTS": "",
+    "right-region-enabled": false,
+    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "category-link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "try-again": "Please try again",
+    "success": "Thank you<br/> please continue",
+    "ok": "Ok",
+    "redirection-text": "This content is not available on Beta site. <br/> Please, see it on full site",
+    "section-head": {
+        "related": "Related articles",
+        "custom-widget": "My custom widget",
+        "you-might-like": "You might like also",
+        "archive": "Archive",
+        "top-stories": "Top Stories",
+        "blogs-title": "Blogs",
+        "schedule_and_frequencies": "Schedule and Frequencies",
+        "subscribe": "Subscribe",
+        "episodes": "Episodes",
+        "produced-by": "Produced by"
+    },
+    "social-networks": [
+        {
+            "link": "#facebook",
+            "social-network": "facebook",
+            "title": "Facebook"
+        },
+        {
+            "link": "#twitter",
+            "social-network": "twitter",
+            "title": "Twitter"
+        },
+        {
+            "link": "#youtube",
+            "social-network": "youtube",
+            "title": "YouTube"
+        },
+        {
+            "link": "#google-plus",
+            "social-network": "g-plus",
+            "title": "G+"
+        },
+        {
+            "link": "#vkontakte",
+            "social-network": "vkontakte",
+            "title": "vKontakte"
+        },
+        {
+            "link": "#soundcloud",
+            "social-network": "soundcloud",
+            "title": "SoundCloud"
+        }
+    ],
+    "texts": {
+        "main-navigation-nojs-label": "Main Menu",
+        "all_comments": "All comments (125)",
+        "comment_sorting": "Comment Sorting",
+        "comment_sorting_latest_first": "Latest first",
+        "comment_sorting_chronological": "Chronological",
+        "see_comments": "See comments",
+        "see_tv_programs": "See TV Programs",
+        "see_radio_programs": "See Radio Programs",
+        "pub-date-text": "March 04, 2013",
+        "pub-date-datetime": "2013-03-04 09:29:24",
+        "follow-facebook": "Facebook",
+        "follow-twitter": "Twitter",
+        "shortwave": "Shortwave",
+        "tv_satellites": "TV Satellites",
+        "podcast": "Podcast",
+        "rss": "RSS",
+        "itunes": "iTunes",
+        "newsletter": "Newsletter",
+        "load_more": "Load more",
+        "see_all_episodes": "See all episodes",
+        "tv_programs": "TV Programs",
+        "radio_programs": "Radio Programs",
+        "videos": "Videos",
+        "search": "Search",
+        "success": "This is success!",
+        "copyright": "Radio Free Europe/Radio Liberty & 2014 RFE/RL, Inc. All Rights Reserved.",
+        "back_top_top": "Back to top",
+        "reply": "Reply",
+        "report": "Report",
+        "share": "Share",
+        "toggle-sharing": "Toggle more sharing options",
+        "comments_head": "All comments (125)",
+        "comments_form_head": "Your opinion",
+        "comments_form_note-NOT-IN-FIRST-PHASE": "For more options please <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Login</a> or <a href='/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html'>Register</a>.",
+        "comments_moderator": "Moderator",
+        "comments_your_name": "Your name...",
+        "comments_your_comment": "Your comment...",
+        "comments_your_reply": "Your reply...",
+        "comments_your_reason": "Reason for reporting...",
+        "read_more_info": "Read more info"
+    },
+    "btn_text": {
+        "default": "Button",
+        "show_details": "Show more details",
+        "hide_details": "Hide details",
+        "submit_comment": "Submit comment",
+        "load_more_comments": "Load more comments",
+        "load_more": "Load more",
+        "search": "Search",
+        "reset_comment": "Cancel",
+        "reply_comment": "Reply",
+        "report_comment": "Report"
+    },
+    "sizes": {
+        "screen-sm-min": "740px"
+    },
+    "END-GENERATED-DEFAULT-TEXTS": "",
+    "START-GENERATED-LINKS": "",
+    "link-try-again": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-success": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+    "link-article": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-video": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-program": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-program-item": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-sharing-facebook": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+    "link-sharing-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-sharing-gplus": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+    "link-sharing-vkontakte": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+    "link-sharing-email": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-home": "/patterns/09-RFE-00-homepage/09-RFE-00-homepage.html",
+    "link-author-facebook": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-author-twitter": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-program-item-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-program-item-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+    "link-program-item-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+    "link-program-item-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-program-menu-home": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-program-menu-episodes": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=episodes",
+    "link-program-menu-about": "/patterns/09-RFE-05-program/09-RFE-05-program.html?tab=about",
+    "link-program-menu-gallery": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-program-index-menu-tv": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+    "link-program-index-menu-radio": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+    "link-comments-submit": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+    "link-comments-report": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+    "link-search-result": "/patterns/09-RFE-07-search-result/09-RFE-07-search-result.html",
+    "link-crosslink-tv-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv",
+    "link-crosslink-radio-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio",
+    "link-crosslink-videos": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "link-multimedia-context-menu-schedule": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+    "link-multimedia-context-menu-programs": "http://patternlab.local/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html",
+    "link-multimedia-context-menu-podcast": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+    "END-GENERATED-LINKS": "",
+    "START-GENERATED-HEADER-AND-MENU": "",
+    "multimedia_context_menu": {
+        "schedule": "Schedule",
+        "programs": "Programs",
+        "podcast": "Podcast"
+    },
+    "navigation": {
+        "Watch": "Watch",
+        "Listen": "Listen",
+        "Live": "",
+        "more": "More",
+        "language-toggle": "English",
+        "link": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+        "RFERL-Sites": "All RFE/RL Sites",
+        "link": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+        "user-name-NOT-IN-FIRST-PHASE": "login",
+        "all-in-category": "See All In",
+        "sites-by-language": "Languages",
+        "sites-by-language-link": "/patterns/09-RFE-52-entity-sites-voa/09-RFE-52-entity-sites-voa.html",
+        "sites-by-language-preloaded": false,
+
+        "menu-items-media": [
+            {
+                "item": {
+                    "item-label": "Watch",
+                    "item-id": "watch",
+                    "is-tv": true,
+                    "has-subitems": true,
+                    "has-menu-box": true,
+                    "action-button": "Watch now",
+                    "is-live": true,
+                    "Live": "Live Radio",
+                    "header": {
+                        "hightlight": "Watch Live",
+                        "upcoming": "Upcoming program",
+                        "more": "More TV"
+                    },
+                    "subitems": [
+                        {
+                            "subitem-label": "Newscast",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Programs",
+                            "link": "/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=tv"
+                        },
+                        {
+                            "subitem-label": "Schedule",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Podcast",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ],
+                    "has-specific-items": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "video",
+                                "isLive": true,
+                                "date": "1.10. 2005",
+                                "time": "10:00 - 12:00",
+                                "category": "World",
+                                "title": "\"War Stories\" Remembering Vietnam",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/vietnam.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "has-specific-items-upcoming": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "video",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "12:00 - 12:30",
+                                "category": "Europe",
+                                "title": "News from East Europe",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/vietnam.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "video",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "12:30 - 13:00",
+                                "category": "World",
+                                "title": "Technological conflict between companies",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/vietnam.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "video",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "13:00 - 16:00",
+                                "category": "World",
+                                "title": "World news",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/vietnam.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Listen",
+                    "item-id": "listen",
+                    "is-radio": true,
+                    "has-subitems": true,
+                    "has-menu-box": true,
+                    "action-button": "Listen Live",
+                    "is-live": false,
+
+                    "header": {
+                        "hightlight": "On Air Now",
+                        "upcoming": "Upcoming program",
+                        "more": "More Radio"
+                    },
+                    "subitems": [
+                        {
+                            "subitem-label": "Newscast",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Programs",
+                            "link": "/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html?tab=radio"
+                        },
+                        {
+                            "subitem-label": "Schedule",
+                            "link": "#success"
+                        }
+                    ],
+                    "has-specific-items": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "audio",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "11:00 - 12:00",
+                                "category": "World",
+                                "title": "News from all regions",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-07-program-item-audio/09-RFE-07-program-item-audio.html",
+                                "img": {
+                                    "landscape-4x3": {
+                                        "src": "http://placeimg.com/400/300/tech?xsa",
+                                        "alt": "4x3 Image"
+                                    },
+                                    "landscape-16x9": {
+                                        "src": "/images/radio-graphic.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "has-specific-items-upcoming": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "audio",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "12:00 - 13:00",
+                                "category": "World",
+                                "title": "Interview with Steve Jobs",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-22-success/09-RFE-22-success.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/vietnam.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "audio",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "13:00 - 14:00",
+                                "category": "World",
+                                "title": "Live from fight area",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/vietnam.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "audio",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "14:00 - 16:00",
+                                "category": "World",
+                                "title": "Learning English",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/vietnam.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+
+        "menu-items": [
+            {
+                "item": {
+                    "item-label": "Homepage",
+                    "item-id": "02",
+                    "has-subitems": false,
+                    "has-menu-box": false,
+                    "link": "/patterns/09-RFE-00-homepage/09-RFE-00-homepage.html",
+                    "has-specific-items": false
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Phase-1",
+                    "item-id": "02",
+                    "has-subitems": true,
+                    "has-menu-box": false,
+                    "link": "/patterns/09-RFE-02-archive/09-RFE-02-archive.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "Article",
+                            "link": "/patterns/09-RFE-01-article1/09-RFE-01-article1.html"
+                        },
+                        {
+                            "subitem-label": "Archive",
+                            "link": "/patterns/09-RFE-02-archive/09-RFE-02-archive.html"
+                        },
+                        {
+                            "subitem-label": "Media page - video",
+                            "link": "/patterns/09-RFE-03-media/09-RFE-03-media.html"
+                        },
+                        {
+                            "subitem-label": "Program page - TV (Episodes/About)",
+                            "link": "/patterns/09-RFE-05-program/09-RFE-05-program.html"
+                        },
+                        {
+                            "subitem-label": "Program page - TV (Video)",
+                            "link": "/patterns/09-RFE-06-program-item/09-RFE-06-program-item.html"
+                        },
+                        {
+                            "subitem-label": "Program Index",
+                            "link": "/patterns/09-RFE-06-program-index/09-RFE-06-program-index.html"
+                        },
+                        {
+                            "subitem-label": "Search",
+                            "link": "/patterns/09-RFE-07-search-result/09-RFE-07-search-result.html"
+                        },
+                        {
+                            "subitem-label": "404",
+                            "link": "/patterns/09-RFE-50-page-404/09-RFE-50-page-404.html"
+                        },
+                        {
+                            "subitem-label": "Redirection-page",
+                            "link": "/patterns/09-RFE-51-content-redirection/09-RFE-51-content-redirection.html"
+                        }
+                    ]
+                }
+            },
+            {
+                "item": {
+                    "item-label": "7.01",
+                    "item-id": "02",
+                    "has-subitems": true,
+                    "has-menu-box": false,
+                    "link": "",
+                    "subitems": [
+                        {
+                            "subitem-label": "Article - on image update",
+                            "link": "/patterns/06-7.01-01-article2/06-7.01-01-article2.html"
+                        },
+                        {
+                            "subitem-label": "Photoblog",
+                            "link": "/patterns/06-7.01-08-photoblog/06-7.01-08-photoblog.html"
+                        },
+                        {
+                            "subitem-label": "LiveBlog - live",
+                            "link": "/patterns/06-7.01-02-liveblog/06-7.01-02-liveblog.html"
+                        },
+                        {
+                            "subitem-label": "LiveBlog - Archive",
+                            "link": "/patterns/06-7.01-02-liveblog-archive/06-7.01-02-liveblog-archive.html"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "item": {
+                    "item-label": "Health",
+                    "item-id": "03",
+                    "has-subitems": true,
+                    "has-menu-box": false,
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "Nutrition",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Medical",
+                            "link": "/patterns/09-RFE-02-archive-medical/09-RFE-02-archive-medical.html"
+                        },
+                        {
+                            "subitem-label": "Mental",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Dental",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ],
+                    "has-specific-items": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "10:00 - 11:00",
+                                "category": "Health",
+                                "title": "China Vows Food, Drug Safety Reforms",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://gdb.voanews.com/B4F92003-DE40-4E89-8F82-CF5F55230D34_w300_r1_s.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "10:00 - 11:00",
+                                "category": "Health",
+                                "title": "Zambia Denies Reports of Sata Treatment in NY",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://gdb.voanews.com/3DD2A9DB-144C-4C43-8227-331F1E053A7D_w300_r1.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "10:00 - 11:00",
+                                "category": "Health",
+                                "title": "Health Care Specialists Consider Different Treatments for Ebola",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-01-article1/09-RFE-01-article1.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://gdb.voanews.com/B404981D-391E-4D76-A02A-D435B608FEBC_w300_r1.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "video",
+                                "isLive": false,
+                                "date": "1.10. 2005",
+                                "time": "10:00 - 11:00",
+                                "category": "Health",
+                                "title": "UNAIDS Appoints Victoria Beckham Goodwill Ambassador ",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://gdb.voanews.com/729B5AD5-AFA4-46DD-BF4C-5AA1065DC560_w300_r1.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Technology",
+                    "item-id": "04",
+                    "has-subitems": true,
+                    "has-menu-box": false,
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "Media Page",
+                            "link": "/patterns/09-RFE-03-media/09-RFE-03-media.html"
+                        },
+                        {
+                            "subitem-label": "Tablets",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+
+                        {
+                            "subitem-label": "PC & Mac",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Photo & Video",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ],
+                    "has-specific-items": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "28.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Apple Announces the new iPhone 6",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-02-article2/09-RFE-02-article2.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "/images/iPhone6.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "26.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Apple's HealthKit App Would Work",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-03-media/09-RFE-03-media.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://gdb.voanews.com/296DA377-2F33-45D0-A933-849F9DE25BE2_w300_r1.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "25.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Study Finds Solar System's Water Older Than Sun",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://gdb.voanews.com/86B3A251-9ABB-4E04-AAE4-87470C17CABA_w300_r1.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "24.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "India’s Spacecraft Successfully Reaches Mars ",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://gdb.voanews.com/FC3FCB99-3BAA-42AD-AB29-D0BE0D4F4F9F_w300_r1.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Sport",
+                    "item-id": "05",
+                    "has-subitems": false,
+                    "has-menu-box": false,
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "Football",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Hockey",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Tennis",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Others",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ],
+                    "has-specific-items": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "28.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Premier League: 10 things to look out for this weekend",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-02-article2/09-RFE-02-article2.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Football/Pix/pictures/2014/10/3/1412292768773/Ten-things-010.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "26.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Lewis Hamilton fastest in second practice session for Japanese grand prix",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/3/1412328872710/Arsene-Wenger-010.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "25.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Sporting Kansas City hope White House trip boosts playoff push",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/2/1412279841378/1a16243e-eb23-47fe-8bae-28c5f4e377a5-620x372.jpeg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "24.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Bite-size memories of Mike Tyson by the writer whose words packed a punch",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-220/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/30/1412088401486/Mike-Tyson-bites-Evander--010.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Culture",
+                    "item-id": "06",
+                    "has-subitems": false,
+                    "has-menu-box": false,
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "Film",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Tv & Radio",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Art & Design",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Books",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Music",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ],
+                    "has-specific-items": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "audio",
+                                "isLive": false,
+                                "date": "28.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Hozier: Hozier – review: folky blues filled with haunting melodies",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-02-article2/09-RFE-02-article2.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/1/1412177439069/hozier-012.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "26.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "",
+                                "title": "Seamus Heaney’s last poem published in Irish gallery’s anthology",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/2/1412262269594/Seamus-Heaney-put-the-fin-012.jpg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "camera",
+                                "isLive": false,
+                                "date": "25.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "",
+                                "title": "Post-photography: when artists go wild with cameras - in pictures",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/26/1411723870962/ac1e11db-ae52-47ad-8ae6-6c6358358543-1020x680.jpeg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "24.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "",
+                                "title": "Poster poems: forgetting",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/3/1412339941270/c18ed046-6580-484f-bf7d-31956cc118b8-620x372.jpeg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Economics",
+                    "item-id": "07",
+                    "has-subitems": true,
+                    "has-menu-box": false,
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "has-specific-items": false,
+                    "subitems": [
+                        {
+                            "subitem-label": "Finances",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Business",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Government",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ]
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Fashion",
+                    "item-id": "08",
+                    "has-subitems": true,
+                    "has-menu-box": false,
+
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "London Fashion week",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Designer / Luxury",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Runway",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ],
+                    "has-specific-items": {
+                        "itemsSpecific": [
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "28.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "The 10 best-dressed people from Paris fashion week SS15",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-02-article2/09-RFE-02-article2.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/2/1412261639429/d580f62a-ff39-4805-bb24-ce21fe86edcc-620x372.jpeg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "26.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Nicolas Ghesquière takes Louis Vuitton on a journey through space and time",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/10/1/1412169268298/84065acd-c495-46d2-9244-3972ffe7508a-620x372.jpeg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "25.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Chanel: co-opting feminism at Paris fashion week",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/30/1412087041118/0ccda825-b945-468c-b3d9-1e8f085fc54c-620x372.jpeg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            },
+                            {
+                                "itemIcon": "",
+                                "isLive": false,
+                                "date": "24.10. 2014",
+                                "time": "10:00 - 11:00",
+                                "category": "World",
+                                "title": "Apple Watch at Paris fashion week – five things we learned",
+                                "intro": "",
+                                "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                                "img": {
+                                    "landscape-16x9": {
+                                        "src": "http://i.guim.co.uk/static/w-150/h--/q-95/sys-images/Guardian/Pix/pictures/2014/9/30/1412072696863/ddcbeebc-2dbd-4b34-8c3f-529cb013b1a4-620x372.jpeg",
+                                        "alt": "16x9 Image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+
+        ]
+    },
+
+
+
+
+    "footer-navigation": {
+        "title_socials": "Follow Us",
+        "menu-items": [
+
+            {
+                "item": {
+                    "item-label": "Info",
+                    "item-id": "01",
+                    "item-class": "block-primary",
+                    "has-subitems": true,
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "About",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Contact Us",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Terms Of Use",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Privacy",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Help",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Jobs",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Sitemap",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "All RFE/RL Sites",
+                            "link": "#success"
+                        }
+                    ]
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Services",
+                    "item-id": "02",
+                    "item-class": "block-primary",
+                    "has-subitems": true,
+                    "link": "",
+                    "subitems": [
+                        {
+                            "subitem-label": "Podcast",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "RSS",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Mobile App",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Mailing List",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "My Favorites",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ]
+                }
+            },
+            {
+                "item": {
+                    "item-label": "Category",
+                    "item-id": "03",
+                    "item-class": "block-secondary",
+                    "has-subitems": true,
+                    "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+                    "subitems": [
+                        {
+                            "subitem-label": "Russia",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Tatar-Bashkir",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "North Caucasus",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Iran",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Iraq",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Kazakhstan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Kyrgyzstan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Tajikistan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Turkmenistan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Uzebekistan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Armenia",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Azerbaijan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Afghanistan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Pakistan",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Balkans",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Belarus",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Moldova",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Ukraine",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Marketing & Affiliates",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ]
+                }
+            },
+            {
+                "item": {
+                    "item-label": "User links 2",
+                    "item-id": "02",
+                    "item-class": "block-secondary",
+                    "has-subitems": true,
+                    "link": "",
+                    "subitems": [
+                        {
+                            "subitem-label": "Item 1",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Moje babicka 3",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Mobile App",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "Runaway my dear",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        },
+                        {
+                            "subitem-label": "My Favorites",
+                            "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html"
+                        }
+                    ]
+                }
+            }
+
+        ]
+    },
+    "END-GENERATED-HEADER-AND-MENU": ""
+
+}
