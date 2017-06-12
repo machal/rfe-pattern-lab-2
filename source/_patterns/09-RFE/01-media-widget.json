@@ -6,7 +6,7 @@
   "entity": "RFE",
   "site": "en",
   "content-type": "pg-section pg-home",
-  "navigation-fallback-page": "patterns/04-navigations-_01-navigation-multiple-tube/04-navigations-_01-navigation-multiple-tube.html",
+  "navigation-fallback-page": "patterns/04-navigations-01-navigation-multiple-tube/04-navigations-01-navigation-multiple-tube.html",
 
   "specific-items-first-widget": {
     "Live": "Live",

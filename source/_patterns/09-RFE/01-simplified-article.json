@@ -161,7 +161,7 @@
     {
       "isQuizEmbedded": true,
       "media-type": "quiz-embedded",
-      "iframe-source": "/patterns/06-7.11-_00-quiz-embedded/06-7.11-_00-quiz-embedded.html",
+      "iframe-source": "/patterns/06-7.11-00-quiz-embedded/06-7.11-00-quiz-embedded.html",
       "iframe-height": "400"
     },
     {

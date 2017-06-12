@@ -36,7 +36,7 @@
       "file-size": "5.2 MB",
       "duration": "0:35",
       "pop-out-player-button": {
-        "targetULR": "/patterns/06-7.07-_06-audio-pop-out-player-LIVE/06-7.07-_06-audio-pop-out-player-LIVE.html",
+        "targetULR": "/patterns/06-7.07-06-audio-pop-out-player-LIVE/06-7.07-06-audio-pop-out-player-LIVE.html",
         "lable": "Pop-out player"
       },
       "multiple-bitrate-download": {

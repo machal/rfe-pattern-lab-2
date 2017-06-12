@@ -30,7 +30,7 @@
       "message": [
         {
           "tube-name": "Radio ONE",
-          "tube-link": "/patterns/06-7.03-03-NOJS-media-navigation-page-_RFE/06-7.03-03-NOJS-media-navigation-page-_RFE.html#hiPleaseInsertAnIDtab1",
+          "tube-link": "/patterns/06-7.03-03-NOJS-media-navigation-page-RFE/06-7.03-03-NOJS-media-navigation-page-RFE.html#hiPleaseInsertAnIDtab1",
           "itemIcon": "audio",
           "title": "Technological conflict between companies",
           "item-link": "#livestrean-page"
@@ -60,13 +60,13 @@
         "label": "TV",
         "isActive": true,
         "data-target-tab": "tv",
-        "link": "/patterns/06-7.03-03-NOJS-media-navigation-page-_RFE/06-7.03-03-NOJS-media-navigation-page-_RFE.html?tab=tv"
+        "link": "/patterns/06-7.03-03-NOJS-media-navigation-page-RFE/06-7.03-03-NOJS-media-navigation-page-RFE.html?tab=tv"
       },
       {
         "label": "Radio",
         "isActive": false,
         "data-target-tab": "radio",
-        "link": "/patterns/06-7.03-03-NOJS-media-navigation-page-_RFE/06-7.03-03-NOJS-media-navigation-page-_RFE.html?tab=radio"
+        "link": "/patterns/06-7.03-03-NOJS-media-navigation-page-RFE/06-7.03-03-NOJS-media-navigation-page-RFE.html?tab=radio"
       }
     ]
   },
