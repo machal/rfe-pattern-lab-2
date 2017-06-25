@@ -1,22 +1,2 @@
-<!--
 
-    THIS IS JUST A HELPING ELEMENT FOR THE PATTERNLAB
-
--->
-
-
-    <ul class="{{styleModifier}}">
-
-        {{# listItems.{{item-count}} }}
-
-        <li class="{{class}}">
-            {{> molecules-media-block(size:"{{size}}", showIntro:"{{#showIntro}}true{{/showIntro}}", showImg:"{{#showImg}}true{{/showImg}}", showTitle:"{{#showTitle}}true{{/showTitle}}", showCategory:"{{#showCategory}}true{{/showCategory}}", horizontal:"{{#horizontal}}true{{/horizontal}}", showDate:"{{#showDate}}true{{/showDate}}", showDateRelative:"{{#showDateRelative}}true{{/showDateRelative}}", showTime:"{{#showTime}}true{{/showTime}}" ) }}
-        </li>
-
-        {{/ listItems.{{item-count}} }}
-
-    </ul>
-
-    {{#showLink}}
-    <div class="footer-link"><a href="{{link}}" class="link-more">{{link-desc}}</a></div>
-    {{/showLink}}
+            {{> molecules-media-block }}

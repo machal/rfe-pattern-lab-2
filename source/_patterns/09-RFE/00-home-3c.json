@@ -10,6 +10,102 @@
   "widget-footer": "See more",
   "widget-footer-link": "#",
 
+  "media-block-1": [
+    {
+        "itemIcon": "video",
+        "isLive": false,
+        "date": "1.10. 2014",
+        "time": "10:00 - 11:00",
+        "category": "World",
+        "category-link": "/patterns/09-RFE-02-archive/09-RFE-02-archive.html",
+        "title": "'No Justice' For Afghan Civilian Deaths",
+        "intro": "Amnesty International has released a report documenting the inability of the families of Afghan civilians killed in attacks by U.S. and other foreign forces to obtain justice.",
+        "link": "/patterns/09-RFE-09-try-again/09-RFE-09-try-again.html",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?xsa",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/technature?xwsa",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?xsa",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "/images/vietnam.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    {
+        "itemIcon": "audio",
+        "isUpdated": false,
+        "date": "2.10. 2014",
+        "time": "11:00 - 12:00",
+        "category": "Economy",
+        "title": "Air France Faces More Strikes After Talks With Pilots Reach Deadlock",
+        "intro": "Union request for a mediator rejected by both the airline's management and the French government",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?32",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?32",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?32",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/6E4B306A-D018-45C5-BE44-74D4890F10B1_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+    },
+    {
+        "category": "Economy",
+        "date": "3.9. 2014",
+        "time": "12:00 - 13:30",
+        "title": "S. Africa Gives Cuba $31 Million Economic Aid ",
+        "intro": "South African President Jacob Zuma pledged the money to Cuba in 2010, but its implementation was delayed for several years",
+        "img": {
+            "avatar": {
+                "src": "",
+                "alt": "Avatar"
+            },
+            "square": {
+                "src": "http://placeimg.com/300/300/nature?2332323",
+                "alt": "Square"
+            },
+            "rectangle": {
+                "src": "http://placeimg.com/400/300/tech?2332323",
+                "alt": "Rectangle"
+            },
+            "landscape-4x3": {
+                "src": "http://placeimg.com/400/300/tech?2332323",
+                "alt": "4x3 Image"
+            },
+            "landscape-16x9": {
+                "src": "http://gdb.voanews.com/70A8C6FE-1C1B-46ED-AAFB-60FE27F8C694_w300_r1.jpg",
+                "alt": "16x9 Image"
+            }
+        }
+      }
+  ],
+
 
   "specific-items-sub-stories": {
     "widget-header": "",
@@ -377,8 +473,8 @@
     "comments_your_comment": "Your comment...",
     "comments_your_reply": "Your reply...",
     "comments_your_reason": "Reason for reporting...",
-    "read_more_info": "Read more info"    
-  
+    "read_more_info": "Read more info"
+
   },
   "btn_text": {
     "default": "Button",
@@ -445,7 +541,7 @@
 
 
 
-  
+
 
   "footer-navigation": {
     "title_socials": "Follow Us",

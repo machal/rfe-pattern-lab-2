@@ -33,7 +33,9 @@
                                 {{^specific-items-Top-story-first}}
                                 <div class="row">
                                     <h2>molecules-media-block-holder #2</h2>
-                                    {{> molecules-media-block-holder(size:2, item-count:"one", class:"col-xs-12 col-sm-12 col-md-12 col-lg-12", showIntro:true, showTitle:true, showImg:true, showCategory:false, showTime:false, showDate:false, showDateRelative:false, showCounter:false,horizontal:false) }}
+                                    {{#media-block-1}}
+                                    {{> molecules-media-block }}
+                                    {{/media-block-1}}
                                 </div>
                                 {{/specific-items-Top-story-first}}
                             </div>
